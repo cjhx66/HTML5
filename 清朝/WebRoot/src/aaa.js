@@ -1,0 +1,1 @@
+var src="img/h5-1.mp3",loader=new createjs.LoadQueue(!1);loader.installPlugin(createjs.Sound),loader.addEventListener("fileload",function(){createjs.Sound.registerSound(src,"sound")}),loader.addEventListener("fileprogress",function(e){console.log("loaded",e.loaded,"progress",e.progress)}),loader.loadManifest([{src:src,id:"sound"}]);
