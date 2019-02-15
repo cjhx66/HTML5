@@ -1,47 +1,41 @@
 # HTML5
-ä¿å­˜è‡ªå·±åšçš„ä¸€äº›html5é¡¹ç›®
+±£´æ×Ô¼º×öµÄÒ»Ğ©html5ÏîÄ¿
 
-1.è¿”ä¹¡ç½®ä¸šï¼šä¸€æ¬¾ä»¿å¾®ä¿¡èŠå¤©çš„H5,é‡Œé¢æ¶‰åŠè·å–å¾®ä¿¡æˆæƒï¼Œç”Ÿæˆæµ·æŠ¥çš„ä¸€äº›åŠŸèƒ½ã€‚
+1.·µÏçÖÃÒµ£ºÒ»¿î·ÂÎ¢ĞÅÁÄÌìµÄH5,ÀïÃæÉæ¼°»ñÈ¡Î¢ĞÅÊÚÈ¨£¬Éú³Éº£±¨µÄÒ»Ğ©¹¦ÄÜ¡£
+  ÔÚÏßÔ¤ÀÀ:http://homebuyers.huiying.daxiangqun.net
 
-	åœ¨çº¿é¢„è§ˆ:http://homebuyers.huiying.daxiangqun.net
+2.HardestGame£ºÊ¥µ®½ÚÆø·ÕµÄ¼û·ì²åÕëĞ¡ÓÎÏ·,Ö÷ÒªÓÃcanvasäÖÈ¾¡£
+  ÔÚÏßÔ¤ÀÀ£ºhttp://game.huiying.daxiangqun.net/
 
-2.HardestGameï¼šåœ£è¯èŠ‚æ°”æ°›çš„è§ç¼æ’é’ˆå°æ¸¸æˆ,ä¸»è¦ç”¨canvasæ¸²æŸ“ã€‚
+3.¸Ä¸ï¿ª·¢£º³¤Í¼»¬¶¯ÀàH5, Ö÷Òª¿ò¼ÜÓĞPixi.js,Scroller.js¡£
+  ÔÚÏßÔ¤ÀÀ£ºhttp://kqcwls.huiying.daxiangqun.net/
 
-	åœ¨çº¿é¢„è§ˆï¼šhttp://game.huiying.daxiangqun.net/
+4.ÒÔ°®Ö®ÃûÉ¹ĞÒ¸££ºÍ¼Æ¬²Ã¼ô+canvasº£±¨¡£
+  ÔÚÏßÔ¤ÀÀ£ºhttp://kqcai.huiying.daxiangqun.net/
 
-3.æ”¹é©å¼€å‘ï¼šé•¿å›¾æ»‘åŠ¨ç±»H5, ä¸»è¦æ¡†æ¶æœ‰Pixi.js,Scroller.jsã€‚
+5.Çå³¯:¶¯»­Àà¹ÊÊÂĞğÊö+¿ìÉÁ£¬PreloadJS£¬TweenMax¡£
+  ÔÚÏßÔ¤ÀÀ£ºhttp://qingchao.zhihuitui.daxiangqun.net/
 
-	åœ¨çº¿é¢„è§ˆï¼šhttp://kqcwls.huiying.daxiangqun.net/
+6.¹úÇì²âÊÔÌâ£ºËæ»ú²úÉúÎÊÌâ£¬½øĞĞÎÊ´ğ¡£
+  ÔÚÏßÔ¤ÀÀ£ºhttp://guoqing.zhihuitui.daxiangqun.net/
 
-4.ä»¥çˆ±ä¹‹åæ™’å¹¸ç¦ï¼šå›¾ç‰‡è£å‰ª+canvasæµ·æŠ¥ã€‚
+7.¾Å¼äÌÃÎª°®»Ø¼Ò£ºÂÖ²¥£¬ÊÖ»æ£¬»­ÃæÌØ±ğÎÂÜ°¡£
+  ÔÚÏßÔ¤ÀÀ£ºhttp://jiujianh5.zhihuitui.daxiangqun.net/
 
-	åœ¨çº¿é¢„è§ˆï¼šhttp://kqcai.huiying.daxiangqun.net/
+8.½ø»¯°É£¬Ğ¡Å®Î×£ºÕÏ°­Îï¶ã±Ü£¨Ğ´µÄ²»ÊÇºÜºÃ£¬Íæ×ÅÃ»ÒâË¼£©¡£
+  ÔÚÏßÔ¤ÀÀ£ºhttp://wanshen.huiying.daxiangqun.net/
 
-5.æ¸…æœ:åŠ¨ç”»ç±»æ•…äº‹å™è¿°+å¿«é—ªï¼ŒPreloadJSï¼ŒTweenMaxã€‚
+9.Ò¡Ò»Ò¡ÅÜ²½£ºÀûÓÃÊÖ»úÂİĞıÒÇÅĞ¶ÏÒ¡»Î´ÎÊı¡£
+  ÔÚÏßÔ¤ÀÀ£ºhttp://shake.huiying.daxiangqun.net/
 
-	åœ¨çº¿é¢„è§ˆï¼šhttp://qingchao.zhihuitui.daxiangqun.net/
+10.Ò»¾µµ½µ×£º³¤°´ÏÔÊ¾³¡¾°£¬Pixi.js¡£
+   ÔÚÏßÔ¤ÀÀ£ºhttp://bjjmf.huiying.daxiangqun.net/20180720/index.php
 
-6.å›½åº†æµ‹è¯•é¢˜ï¼šéšæœºäº§ç”Ÿé—®é¢˜ï¼Œè¿›è¡Œé—®ç­”ã€‚
-	åœ¨çº¿é¢„è§ˆï¼šhttp://guoqing.zhihuitui.daxiangqun.net/
+11.×ª·¢ÏÔÊ¾ÁôÑÔ£ºÎ¢ĞÅ£¬ÂÖ²¥¡£
+   ÔÚÏßÏÔÊ¾£ºhttp://kqcmother.huiying.daxiangqun.net/
 
-7.ä¹é—´å ‚ä¸ºçˆ±å›å®¶ï¼šè½®æ’­ï¼Œæ‰‹ç»˜ï¼Œç”»é¢ç‰¹åˆ«æ¸©é¦¨ã€‚
-	åœ¨çº¿é¢„è§ˆï¼šhttp://jiujianh5.zhihuitui.daxiangqun.net/
+12.ÒÆ¶¯¶ËvideoÊÊÅä¡£
+   ÔÚÏßÏÔÊ¾£ºhttp://sp.zhihuitui.daxiangqun.net/
 
-8.è¿›åŒ–å§ï¼Œå°å¥³å·«ï¼šéšœç¢ç‰©èº²é¿ï¼ˆå†™çš„ä¸æ˜¯å¾ˆå¥½ï¼Œç©ç€æ²¡æ„æ€ï¼‰ã€‚
-	åœ¨çº¿é¢„è§ˆï¼šhttp://wanshen.huiying.daxiangqun.net/
-
-9.æ‘‡ä¸€æ‘‡è·‘æ­¥ï¼šåˆ©ç”¨æ‰‹æœºèºæ—‹ä»ªåˆ¤æ–­æ‘‡æ™ƒæ¬¡æ•°ã€‚
-	åœ¨çº¿é¢„è§ˆï¼šhttp://shake.huiying.daxiangqun.net/
-
-10.ä¸€é•œåˆ°åº•ï¼šé•¿æŒ‰æ˜¾ç¤ºåœºæ™¯ï¼ŒPixi.jsã€‚
-	åœ¨çº¿é¢„è§ˆï¼šhttp://bjjmf.huiying.daxiangqun.net/20180720/index.php
-
-11.è½¬å‘æ˜¾ç¤ºç•™è¨€ï¼šå¾®ä¿¡ï¼Œè½®æ’­ã€‚
-	åœ¨çº¿æ˜¾ç¤ºï¼šhttp://kqcmother.huiying.daxiangqun.net/
-
-12.ç§»åŠ¨ç«¯videoé€‚é…ã€‚
-	åœ¨çº¿æ˜¾ç¤ºï¼šhttp://sp.zhihuitui.daxiangqun.net/
-
-13.å¯ŒåŠ›å’Œå›­ï¼šè½®æ’­å›¾+TweenMaxç¼“åŠ¨åŠ¨ç”»ã€‚
-
-	åœ¨çº¿é¢„è§ˆï¼šhttp://fuli.zhihuitui.daxiangqun.net/
+13.¸»Á¦ºÍÔ°£ºÂÖ²¥Í¼+TweenMax»º¶¯¶¯»­¡£
+   ÔÚÏßÔ¤ÀÀ£ºhttp://fuli.zhihuitui.daxiangqun.net/
