@@ -1,0 +1,30 @@
+ 
+<div class="page">
+ 
+	<div class="pageContent">
+	  
+		<table class="list" width="100%" layoutH="116">
+			<thead>
+			<tr>
+				<th width="15%">编号</th>
+				<th width="15%">用户名</th> 
+				<th width="15%">真实姓名</th> 
+				<th width="25%">备注</th>
+				
+			</tr>
+			</thead>
+			<tbody>
+			<volist id="vo" name="list">
+				<tr>
+					<td>{$vo['id']}</td>
+					<td>{$vo['username']}</td> 
+					<td>{$vo['realname']}</td> 
+					<td>{$vo['desc']}</td>
+				</tr>
+			</volist>
+			</tbody>
+		</table> 
+		
+	</div> 
+</div>
+

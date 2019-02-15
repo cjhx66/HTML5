@@ -1,0 +1,55 @@
+<include file="Ltan:Public:pagerForm" />
+<div class="pageContent">
+	<div class="panelBar">
+		<ul class="toolBar">
+				<!-- <if condition="($lie.canadd eq 1) OR ($Think.session.adminuser.username eq 'developer') OR ($Think.session.adminuser.username eq 'admin')">
+				<li><a class="add" href="__URL__/add/classID/{$_REQUEST.classID}/navTabId/classID{$_REQUEST.classID}" target="navTab" title="{$_REQUEST.classID|getNameByClassId=$_REQUEST.classID}新增" > <span>新增商品</span></a></li> 
+				</if> 
+				<if condition="($lie.candel eq 1) OR ($Think.session.adminuser.username eq 'developer') OR ($Think.session.adminuser.username eq 'admin')">
+				<li><a title="确实要删除这些记录吗?" target="selectedTodo" rel="id" postType="string" href="__URL__/delete" class="delete"><span>批量删除</span></a></li>
+			</if> -->
+		</ul>
+	</div>
+
+	<table class="list" width="100%" layoutH="116">
+		<thead>
+			<tr>
+				<th width="5%"><input type="checkbox"   group="id" class="checkboxCtrl"></th>
+				<th width="5%">编号</th>
+				<th width="50%">内容</th>
+				<th width="10%">作者</th>
+				<th width="8%">状态</th>  
+				
+			</tr>
+		</thead>
+		<tbody>
+			<volist id="vo" name="list">
+				<tr target="sid_user" rel="{$vo['id']}">
+					<td><input name="id" value="{$vo.id}" type="checkbox"></td>
+					<td>{$vo['id']}</td>
+					<td>{$vo['content']}</td>
+					<td>{$vo['mname']}</td>  
+					<td><if condition="$vo.status eq 1">提交<else /><font color="red">暂存</font></if></td> 
+
+				</tr>
+			</volist>
+		</tbody>
+	</table>
+
+	<div class="panelBar">
+		<div class="pages">
+			<span>显示</span>
+			<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+				<option value="10" <if condition="$numPerPage eq 10">selected</if> >10</option>
+					<option value="15" <if condition="$numPerPage eq 15">selected</if> >15</option>
+					<option value="20" <if condition="$numPerPage eq 20">selected</if> >20</option>
+					<option value="25" <if condition="$numPerPage eq 25">selected</if> >25</option>
+					<option value="30" <if condition="$numPerPage eq 30">selected</if> >30</option>
+			</select>
+			<span>共{$totalCount}条</span>
+		</div>
+		<div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="10" currentPage="{$currentPage}"></div>
+	</div> 
+</div> 
+</div>
+

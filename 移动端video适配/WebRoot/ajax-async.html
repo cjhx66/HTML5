@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="myDiv"><h2>通过 AJAX 改变文本</h2></div>
+<button id="b01" type="button">改变内容</button>
+</body>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var a=10;
+        console.log("初始化："+a);
+        $.ajax({
+            url: "test1.txt",
+            async: true,
+            success: function (res) {
+                a=res;
+                console.log("ajax里的a:"+a);
+            }
+        });
+        console.log("最后返回："+a);
+
+    });
+</script>
+</html>

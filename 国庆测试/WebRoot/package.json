@@ -1,0 +1,27 @@
+{
+  "name": "guoqing",
+  "version": "1.0.0",
+  "description": "This is for study gulp project !",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "mm",
+    "email": ""
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rev": "^8.1.1",
+    "gulp-rev-collector": "^1.3.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5"
+  }
+}

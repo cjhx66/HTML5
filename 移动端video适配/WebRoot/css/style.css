@@ -1,0 +1,374 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;font-size:66.3%}
+fieldset,img{border:0;}
+ul,ol{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration: none;color:#000;	overflow: hidden; text-indent: -9999px;}
+a:hover{text-decoration: underline;color:#000;}
+small{font-size:12px;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%;}
+label,input,select,form img,button,textarea{vertical-align:middle;outline:none}
+address,caption,cite,code,dfn,em,strong,th,optgroup{font-style:normal;font-weight:normal;}
+.clear:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clear{display:inline-block;}
+*{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    background: none;
+    text-decoration: none;
+}
+
+video{ width:750px; height:1334px; position: absolute;top: 0px;left: 0;z-index: 88;}
+video{-webkit-appearance:none;appearance:none;-webkit-transform:scale(1);}
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-start-playback-button {
+    opacity: 0!important;
+    pointer-events: none;
+    width: 5px;
+}
+video::-webkit-media-controls {
+    display:none !important;
+    opacity: 0!important;
+}
+
+/* Hides from IE-mac \*/
+div#orientLayer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/zp_tips.jpg) no-repeat center;
+    background-size: cover;
+    top: 0;
+    z-index: 99999999999999999999999999999999999999;
+    display: block;
+}
+* html .clear{height:1%;}
+.clear{display:block;}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    -ms-touch-action: none;
+}
+
+body,ul,li {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-size: 12px;
+    font-family: ubuntu, helvetica, arial;
+    overflow: hidden; /* this is important to prevent the whole page to bounce */
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.end {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/endbg.png?11) no-repeat;
+    z-index: 999;
+    background-size: 100% 100%;
+}
+span.mvtips {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5)  url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/a-2.png) no-repeat center;
+    display: block;
+    background-size: 7%;
+    top: 0px;
+    z-index: 99999999999999999999999999999999999999;
+}
+img.share_t {
+    position: absolute;
+    float: right;
+    right: 12px;
+    display: block;
+}
+a.govideo {
+    position: absolute;
+    width: 134px;
+    height: 256px;
+    display: block;
+    left: 0;
+    top: 43px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/bling.png)no-repeat left;
+    -webkit-animation:star 2s infinite;-webkit-animation-fill-mode: forwards;
+}
+a.xg_app {
+    position: absolute;
+    width: 134px;
+    height: 256px;
+    display: block;
+    left: 0;
+    top: 502px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/bling.png)no-repeat left;
+    -webkit-animation:star 2s infinite;-webkit-animation-fill-mode: forwards;
+}
+a.xg_play {
+    position: absolute;
+    width: 134px;
+    height: 256px;
+    display: block;
+    left: 0;
+    top: 960px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/bling.png)no-repeat left;
+    -webkit-animation:star 2s infinite;-webkit-animation-fill-mode: forwards;
+}
+.ldbg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/lbg.jpg) no-repeat;
+    display: block;
+    background-size: cover;
+}
+.loading {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0px;
+}
+
+.setldani{ -webkit-animation:ldani 2s ;-webkit-animation-fill-mode: forwards;}
+.setjzani{ -webkit-animation: hjani  3s ;-webkit-animation-fill-mode: forwards;}
+.setfdani{ -webkit-animation: fnldani  1s ;-webkit-animation-fill-mode: forwards;}
+.ld_txt {
+    position: absolute;
+    top: 144px;
+    width: 0px;
+    height: 534px;
+    right: 17px;
+    background: url('//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/z.png') no-repeat right;
+}
+
+span.c2 {
+    position: absolute;
+    width: 69px;
+    height: 280px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/c2.png) no-repeat;
+    left: 79px;
+    top: 178px;
+    -webkit-animation:hdmv 2.5s infinite;-webkit-animation-fill-mode: forwards;
+}
+span.c1 {
+    position: absolute;
+    width: 118px;
+    height: 277px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/c1.png) no-repeat;
+    left: 375px;
+    top: 351px;
+    -webkit-animation:hdmv 4s infinite;-webkit-animation-fill-mode: forwards;
+}
+span.c3 {
+    position: absolute;
+    width: 69px;
+    height: 183px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/c3.png) no-repeat;
+    left: 548px;
+    top: 545px;
+    -webkit-animation:hdmv 2.5s infinite;-webkit-animation-fill-mode: forwards;
+}
+span.c4 {
+    position: absolute;
+    width: 85px;
+    height: 280px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/c4.png) no-repeat;
+    left: 291px;
+    top: 715px;
+    -webkit-animation:hdmv 2s infinite;-webkit-animation-fill-mode: forwards;
+}
+span.logo {
+    position: absolute;
+    bottom: 3%;
+    width: 111px;
+    height: 90px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/logo.png) no-repeat;
+    left: 596px;
+}
+.jz_l {
+    position: absolute;
+    width: 577px;
+    height: 187px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/j_l.png) no-repeat;
+    background-size: 100%;
+}
+span.l_icon {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/l.png) no-repeat;
+    display: block;
+    z-index: 999;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    left: 46%;
+    top: 3%;
+}
+span.r_icon {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/l.png) no-repeat;
+    display: block;
+    z-index: 999;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    left: 46%;
+    bottom: 3%;
+}
+.p_content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+}
+span.pass {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/p.png) no-repeat;
+    display: block;
+    z-index: 999;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(90deg);
+    right: 4%;
+    bottom: 3%;
+}
+span.dj_txt {
+    position: absolute;
+    top: 607px;
+    width: 197px;
+    height: 50px;
+    background: url(//s3b.pstatp.com/toutiao/xigua_activity/image/xigua_hanmai/dj.png) no-repeat;
+    left: 140px;
+}
+.jz_r {
+    position: relative;
+    width: 577px;
+    height: 1155px;
+    overflow: hidden;
+    top: 182px;
+}
+.jz_r img{
+    position: relative;
+    top: -1167px;
+}
+.prestart {
+    position: absolute;
+    -webkit-transform: scale(0.65) translate(0px,300px);
+    z-index: 999;
+    top: 0;
+}
+
+@-webkit-keyframes hdmv {
+    0% {
+        -webkit-transform:translate(0px,0px);
+    }
+    50% {
+        -webkit-transform: translate(0px,20px);
+    }
+    100% {
+        -webkit-transform: translate(0px,0px);
+    }
+}
+
+@-webkit-keyframes hjani {
+    0% {
+        -webkit-transform:scale(0.65) translate(0px,300px);
+    }
+    70% {
+        -webkit-transform: scale(1) translate(88px,-70px);
+
+    }
+    100% {
+        -webkit-transform: scale(1.58) translate(50px,0px);
+       ;
+    }
+}
+
+@keyframes hjani {
+    0% {
+        transform:scale(0.65) translate(0px,300px);
+    }
+     70% {
+        transform: scale(1) translate(88px,-70px);
+
+    }
+    100% {
+        transform: scale(1.58) translate(50px,0px);
+
+    }
+
+}
+
+@-webkit-keyframes ldani {
+    0% {
+        -webkit-transform: scale(1) ;
+    }
+    100% {
+        -webkit-transform: scale(1.55) translate(-75px,0px);
+    }
+}
+@keyframes ldani {
+    0% {
+        transform: scale(1) ;
+    }
+    100% {
+        transform: scale(1.55) translate(-75px,0px);
+    }
+}
+@keyframes star {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    0% {
+        opacity: 1;
+    }
+}
+
+@keyframes fnldani {
+    0% {
+        transform: scale(1) ;
+        opacity: 1;
+    }
+    80% {
+        transform: scale(1.58);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.58);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes fnldani {
+    0% {
+        -webkit-transform: scale(1) ;
+        opacity: 1;
+    }
+    80% {
+        -webkit-transform: scale(1.58);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1.58);
+        opacity: 0;
+    }
+}

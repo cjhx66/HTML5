@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+body > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.start {
+    background: url("../images/home_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+    z-index: 1000;
+}
+
+.start .phone {
+    position: absolute;
+    margin-top: 176px;
+    left: 50%;
+    width: 331px;
+    height: 493px;
+    margin-left: -165px;
+    animation: phone 0.2s linear infinite;
+    -webkit-animation: phone 0.2s linear infinite;
+}
+
+@keyframes phone {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes phone {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.start .hand {
+    position: absolute;
+    margin-top: 625px;
+    left: 50%;
+    width: 87px;
+    height: 105px;
+    margin-left: -30px;
+}
+
+.start .home_font {
+    position: absolute;
+    margin-top: 790px;
+    left: 50%;
+    width: 238px;
+    height: 50px;
+    margin-left: -119px;
+    cursor: pointer;
+    -webkit-animation: scaleout 1s infinite ease-out;
+    animation: scaleout 1s infinite ease-out;
+}
+
+@-webkit-keyframes scaleout {
+    0% {
+        -webkit-transform: scale(0.5)
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scaleout {
+    0% {
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.p1{
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    opacity: 0;
+}
+@-webkit-keyframes p1 {
+    0% {
+        opacity:0;
+     }
+    100% {
+        opacity:1;
+    }
+}
+.p1-2{
+    position: absolute;
+    top: 18%;
+    left: 49%;
+    opacity: 0;
+}
+@-webkit-keyframes p1-2 {
+    0% {
+        opacity:0;
+     }
+    100% {
+        opacity:1;
+    }
+}
+.p1-3{
+    position: absolute;
+    top: 35%;
+    left: 49%;
+    opacity: 0;
+}
+@-webkit-keyframes p1-3 {
+    0% {
+        opacity:0;
+     }
+    100% {
+        opacity:1;
+    }
+}
+.p2{
+    position: absolute;
+    top: 9%;
+    left: 29%;
+    opacity: 0;
+}
+@-webkit-keyframes p2 {
+    0% {
+        opacity:0;
+     }
+    100% {
+        opacity:1;
+    }
+}
+.p2-2{
+    position: absolute;
+    top: 29%;
+    left: 14%;
+    opacity: 0;
+}
+@-webkit-keyframes p2-2 {
+    0% {
+        opacity:0;
+     }
+    100% {
+        opacity:1;
+    }
+}
+.p3{
+    position: absolute;
+    top: 46%;
+    left: 100%;
+    /*opacity: 0;*/
+}
+/*@-webkit-keyframes p3 {
+    0% {
+        opacity:0;
+     }
+    100% {
+        opacity:1;
+    }
+}*/
+@keyframes p3{
+    0%{left:100%;}
+    10%{left: 95%}
+    25%{left: 90%}
+    35%{left: 80%}
+    50%{left: 70%}
+    75%{left: 60%}
+    90%{left: 50%}
+    100%{left:52%;}
+}
+@-webkit-keyframes p3{
+    0%{left:100%;}
+    10%{left: 95%}
+    25%{left: 90%}
+    35%{left: 80%}
+    50%{left: 70%}
+    75%{left: 60%}
+    90%{left: 50%}
+    100%{left:52%;}
+}
+.p3-2{
+    position: absolute;
+    top: 52%;
+    left: 23%;
+    opacity: 0;
+}
+@-webkit-keyframes p3-2 {
+    0% {
+        opacity:0;
+     }
+    100% {
+        opacity:1;
+    }
+}
+.p4{
+    position: absolute;
+    top: 17%;
+    left: 17%;
+    opacity: 0;
+}
+@-webkit-keyframes p4 {
+    0% {
+        opacity:0;
+     }
+    100% {
+        opacity:1;
+    }
+}
+.p5{
+    position: absolute;
+    top: 11%;
+    left: 11%;
+    opacity: 0;
+}
+@-webkit-keyframes p5 {
+    0% {
+        opacity:0;
+     }
+    100% {
+        opacity:1;
+    }
+}
+.p5-2{
+    position: absolute;
+    top: 35%;
+    left: 56%;
+    opacity: 0;
+}
+@-webkit-keyframes p5-2 {
+    0% {
+        opacity:0;
+     }
+    100% {
+        opacity:1;
+    }
+}
+.p6{
+    position: absolute;
+    top: 16%;
+    left: 56%;
+    opacity: 0;
+}
+@-webkit-keyframes p6 {
+    0% {
+        opacity:0;
+     }
+    100% {
+        opacity:1;
+    }
+}
+.p7{
+    position: absolute;
+    top: 10%;
+    left: 34%;
+    opacity: 0;
+}
+@-webkit-keyframes p7 {
+    0% {
+        opacity:0;
+     }
+    100% {
+        opacity:1;
+    }
+}

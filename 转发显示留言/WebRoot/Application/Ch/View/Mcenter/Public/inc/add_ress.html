@@ -1,0 +1,55 @@
+<div class="tanchu zc_con" >
+        <a id="do_close" href="javascript:;" class="zc_con_close">
+            关闭
+        </a>
+        <p class="zc_con_tianjiadizhi">
+        	添加地址
+        </p>
+        <form id="editAdd" action="__MODULE__/Mcenter/Index/add_ress" method="post">
+            <p>
+                收货人姓名：
+                <span class="s_user"></span>
+            </p>
+            <input id="ver_user" class="ver_user" type="text" value="{$list.shr}" name="shr"/><span>*</span>
+            <p>
+                手机号：
+                <span class="s_phon1"></span>
+            </p>
+            <input class="ver_phon1" type="text"  name="phone"/><span>*</span>
+            <input id="idinput" type="hidden" name="id" value="">
+            <p>收货地址：</p>
+            <div>
+                省：<select name="sheng" id="address1" ></select>
+                市：<select name="shi" id="address2"></select>
+                区：<select name="qu" id="address3"></select>
+                <span>*</span>
+            </div>
+            <p></p>
+            <input class="ver_addr" type="text" name="address" value="详细地址" /><span>*</span>
+            <p>
+                邮政编码：
+                <span class="s_youbian"></span>
+            </p>
+            <input class="ver_youbian" type="text" name="post" /><span>*</span> 
+           
+            <input class="sub" type="submit" value="" />
+        </form>
+    </div>
+	<script type="text/javascript">
+	$(function(){
+		var a=$("#address1");
+		a.find("option[value='重庆']").attr("selected",true);
+	
+	})
+	</script>
+	<!-- <script>
+		$('#submit_l').click(function(event){ 
+ 
+		if(flag1 && flag2 && flag3 && flag4 &&flag5){
+			
+			document.form1.submit();
+		}else{
+			event.preventDefault();
+		}
+	})	
+	</script> -->

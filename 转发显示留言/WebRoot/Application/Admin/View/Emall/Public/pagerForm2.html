@@ -1,0 +1,24 @@
+<?php
+	$cid = dowith_include($classID);
+	$w = dowith_include($web);
+	$status = dowith_include($status);
+	$keyword = dowith_include($keyword);
+	$account = dowith_include($account);
+	$authid = dowith_include($authid);
+	$veri = dowith_include($_SESSION['veri']);
+	$lieid = dowith_include($_SESSION['lieid']);
+	$formstatus = dowith_include($_SESSION['formstatus']);
+?>
+<form id="pagerForm" action="__URL__" method="post">
+	<input type="hidden" name="pageNum" value="1"/>
+	<input type="hidden" name="numPerPage" value="1000" />
+	<input type="hidden" name="classID" value="{$cid}" />
+	<input type="hidden" name="w" value="{$w}" />
+	<input type="hidden" name="status" value="{$status}" />
+	<input type="hidden" name="keyword" value="{$keyword}" />
+	<input type="hidden" name="account" value="{$account}" />  
+	<input type="hidden" name="authid" value="{$authid}" />   
+	<input type="hidden" name="veri" value="{$veri}" />   
+	<input type="hidden" name="lie" value="{$lieid}" />
+	<input type="hidden" name="formstatus" value="{$formstatus}" />
+</form>

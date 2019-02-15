@@ -1,0 +1,82 @@
+ <div class="pageContent">
+ 	<form method="post" action="/index.php/Admin/Emall/Gbrand/update/navTabId/classID{$_REQUEST.classID}/callbackType/closeCurrent"  class="pageForm required-validate"  enctype="multipart/form-data"
+ 	onsubmit="return iframeCallback(this, navTabAjaxDone);">
+ 	<?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?>
+ 	<input type="hidden" name="id" value="{$vo.id}"/>
+ 	<input type="hidden" name="formstatus" value="{$formstatus}" /> 
+ 	<div class="pageFormContent nowrap" layoutH="97"> 
+ 		<dl>
+ 			<dt>品牌名称：</dt>
+ 			<dd><input type="text" class="required" value="{$vo.title}" style="width:350px" name="title"/></dd> 
+ 		</dl> 
+
+ 		<dl>
+ 			<dt>品牌官网：</dt>
+ 			<dd><input type="text" style="width:350px" value="{$vo.wwwurl}" name="wwwurl"/></dd> 
+ 		</dl> 
+
+ 		<dl>
+ 			<dt>品牌描述：</dt>
+ 			<dd><textarea name="desc" cols="55" rows="5" >{$vo.desc}</textarea></dd> 
+ 		</dl>
+
+ 		<dl>
+ 			<dt>排序：</dt>
+ 			<dd><input type="text" style="width:350px" value="{$vo.orders}" name="orders"/></dd> 
+ 		</dl> 
+
+ 		<dl>
+ 			<dt>缩略图：</dt>
+ 			<dd>
+ 				<input type="file" style="width:350px" name="upload"/>
+ 				<if condition="$vo.attachment neq ''">
+ 					<a href="/Upload{$vo.attachpath}{$vo.attachment}" target="_blank" id="img_a"><img src="/Upload{$vo.attachpath}thumb_{$vo.attachment}" height="20"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+ 					<span id="img_del" onclick="if(confirm('确定要删除此缩略图？')){delimage();}else{return false;};"><img src="/Application/Admin/View/Emall/Public/images/uploadify-cancel.png" title="删除缩略图"  style="cursor:pointer;"></span>
+ 				</if>
+ 			</dd> 
+ 		</dl>
+
+ 		<dl>
+ 			<dt>发布日期：</dt>
+ 			<dd>
+ 				<input type="text" name="writetime" class="date" readonly="true" value="{$vo.writetime|date='Y-m-d', ###}" />
+ 			</dd>
+ 		</dl> 
+
+ 		<dl>
+ 			<dt>状态：</dt> 
+ 			<dd>
+ 				<input type="radio" name="status" value="2"  <if condition="$vo.status eq 2">checked</if> />暂存 
+ 				<input type="radio" name="status" value="1" <if condition="$vo.status eq 1">checked</if> />提交 
+ 			</dd> 
+ 		</dl>
+
+ 		<dl>
+ 			提示：标注*的项目为必填项目。
+ 		</dl>
+
+ 	</div>
+
+ 	<div class="formBar" >
+ 		<ul style="float:left">
+ 			<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li><li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+ 			<li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+ 		</ul>
+ 	</div>
+ </form>
+</div>
+
+<script>
+	// 删除缩略图函数
+	function delimage(){
+		var id = $("input:hidden[name='id']").attr('value');
+ 		// alert(id);
+ 		$.post('/index.php/Admin/Emall/Gbrand/delimage', {'id':id}, function(data){
+			// alert(data);
+			if(data == '删除'){
+				$('#img_a').hide();
+				$('#img_del').hide();
+			}
+		});
+ 	}
+ </script>

@@ -1,0 +1,24 @@
+<script type="text/javascript" src="/Public/dwz/js/jquery-1.7.1.js"></script>
+<script type="text/javascript">
+		function myfun2(mythis,myid){
+	
+			$(document).ready(function(){ 
+				$.post("__URL__/test",{setid:myid},function(msg){  
+					if(msg=='no'){ 
+						alert("您当天只能投1票哦!");
+					}else{  
+						 myval=$(mythis).siblings("span").text();
+						       $(mythis).siblings("span").text(++myval); 
+						 alert("投票成功！");  
+					} 
+				});
+			});
+
+		}
+
+</script>	 
+{$arr.title}<br/> 
+<span onclick="myfun2(this,{$arr.id})">投票</span> 
+票数：<span>{$arr.orders}</span>
+<br/>
+{$arr.content}

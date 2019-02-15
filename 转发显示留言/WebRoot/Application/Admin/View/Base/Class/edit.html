@@ -1,0 +1,80 @@
+<div class="pageContent">
+	<form method="post" <if condition="$zilan eq ''">action="/index.php/Admin/Base/Class/update/navTabId/listzimodule/callbackType/closeCurrent"<else/>action="/index.php/Admin/Base/Class/set/navTabId/listzimodule/callbackType/closeCurrent"</if>  class="pageForm required-validate" 
+		onsubmit="return validateCallback(this,dialogAjaxDone);">
+		
+		<?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?>
+		<input type="hidden" name="id" value="{$vo.id}"/>
+		<input type="hidden" name="formstatus" value="{$formstatus}" />
+		<div class="pageFormContent" layoutH="60">
+			<dl>
+				<dt>栏目名称：</dt>
+				<dd><input type="text" class="required"  style="width:100%" value="{$vo.name}" name="name"/></dd>
+			</dl> 
+			<dl>
+				<dt>上级栏目：</dt> 
+				
+				<select id="oselect" name="pid"> 
+					<option value="0" <if condition="$vo.pid eq 0">selected</if>>请选择父级栏目</option>
+					{$option} 
+				</select> 
+				<input type="hidden" id="asd"   style="width:100%"  value="{$vo.path}"  name="path"/>   
+				
+			</dl>
+			<dl>
+				<dt>栏目简介：</dt>
+				<dd><input type="text" class="required"  style="width:100%" value="{$vo.Intro}" name="Intro"/></dd>
+			</dl>
+			<dl>
+				<dt>网站后台地址：</dt>
+				<dd><input type="text" style="width:100%"  value="{$vo.url}" name="url"/></dd>
+			</dl>  
+			<dl>
+				<dt>前台显示信息：</dt>
+				<dd><input type="text" class="required"  style="width:100%" value="{$vo.view}" name="view"/></dd>
+			</dl>
+			<dl>
+				<dt>排序：</dt>
+				<dd><input type="text" style="width:70%" value="{$vo.orders}" name="orders" placeholder="请填写字母" /></dd>
+			</dl>
+			<dl>
+				<dt>是否显示：</dt>
+				<dd>
+					<input type="radio" name="status" value="1" <if condition="$vo.status eq 1">checked</if> >是
+					<input type="radio" name="status" value="2" <if condition="$vo.status eq 2">checked</if> >否
+				</dd>
+			</dl>
+			<dl>
+				提示：标注*的项目为必填项目。
+			</dl>
+			
+			
+		</div>
+		
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+				<li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+			</ul>
+		</div>
+	</form>
+</div>
+<script>
+	
+	$("#oselect").change(function(){
+		var id=$(this).children('option:selected').val();  
+		if(id==0){
+			$("#asd").val(0);
+		}else{
+			$.ajax({
+				type:"POST",
+				url:'/index.php/Admin/Base/Class/path',
+				data:"id="+id, 
+				dataType:'text',
+				success:function(data){
+					$("#asd").val(data+'-'+id);
+					
+				}
+			})	
+		}
+	})
+</script>

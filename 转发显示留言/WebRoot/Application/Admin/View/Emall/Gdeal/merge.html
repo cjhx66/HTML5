@@ -1,0 +1,49 @@
+<style>
+	.pageFormContent dt{width:100px;}
+	.pageFormContent dd{width:500px;}
+</style>
+<div class="pageContent">
+	<form method="post" action="__URL__/mergeupdate/navTabId/classID32/callbackType/closeCurrent" class="pageForm required-validate" 
+	onsubmit="return iframeCallback(this, navTabAjaxDone);"><?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?>
+	<div class="pageFormContent nowrap" layoutH="97"> 
+		<dl>
+			<dt>&nbsp;</dt>
+			<dd>主订单：</dd>
+			<dd>从订单：</dd>
+		</dl>
+		<dl>
+			<dt>&nbsp;</dt>
+			<dd>
+				<select name="zhudeal">
+					<option value="">请选择主订单</option>
+					<volist name="list" id="vo">
+						<option value="{$vo.id}">{$vo.id} -- {$vo.shr} -- {$vo.num}</option>
+					</volist>
+				</select>
+			</dd>
+			<dd>
+				<select name="congdeal">
+					<option value="">请选择从订单</option>
+					<volist name="list" id="vo">
+						<option value="{$vo.id}">{$vo.id} -- {$vo.shr} -- {$vo.num}</option>
+					</volist>
+				</select>
+			</dd>
+		</dl>
+		<dl>
+			<dt>&nbsp;</dt>
+			<dd>&nbsp;</dd>			
+		</dl>
+		<dl>
+			<dt>提示：</dt>
+			<dd>当两个订单不一致时，合并后的订单信息（如：收货人、收货地址等）以主订单为准。</dd>		
+		</dl>		
+	</div>
+	<div class="formBar" >
+			<ul style="float:left">
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">合并订单</button></div></div></li><li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+			</ul>
+		</div>
+</form>
+</div>

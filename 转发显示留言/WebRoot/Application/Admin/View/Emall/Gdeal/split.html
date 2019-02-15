@@ -1,0 +1,70 @@
+ <style>
+ 	.pageFormContent dd{width:400px;}
+ 	.pageFormContent dt{text-align:center;}
+    .pageFormContent select{margin-right:10px;}
+    .pageFormContent table{margin-left:35px;text-align:center;}
+    .pageFormContent table th{font-weight:bolder;height:40px;line-height:40px;border:#ccc 1px solid;}
+    .pageFormContent table td{height:30px;line-height:30px;border:#ccc 1px dashed;border-top:none;}
+    .pageFormContent table td input{text-align:center;width:60px;clear:left;border:none;}
+    .pageFormContent table td .checkbox{text-align:center;width:10px;clear:left;border:none;}
+    .pageFormContent .textInput {float:none;}
+ </style>
+ <div class="pageContent">
+ 	<form method="post" action="__URL__/splitupdate/navTabId/classID{$_REQUEST.classID}/callbackType/closeCurrent"    class="pageForm required-validate" 
+ 	onsubmit="return iframeCallback(this, navTabAjaxDone);"><?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?><input type="hidden" name="id" value="{$vo.id}"/> 
+ 	<div class="pageFormContent nowrap"   layoutH="97">
+        <dl>
+            <dt>商品列表：</dt>
+            <dd>&nbsp;</dd>
+        </dl>
+        <table width="90%">
+            <tr>
+                <th>商品编号</th>
+                <th>商品名称</th>
+                <th>商品货号</th>
+                <th>商品数量</th>
+                <th>商品价格</th>
+                <th>商品颜色</th>
+                <th>商品尺寸</th>
+                <th>买家留言</th>
+                <th>商品库存</th>
+            </tr>
+            <volist name="data" id="vo">
+                <tr>
+                    <td>
+                        <input type="checkbox" name="check[]" value="{$vo.goodsid}" class="checkbox">
+                        {$vo.goodsid}
+                        <input type="hidden" name="id" value="{$id}">
+                    </td>
+                    <td>{$vo.title}</td>
+                    <td>{$vo.huohao}</td>
+                    <td>{$vo.buynum}</td>
+                    <td>{$vo.totalprice}</td>
+                    <td>{$vo.color}</td>
+                    <td>{$vo.size}</td>
+                    <td>{$vo.content}</td>
+                    <td>{$vo.num}</td>
+                </tr>
+            </volist>
+        </table>
+
+        <dl>
+            <dt>&nbsp;</dt>
+            <dd>&nbsp;</dd>
+        </dl>
+        <dl>
+            <dt>提示：</dt>
+            <dd>此操作将会把选中的商品从原订单中拆分出去！</dd>
+        </dl>
+
+ 	</div>
+
+ 	<div class="formBar" >
+ 		<ul style="float:left">
+ 			<li><div class="buttonActive"><div class="buttonContent"><button type="submit">拆分</button></div></div></li><li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+ 			<li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+ 		</ul>
+ 	</div>
+ </form>
+</div>
+

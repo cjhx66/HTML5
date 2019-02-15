@@ -1,0 +1,209 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>商品详情</title>
+<!--<script type="text/javascript" src="/Website/Tpl/Default/Public/js/base.js"></script>-->
+<link rel="stylesheet" type="text/css" href="/Application/Ch/View/Mcenter/Public/css/dgg.css" />
+<script src="__PUBLIC__/dwz/js/jquery-1.7.1.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="zong clearfix xiangqing">
+	<include file="Public:inc:head"/>
+    <include file="./Application/Ch/View/Mcenter/Public/inc/head2.html"/>
+    <div class="cur_pos">
+    	 
+    </div>
+        
+	<style type="text/css">
+    .denglu_div{ position:fixed;top:100px;;left:50%; height:auto; margin-left:-170px; background:#fff;z-index: 10}
+	.denglu_div .title{ width:auto;}
+    .denglu_div .bg img{ height:278px;}
+	.denglu_con{ text-align:center;}
+    .denglu_con p,.denglu_con a{ font-size:16px; font-family:"宋体";line-height:28px; height:28px; text-align:center;}
+    .denglu_con p{color:#ac3131; }
+    .denglu_con a{ color:#000; display:inline; text-align:center;}
+    .denglu_con img{ display:block;margin:0 auto;}
+    .denglu_foot{ height:17px; background:#464646; margin:0 auto;}
+    </style>
+    <div id="shop_Success" class="denglu_div" style="display:none">
+    	<p class="title"></p>
+        <div class="denglu_con">
+        	<p>加入购物车成功！</p>
+            <img src="/Application/Ch/View/Mcenter/Public/images/chenggongtishi.png" />
+            <a id="jxgw" href="javascript:;">[继续购物]</a>
+            <a id="qjs" href="javascript:;">[去结算]</a>
+        </div>
+        <div class="denglu_foot"></div>
+    </div>
+    <div class="left fl">
+    	<div class="xuanze clearfix">
+        	<div class="photo fl">
+                <!-- <img src="/Website/Tpl/Default/Public/images/xiangqing_yulantu.jpg" /> -->
+            	<img id="tplj" src="/Application/Ch/View/Mcenter/Public/images/gouwuche_yulan.jpg" />
+            </div>
+            <form id="shopform" onsubmit="return subForm();">
+        	<ul class="select_ul fl">
+            <input id="goodsid" type="hidden" name="goodsid" value="{$arr.id}">
+            <input id="goodsid" type="hidden" name="huohao" value="{$arr.huohao}">
+            <input id="goodsid" type="hidden" name="title" value="{$arr.title}">
+            <input id="goodsid" type="hidden" name="color" value="{$arr.color}">
+            <input id="goodsid" type="hidden" name="size" value="{$arr.size}">
+            	<li class="li1">商品编号</li>
+            	<li id="spbh" class="li2">{$arr.huohao}</li>
+            	<!-- <li class="li3 clearfix" style=" margin-top:60px;">
+                	<p class="l fl">今日汇率：</p>
+                    <p class="r fl">{$huilv}</p>
+                </li> -->
+				<li class="li3 clearfix">
+					
+                	<p class="l fl">商品名称：</p> 
+					<div class=" r fl chima clearfix">{$arr.title}
+					</div>
+                </li>
+            	<li class="li3 clearfix">
+                	<p class="l fl">售价：</p>
+                    <p class="r fl">
+                    	<strong style="color:#ac3131;">￥</strong>
+                        <input id="shoujia" type="text" name="price" style="border:none; color:#ac3131; font-weight:800;" value="{$arr.price}" readonly="readonly" />
+                    </p>
+                </li>
+            	<li class="li3 clearfix">
+                	<p class="l fl">购买数量：</p>
+                    <div class="r num fl">
+                        <a id="do_jian" class="fl jian" href="javascript:;">-</a>
+                        <input id="gmsl" style="width:40px;" name="buynum" type="text" value="1" />
+                        <a id="do_jia" class="fr jia" href="javascript:;">+</a>
+                    </div>
+                    <span></span>
+                </li>
+				<li class="li3 clearfix">
+					
+                	<p class="l fl">库存：</p> 
+					<div class=" r fl chima clearfix">{$arr.num}
+					</div>
+                </li>
+            	<li class="li3 clearfix">
+                	<p class="l fl">尺码：</p>
+                	<div class=" r fl chima clearfix">
+                        <label>
+                            <input class="sizeC" type="radio" name="size" value="{$arr.size}" />
+                            <p>{$arr.size}</p>
+                        </label>
+                    </div>
+                </li>
+            	<li class="li7 li3 clearfix">
+                	<p class="l fl">商品颜色：</p>
+                    <div class="r fl chima clearfix">
+                        <label>
+                            <input  class="colorC" type="radio" name="color" value="{$arr.color}"/>
+                            <p>{$arr.color}</p>
+                        </label>
+                    </div>
+                </li>
+                
+            	<li class="li8 li3 clearfix">
+                	<p class="l fl">备注：</p>
+                	<textarea id="C_intro" name="intro" class="fl r" style="margin-top:6px; font-size:12px; height:100px; line-height:20px; resize:none;" type="text">例：共买100件，黑色XL，20件，白色M，50件，红色均码30件</textarea>
+                </li>
+            	<li class="li9 clearfix">
+                	<input type="button" onclick="show()" value="" />
+                </li>
+
+            </ul>
+			</form>
+            </div>
+            <div class="zhanshi">
+                <p class="title">商品详情</p>
+                <div class="zhanshi_div">
+				{$arr.content}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Public:inc:foot"/>
+</body>
+</html>
+<script type="text/ecmascript">
+    var panduan = 1;
+    // 判断购买数量是否超过库存量
+    var kucun = "<?php echo $arr['num'];?>";        // 库存
+
+    $('#gmsl').blur(function(){
+        var buynum = parseInt($(this).attr('value'));         // 购买数量
+        if(buynum > kucun){
+            $('#gmsl').parent().next().html('<font color="red">购买数量超过库存量，请重新选择</font>');
+			panduan = 2;
+        }else{
+            $('#gmsl').parent().next().html('');
+        }
+    });
+
+	$("#do_jian").click(function(){
+		var a=parseInt($(this).next().val())
+		if(!(a<=1)&&a){
+			$(this).next().val(a-1);
+            var buynum = parseInt($('#gmsl').attr('value'));
+            if(buynum > kucun){
+                $('#gmsl').parent().next().html('<font color="red">购买数量超过库存量，请重新选择</font>');
+				panduan = 2;
+            }else{
+                $('#gmsl').parent().next().html('');
+            }
+		}
+	})
+	$("#do_jia").click(function(){
+		var a=parseInt($(this).prev().val())
+		if(a&&a<kucun){
+			$(this).prev().val(a+1)
+		}
+	})
+	$(".leixing_ul .num input").focus(function(){
+		$(this).attr({"_n":$(this).val()})
+	})
+	$(".leixing_ul .num input").blur(function(){
+		var a=parseInt($(this).val())
+		if(!a&&a!=0){
+			$(this).attr({"value":$(this).attr("_n")})
+		}
+	})
+
+    function show(){
+        var uid= '{$Think.session.memberid}'; 
+        if(!uid || uid=='' || uid==null){
+            alert("还没有登录哦");
+            return false;
+         }
+        if(panduan == 2){
+            alert("购买数量超过库存量，请重新选择购买数量");
+            return false;
+        }
+        var cont= $("#shopform").serialize();
+        $.ajax({ 
+            type: "POST",
+            url: "__MODULE__/Emall/Shopcar/addshopcar",
+            data: cont,
+            success: function(msg){
+                if(msg=="success"){
+                    $("#shop_Success").show();
+                }else if(msg = 'error1'){
+                    alert("此商品购物车中已存在");
+                }else{
+                    alert("添加失败");
+                }
+            }
+        });
+    } 
+</script>
+ 
+<script type="text/javascript">
+    $("#jxgw").click(function(){
+        $("#shop_Success").hide();
+		 window.location.href="__MODULE__/Emall/Index/index";
+    })
+    $("#qjs").click(function(){
+        $("#shop_Success").hide();
+        window.location.href="__MODULE__/Emall/Shopcar/shopcar";
+    })
+</script>

@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding:0; } 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,pre, a, abbr, acronym, address, big, cite, code, del,dfn, em, font, img, ins, kbd,q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul,fieldset, form, label, legend, input, select, textarea, table, caption, tbody, tfoot,thead, tr, th, td{margin: 0;padding: 0;}
+a img, img, iframe {border:none;}
+:focus {outline: none; }
+a,area {blr:expression(this.onFocus=this.blur())}
+ul,ol,li{list-style:none;} 
+table{border-collapse:separate;border-collapse:collapse;border-spacing:0}
+caption, th, td {text-align: left;font-weight: normal;}
+select, textarea, input, button {vertical-align:middle;font-family:inherit;font-size:100%;}
+q:before, q:after, blockquote:before, blockquote:after {content: "";}
+blockquote, q {quotes: "" "";}
+h1 {font-size:16px;}
+h2 {font-size:14px;}
+h3 {font-size:14px;}
+h4, h5, h6 {font-size:100%;}
+h6 {font-weight:normal;}
+html{overflow:-moz-scrollbars-vertical;overflow-x:hiddden;overflow-y:scroll;}
+body,button,input,select,textarea,th{font:12px/1.5em "宋体", Verdana, Arial, Tahoma, Geneva, STHeiTi, SimSun, sans-serif; color:#000; } 
+a{color:#000; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img{display:block}
+
+.clearfix{display:inline-block;margin:0;padding:0;list-style:none;zoom:1;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.fl{float:left;}
+.fr{float:right;}
+
+
+body{ background:#000 url(../images/bg.jpg) no-repeat center -50px;}
+#wrap{ width:296px; margin:304px auto 0;background:url(../images/logo.gif) no-repeat center top; padding-top:55px; padding-left:188px;}
+.table1{width:280px;}
+.table1 td{ padding:8px 0;}
+.use1,.psd1,.yz1,.tj1{color:#fff; width:80px; font-size:14px; font-family:"微软雅黑"; line-height:30px;}
+.use2 input{width:185px; height:28px; line-height:28px; padding:0 5px; border:0; background:url(../images/input1.jpg) no-repeat;}
+.psd2 input{width:185px; height:28px; line-height:28px; padding:0 5px; border:0; background:url(../images/input1.jpg) no-repeat;}
+.yz2 input{width:119px; height:28px; line-height:28px; padding:0 5px; border:0; background:url(../images/input2.jpg) no-repeat;}
+.tj2 input{width:88px; height:30px; border:0; background:url(../images/dl.jpg) no-repeat; cursor:pointer;}

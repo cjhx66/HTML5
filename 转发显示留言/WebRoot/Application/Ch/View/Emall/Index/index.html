@@ -1,0 +1,64 @@
+<!-- <volist name="arr" id="vo"> 
+	<a href="">{$vo.name}</a><br/> 
+	<volist name="vo['child']" id="vi">
+		-|<a href="">{$vi.name}</a><br/>
+	</volist>
+</volist> -->
+
+
+<link rel="stylesheet" type="text/css" href="/Application/Ch/View/Mcenter/Public/css/dg.css" />
+<title>商城首页</title>
+<script src="__PUBLIC__/dwz/js/jquery-1.7.1.js" type="text/javascript"></script>
+<include file="./Application/Ch/View/Mcenter/Public/inc/head.html"/>
+<ul id="edv" class="tree treeFolder">
+<volist name="arr" id="vo">	 
+		<li  value="{$vo.pid}"  id="{$vo.id}" class="{$vo.id}" >  
+			<a href="__SELF__/classID/{$vo.id}" >{$vo.name}</a> 
+		</li> 
+</volist> 
+</ul>
+<-----------以上是商品分类--------------><br/>
+<ul>
+	<volist name="brandlist" id="bvo">
+	<li>
+		<a href="__SELF__/brandID/{$bvo.id}" >{$bvo.title}</a> 
+	</li>
+	</volist>
+</ul>
+<-----------以上是品牌分类--------------><br/>
+<-----------以下是商品列表--------------><br/>
+
+
+<volist name="list" id="vo"> 
+	<a href="__URL__/detail/id/{$vo.id}">{$vo.title}</a><br/> 
+</volist>  
+<script type="text/javascript">
+	 $(function(){ 
+		 var a=document.getElementById("edv").children;  
+		var  pid=0;
+		var  cid=0; 
+		for(var i=0;i<a.length;i++)
+		{
+		pid=a[i].value;
+		cid=a[i].id;   
+			 obj = document.getElementById(pid); 
+			if (obj){   
+			 	var oLi=document.getElementById(pid).getElementsByTagName("ul");  
+			 	if(oLi.length==0){ 
+			 		var nei='<ul><li value="'+pid+'"  id="'+cid+'">'+document.getElementById(cid).innerHTML+'</li></ul>';  
+					 $("#edv").find("#"+cid+"").remove();
+					 i=i-1;
+			 		obj.innerHTML+=nei; 
+			 	}else{ 
+			 		var nei='<li value="'+pid+'"   id="'+cid+'">'+document.getElementById(cid).innerHTML+'</li>'; 
+			 		$("#edv").find("#"+cid+"").remove();
+			 		 i=i-1;
+			 		oLi[0].innerHTML+=nei;
+			 	}
+			 	
+			} 
+		}
+		
+	}) 
+</script>
+
