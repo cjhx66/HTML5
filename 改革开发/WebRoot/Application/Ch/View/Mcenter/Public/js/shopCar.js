@@ -1,0 +1,146 @@
+// JavaScript Document
+   $(function(){
+/*收货人信息*/
+		   /*三个绿框内容隐藏*/
+		   $(".shrxxCon").hide();
+		   $(".zfpsCon").hide();
+		   $(".fpxxcon").hide();
+			/*收获人信息*/
+		   $(".bc").hide(); /*保存*/
+		   $(".rgxg").hide();  /*如需修改*/
+	
+		   /*收获人信息修改*/
+		   $(".xgxx1").click(function(){
+			   $(this).hide();
+			   $(".bc1").show(); /*保存*/
+			   $(".s-content1").hide();
+			   $(".shrxxCon").show();
+			   $(".xgxx2").hide();
+			   $(".rgxg").show();
+			   $(".xgxx").hide();
+			   $(this).siblings(".rgxg").hide();
+/*			  $(this).hide();
+		      $(this).siblings(".bc").show(); 保存
+			  $(this).parent().parent().next().hide();
+			  $(this).parent().parent().next().next().show();*/
+			   })
+		   /*点击保存收货人信息*/
+		   $(".bc1").click(function(){
+			   $(".shrxxCon").hide();
+			   $(".s-content1").show();
+			   $(".zfpsCon").show();
+			   $(".bc1").hide();
+			   $(".bc2").show();
+			   $(".rgxg1").show();
+			   $(".s-content2").hide(); /*第二个绿框消失*/
+			   $(".xgxx2").hide();
+			   $(".rgxg2").hide();
+			   })
+		   $(".bcbut").click(function(){
+			   $(".shrxxCon").hide();
+			   $(".s-content1").show();
+			   $(".zfpsCon").show();
+			   $(".bc1").hide();
+			   $(".bc2").show();
+			   $(".rgxg1").show();
+			   $(".s-content2").hide(); /*第二个绿框消失*/
+			   $(".xgxx2").hide();
+			   $(".rgxg2").hide();
+			   })
+			  /*填写收获人信息表单隐藏*/ 
+			$("#shrxxForm").hide();
+			$(".checkname").click(function(){
+				$("#shrxxForm").hide();
+				})
+			$(".checkname2").click(function(){
+				$("#shrxxForm").show();
+				})
+		/*收货人信息结束*/
+		
+/*支付及配送方式*/
+         $(".hdfk").hide();
+		 $(".zxzf").hide();
+		 $(".gszz").hide();
+		 $(".yjhk").hide();
+		 /*点击修改*/
+		 $(".xgxx2").click(function(){
+			   $(this).hide();
+			   $(".bc2").show(); /*保存*/
+			   $(".s-content2").hide();
+			   $(".zfpsCon").show();	
+			   $(".rgxg").show();
+			   $(".xgxx").hide();
+			   $(this).siblings(".rgxg").hide();	 
+			 })
+		/*货到付款*/   
+		$("#pay-method-1").click(function(){
+			 $(".hdfk").show().siblings().hide();
+			})
+		/*在线支付*/
+		$("#pay-method-2").click(function(){
+			 $(".zxzf").show().siblings().hide();
+			})
+		/*上门自提*/
+		$("#pay-method-3").click(function(){
+			 $(".smzt").show().siblings().hide();
+			})
+		/*公司转账*/
+		$("#pay-method-4").click(function(){
+			 $(".gszz").show().siblings().hide();
+			})
+		/*保存支付及配送方式*/
+		$(".psfsbut2").click(function(){
+			$(".zfpsCon").hide();
+			$(".s-content2").show();
+			$(".xgxx2").show();
+			$(this).hide();
+			$(".bc2").hide();
+			$(".xgxx").show();
+			$(".rgxg").hide();
+			})	
+	     $(".bc2").click(function(){
+			$(".zfpsCon").hide();
+			$(".s-content2").show();
+			$(".xgxx2").show();
+			$(this).hide();
+			$(".bc2").hide();
+			$(".xgxx").show();
+			$(".rgxg").hide();			 
+			})
+  /*发票信息*/
+    
+         /*点击修改*/
+  		 $(".xgxx3").click(function(){
+			   $(this).hide();
+			   $(".bc3").show(); /*保存*/
+			   $(".s-content3").hide();
+			   $(".fpxxcon").show();	
+			   $(".rgxg").show();
+			   $(".xgxx").hide();
+			   $(this).siblings(".rgxg").hide();	 
+			 })
+         $(".newfpcon").hide();
+		  /*点击个人发票信息*/
+		  $(".grptfp").click(function(){
+			   $(".newfpcon").hide();
+			  })
+		  /*点击使用新发票*/
+		  $(".newfp").click(function(){
+			  $(".newfpcon").show();
+			  })
+		 /*点击保存发票信息*/
+		 $(".bcfpbut").click(function(){
+			 $(".fpxxcon").hide();
+			 $(".s-content3").show();
+			 $(".xgxx").show();
+			 $(".rgxg").hide();
+			 $(".bc3").hide();
+			 })
+		 $(".bc3").click(function(){
+			 $(".fpxxcon").hide();
+			 $(".s-content3").show();
+			 $(".xgxx").show();
+			 $(".rgxg").hide();
+			 $(".bc3").hide();
+			 }) 
+	   })

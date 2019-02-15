@@ -1,0 +1,246 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="/Application/Ch/View/Mcenter/Public/css/dgg.css" />
+	<script src="__PUBLIC__/dwz/js/jquery-1.7.1.js" type="text/javascript"></script>
+	<style>
+		.left{float:left;width:15%;}
+		.right{float:left;}
+	</style>
+</head>
+
+<include file="./Application/Ch/View/Mcenter/Public/inc/head.html"/>
+
+<div style="margin-top:50px;">
+	<div class="left">
+		<include file="./Application/Ch/View/Mcenter/Public/inc/left.html"/>
+	</div>
+	<div class="right">
+		<div class="zong clearfix gouwuche"> 
+			<div class="gouwuche_h1">
+				<img class="fl" id="aaaaa" src="/Application/Ch/View/Mcenter/Public/images/gouwuche3.jpg" />
+				<p class="fl">我的购物车</p>
+			</div>
+			<table class="gouwuche_tab">
+				<tr>
+					<th style="width:60px;"><label><input class="check_all" style="margin-top:5px;" type="checkbox" /><span>&nbsp;全选</span></label></th>
+					<th style="width:80px;">商品货号</th>
+					<th style="width:80px;">商品名称</th>
+					<th style="width:72px;">颜色</th>
+					<th style="width:52px;">尺码</th>
+					<th style="width:131px;">价格</th>
+					<th style="width:131px;">数量</th>
+					<th style="width:180px;">备注</th>
+					<th style="width:134px;">小计</th>
+					<th style="width:64px;">操作</th>
+				</tr>  
+				<volist name="list" id="vo">
+					<tr>
+						<td><input class="check" type="checkbox" name="select1" value="{$vo.id}" /></td>
+						<td>{$vo.huohao}</td>
+						<td>{$vo.title}</td>
+						<td>{$vo.color}</td>
+						<td>{$vo.size}</td>
+						<td>
+							<span>人民币：</span><span  class="danjia">{$vo['price']}</span> 元<br /> 
+						</td>
+						<td>
+							<div class="num" style="width:105px">
+								<a class="fl jian"   href="javascript:void(0)">-</a>
+								<input type="text" value="{$vo.buynum}" />
+								<a class="fr jia" href="javascript:;">+</a>
+							</div>
+							<input class="listid" type="hidden" value="{$vo.id}">
+						</td>
+						<td>
+							<textarea>{$vo.intro}</textarea>
+						</td>
+						<td>
+							<span>人民币：</span>
+							<span class="rmbxiaoji" id="rmbxiaoji_{$vo.id}">{$vo['total']}</span> 元<br /> 
+						</td>
+						<td class="del">
+							<a href="__URL__/del_car/id/{$vo.id}" onClick="return confirm('确定删除吗，此操作不可恢复!');">删除</a>
+						</td>
+					</tr>
+				</volist>
+			</table>  
+			<p class="zongjine">
+				<span>总计(不含运费)：</span>
+				<strong class="money"> 
+					<span>人民币：</span>
+					<span id="rmb">0</span><span>元</span>
+				</strong>
+			</p>
+			<div class="jiesuan">
+				<a id="shopjs" href="javascript:;"><img src="/Application/Ch/View/Mcenter/Public/images/lijijiesuan.jpg" /></a>
+				<a href="__MODULE__/Ch/Emall/Index"><img src="/Application/Ch/View/Mcenter/Public/images/jixugouwu.jpg" /></a>
+			</div> 
+		</div> 
+	</div>
+	<include file="Public:inc:foot"/>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+	$(".gouwuche_tab tr:first").css("borderBottom","none");
+ //购物车加法
+ $(".gouwuche_tab .num .jia").click(function(){
+ 	var a=parseInt($(this).prev().val());
+ 	if(a){
+ 		$(this).prev().val(a+1);
+ 		var id=parseInt($(this).parent().next().val());
+ 		var buynum=parseInt($(this).prev().val());
+ 		var xiaoji=parseInt($(this).parent().parent().parent().find("span[class='danjia']").html()); 
+ 		var idzongji=xiaoji*buynum;		
+ 		$(this).parent().parent().parent().find("span[class='rmbxiaoji']").html(idzongji); 
+ 		$.ajax({
+ 			type: 'post',
+ 			url: '__URL__/ajaxPlus', 
+ 			data: {'id':id,'buynum':buynum},
+ 			success: function(msg){ 
+ 				$("#rmb").html(msg);
+ 			},
+ 			dataType: 'html'
+ 		});
+ 	}
+ }) 
+
+//购物车的减法
+$(".gouwuche_tab .num .jian").click(function(){ 
+	//alert('jian')
+	var a=parseInt($(this).next().val())
+		//alert(a) 
+		if(!(a<=1)&&a){
+			$(this).next().val(a-1);
+			var id=parseInt($(this).parent().next().val());
+			var buynum=parseInt($(this).next().val()); 
+			var xiaoji=parseInt($(this).parent().parent().parent().find("span[class='danjia']").html());
+			var idzongji=xiaoji*buynum;		
+			$(this).parent().parent().parent().find("span[class='rmbxiaoji']").html(idzongji); 
+			$.ajax({
+				type: 'post',
+				url: '__URL__/ajaxPlus', 
+				data: {'id':id,'buynum':buynum},
+				success: function(msg){ 
+					$("#rmb").html(msg);
+				},
+				dataType: 'html'
+			}); 
+		} 
+		
+		
+		
+	})
+$(".gouwuche_tab .num input").focus(function(){
+	$(this).attr({"_n":$(this).val()})
+})
+$(".gouwuche_tab .num input").blur(function(){
+	var a=parseInt($(this).val())
+	if(!a&&a!=0){
+		$(this).attr({"value":$(this).attr("_n")})
+	}
+})
+
+
+ //全选
+ $(".gouwuche_tab .check_all").click(function(){ 
+ // alert('gouwucheall');
+
+ var check=$(".gouwuche_tab tr .check")
+ var a=true;
+ var num=0
+ check.each(function(){
+ 	if(!$(this).attr("checked")){
+ 		a=false
+ 	};
+ })
+ if(a){
+	 check.each(function(){$(this).attr("checked",false)})
+	 rmb.html(0)  
+
+ }else{
+	 rmb.html(0)
+	 var num=0
+	 check.each(function(){$(this).attr("checked",true)})
+	 $(".rmbxiaoji").each(function(){
+	 	num+=parseInt($(this).html())
+	 })
+	 rmb.html(num)
+
+ }
+		
+	}) 
+ 
+//查看选中的商品去结算
+var arr='';
+$("#shopjs").click(function(){
+	var userid="{$Think.session.memberid}";
+	if(!userid){
+		alert("请登录");
+		return false;
+	}else{
+		var x=$("input:checkbox[name='select1']:checked");
+		for(var i=0;i<x.length;i++){
+			if(x[i].checked){
+				arr+=(x[i].value)+',';
+			}
+		}
+	    // alert(arr);return false;
+	    if(!arr.length){
+	    	alert("请选择商品");
+	    	$("#shopjs").attr("href","javascript:;");
+	    }else{ 
+	    	$("#shopjs").attr("href","__MODULE__/Emall/Order/sorder/class/"+arr);
+	    } 
+	    arr=[];
+	}
+})
+
+</script>
+
+<script>
+		var rmb=$('#rmb');
+	var obj = $(":input[type='checkbox'][class='check']");
+	obj.click(function(){
+		var id = $(this).attr('value');
+		// alert(id);
+		var money = $('#rmbxiaoji_'+id).html();
+		if($(this).attr("checked")){
+			rmb.html(parseInt(rmb.html())+parseInt(money))
+		}else{
+
+			rmb.html(parseInt(rmb.html())-parseInt(money))
+			$(".gouwuche_tab .check_all").attr("checked",false)
+		}
+		var isquanxuan=true
+		obj.each(function(){
+			if(!$(this).attr("checked")){
+				isquanxuan=false
+			}
+		})
+		if(isquanxuan){
+			$(".gouwuche_tab .check_all").attr("checked",true)
+
+		}else{
+			$(".gouwuche_tab .check_all").attr("checked",false)
+		}
+	});
+	// alert(obj.attr('value'));
+	// if(obj)
+</script>
+
+<!--script type="text/javascript">
+     //浮点数乘法运算  
+ function FloatMul(arg1,arg2)   
+ {   
+  var m=0,s1=arg1.toString(),s2=arg2.toString();   
+  try{m+=s1.split(".")[1].length}catch(e){}   
+  try{m+=s2.split(".")[1].length}catch(e){}   
+  return Number(s1.replace(".",""))*Number(s2.replace(".",""))/Math.pow(10,m)   
+  }   
+</script-->
+

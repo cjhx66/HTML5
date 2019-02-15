@@ -1,0 +1,129 @@
+<include file="Public:pagerForm"/>
+<div class="page">  
+	<div class="pageContent"> 
+		 
+		<form action="/index.php/Admin/Base/Role/chzend/navTabId/listrole/callbackType/closeCurrent" method="post" class="pageForm required-validate" 
+		onsubmit="return iframeCallback(this,dialogAjaxDone);"><?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?>
+		<div class="pageFormContent">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent">保存</div></div></li>
+			 			
+				<li><select  id="oselect" name="wID" onsubmit="return fun();"> 
+				<volist id="webvo" name="web">
+				 	<option value="{$webvo}" >{$webvo|getNameByWebId=$webvo}</option>
+				</volist>
+				 </select> </li>
+				<!-- <li><div class="buttonActive"><div class="buttonContent"><button onclick="qx();return false;">选择所有</button></div></div></li>    
+				 <li><div class="buttonActive"><div class="buttonContent"><button onclick="qbx();return false;">取消所有</button></div></div></li>   -->
+			</ul>
+		</div>
+				
+		<table class="list" width="100%" layoutH="116">
+			<thead>
+			<tr>
+				<th width="5%">序号</th>
+				<th width="10%">栏目名称</th>  
+				<th width="10%">浏览</th>  
+				<th width="10%">添加</th>  
+				<th width="10%">删除</th>  
+				<th width="10%">修改</th>   
+				 
+				
+			</tr>
+			</thead>
+			<tbody id="tbody">
+			<volist id="vo"  name="authlist"> 
+				<tr class="aaa">  
+					<td>{$vo['id']}</td>
+					<td><php>
+                        for($i=0;$i<$vo['count'];$i++){
+                        echo '|—';
+                        }</php> {$vo['cID']|getNameByClassId=$vo['cID']}</td> 
+					<td><input type="checkbox" class="canview" name="canview[]" value="{$vo['id']}"  <eq name="vo.canview" value="1" >checked</eq> /></td>
+					<td><input type="checkbox" class="canadd" name="canadd[]"value="{$vo['id']}" <eq name="vo.canadd" value="1" >checked</eq> /></td> 
+					<td><input type="checkbox" class="candel" name="candel[]" value="{$vo['id']}" <eq name="vo.candel" value="1" >checked</eq> /></td> 
+					<td><input type="checkbox" class="canup" name="canupdate[]" value="{$vo['id']}" <eq name="vo.canupdate" value="1" >checked</eq> /></td>
+				</tr>
+			</volist> 
+			
+			</tbody>
+				<input type="hidden" id="rID" name="rID" value='{$_REQUEST.rID}'/>
+		</table>
+	</form> 
+	
+	</div> 
+	
+</div>
+<script>
+	 $("#oselect").change(function(){
+		var id=$(this).children('option:selected').val(); 
+		var rID=$("#rID").val();  
+		 $("#tbody").empty();
+		 $("#tbody").load("/index.php/Admin/Base/Role/load",{"id":id,"rID":rID});
+	
+	}) 
+	 
+	function qx(){ 
+	
+				var id=document.getElementsByTagName('checkbox');
+				
+				for(i=0;i<id.length;i++){
+
+					id[i].checked=true;
+				}
+			} 
+	function qbx(){
+				
+				var id=document.getElementsByTagName('checkbox');
+				
+				for(i=0;i<id.length;i++){
+
+					id[i].checked=false;
+				}
+			}
+	$(function(){
+		$('.buttonContent').click(function(){
+			var str = '{id:{';
+			$('.aaa').each(function(){
+				str += $(this).find('td').eq(0).text() + ':{';
+				if($(this).find('.canview').attr('checked')){
+					str += "'canview':1,";
+				}else{
+					str += "'canview':0,";
+				}
+				if($(this).find('.canadd').attr('checked')){
+					str += "'canadd':1,";
+				}else{
+					str += "'canadd':0,";
+				}
+				if($(this).find('.candel').attr('checked')){
+					str += "'candel':1,";
+				}else{
+					str += "'candel':0,";
+				}
+				if($(this).find('.canup').attr('checked')){
+					str += "'canupdate':1}";
+				}else{
+					str += "'canupdate':0}";
+				}
+				str += ','
+			})
+			str = str.substr(0, str.length-1);
+			str += '}}'; 
+			
+			str = eval('('+str+')');
+			
+			var url = "/index.php/Admin/Base/Role/chzend";
+			
+			$.post(url, str, function(data){
+				if(data.status == 1){
+					alert(data.msg);
+				}else{
+					alert(data.msg);
+				}
+			}, 'json')
+		})
+		
+	})
+</script>
+

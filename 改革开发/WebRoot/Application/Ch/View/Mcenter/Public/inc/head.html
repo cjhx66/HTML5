@@ -1,0 +1,39 @@
+<style>
+	.toploginBox li{list-style-type:none;}
+</style>
+<div class="topbarwrp">
+	<div class="topbar clearfix"> 
+		<ul class="toploginBox">
+			<li>
+				<div id="hello" style="font-size:12px; color:#494949;display:none">您好,{$Think.session.membername}!
+					<a id="logouttype" href="__MODULE__/Mcenter/Login/logout" style="border:0px; margin:0px; padding:0px 5px;">[退出]</a>
+					<a id="logouttype" href="__MODULE__/Mcenter/Login/modmima" style="border:0px; margin:0px; padding:0px 5px;">[修改密码]</a>
+					<a href="__MODULE__/Mcenter/Login/zc" style="border:0px; margin:0px; padding:0px 5px;">[注册]</a>
+				</div>
+				<a id="login" href="__MODULE__/Mcenter/Login/login" class="login">登录</a>&nbsp;&nbsp;
+				<a id="reg" href="__MODULE__/Mcenter/Login/zc" style="padding-right:10px; border:0px;">注册</a>
+			</li>
+			<li><a href="__MODULE__/Emall/Index/index">去商城逛逛</a></li>
+		</ul>
+	</div> 
+</div>
+
+<script type="text/javascript">
+	$(function(){
+		var iflog='{$Think.session.memberid}';
+		if(iflog && iflog!=0){
+			$("#login").hide();
+			$("#reg").hide();
+			$("#hello").show();
+		}
+		var logtype='{$Think.session.logtype}';
+		if(logtype==1){
+			$("#logouttype").attr("href","__MODULE__/Mcenter/Login/logout");
+		}else if(logtype==2){
+			$("#logouttype").attr("href","javascript:onclick=WB2_Loginout();");
+		}else if(logtype==3){
+			$("#logouttype").attr("href","javascript:onclick=qqLogout();");
+		}
+	});
+</script>
+

@@ -1,0 +1,66 @@
+<html>
+<style>
+    .left{float:left;width:15%;}
+    .right{float:left;}
+    table tr{height:40px;}
+</style>
+<script src="/Public/dwz/js/jquery-1.7.1.js" type="text/javascript"></script>   
+<include file="./Application/Ch/View/Mcenter/Public/inc/head.html"/>
+
+
+<div style="margin-top:50px;">
+    <div class="left">
+        <include file="./Application/Ch/View/Mcenter/Public/inc/left.html"/>
+    </div>
+    <div class="right">
+        会员中心---卖家信息设置<br/>
+        <div class="zc_con" style="margin-top:52px;">
+			<if condition="$zhizhaolist eq ''">
+            	<form action="__URL__/addzhizhao" method="post" enctype="multipart/form-data">
+			<else/>
+				<form action="__URL__/editzhizhao" method="post" enctype="multipart/form-data">
+			</if>
+				<table width="500">
+					<tr>
+						<td>用户名：</td>
+						<td>{$list.name}</td>
+					</tr>
+					<tr><td>法人信息(请补充完整)</td></tr>
+					<tr>
+						<td>营业执照注册号：</td>
+						<td><input type="text" value="{$zhizhaolist.zhizhaohao}" name="zhizhaohao" /><span>*</span></td>
+					</tr>
+					<tr>
+						<td>营业执照照片：</td> 
+  						<td><input  name="upload" type="file" /></td> 
+						<input type="hidden" name="zhizhaopic" value="{$zhizhaolist.zhizhaopic}" />
+						<td><img style="width:100px;height:100px"src="/Upload{$zhizhaolist.zhizhaopic}" /></td>
+						
+					 
+					</tr>  
+					<tr>
+						<td>姓名：</td>
+						<td><input type="text" name="zhizhaoname" value="{$zhizhaolist.zhizhaoname}" /><span>*</span></td>
+					</tr> 
+					<tr>
+						<td>采购主要商品范围：</td>
+						<td>
+							<select	name="goodtype">
+								<option value="1" <if condition="$zhizhaolist.goodtype eq 1">selected</if> >手机</option>
+								<option value="2" <if condition="$zhizhaolist.goodtype eq 2">selected</if> >电脑</option>
+								<option value="3" <if condition="$zhizhaolist.goodtype eq 3">selected</if> >其他电子产品</option> 
+							</select> 
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>
+							  <input type="hidden" name="id" value="{$zhizhaolist.id}">  
+							<input id="submit_l" value="提交" name="btn_login" type="submit"/>
+						</td>
+					</tr>
+				</table>
+        	</form>
+    	</div>
+	</div>
+</div>
+</html>

@@ -1,0 +1,322 @@
+[ 2018-12-15T05:32:24+08:00 ] 209.17.97.122 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2018-12-15T23:24:00+08:00 ] 111.30.142.227 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001953s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006836s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014649s ]
+
+[ 2018-12-15T23:24:00+08:00 ] 220.194.107.222 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005860s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011719s ]
+
+[ 2018-12-15T23:24:00+08:00 ] 111.30.142.227 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003907s ]
+
+[ 2018-12-15T23:24:00+08:00 ] 220.194.106.94 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2018-12-15T23:24:00+08:00 ] 111.30.142.227 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001954s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003906s ]
+
+[ 2018-12-15T23:24:00+08:00 ] 111.30.142.227 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2018-12-15T23:24:00+08:00 ] 220.194.107.221 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001954s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003907s ]
+
+[ 2018-12-15T23:24:00+08:00 ] 125.39.46.58 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2018-12-15T23:24:00+08:00 ] 111.30.142.227 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2018-12-15T23:24:00+08:00 ] 125.39.46.25 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2018-12-15T23:24:00+08:00 ] 111.30.142.227 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2018-12-15T23:24:01+08:00 ] 125.39.46.25 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002929s ]
+
+[ 2018-12-15T23:24:01+08:00 ] 111.30.142.252 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+

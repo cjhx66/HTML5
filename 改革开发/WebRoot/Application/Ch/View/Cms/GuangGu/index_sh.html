@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>瀚正·御璟城</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Cache-Control" content="max-age=3600"/>
+    <link rel="icon" href="/webpage/chphone/cms/public/images/logoh.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/webpage/chphone/cms/public/images/logoh.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="/webpage/chphone/cms/public/css/contact.css"/>
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+        .content {
+            width: 750px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .main {
+            position: relative;
+        }
+        .foot {
+            text-align: center;
+            height: 88px;
+            background: url("/webpage/chphone/cms/public/images/btn_1.png") no-repeat;
+            /*background: #e83636;*/
+            color: #fff;
+            width: 750px;
+            position: fixed;
+            bottom: 0;
+        }
+
+        .foot a {
+            display: inline-block;
+            color: #fff;
+            font-size: 34px;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            padding-top: 18px;
+        }
+
+        .foot img {
+            width: 50px;
+            height: 50px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <!--主题图片-->
+    <div class="main">
+        <img src="/webpage/chphone/cms/public/images/main_sh.jpg" alt="" style="display: block">
+    </div>
+    <div class="foot">
+        <input type="hidden" id="source" name="source" value="{$source}"/>
+        <a href="tel:4006988610,242#" class="yjbo" style="display:block">
+            <img src="/webpage/chphone/cms/public/images/tel_2.png" alt="">
+            <span>咨询热线 <span style="font-size: 26px">(分机号:242#)</span></span></a>
+    </div>
+</div>
+</body>
+<script src="/webpage/chphone/cms/public/js/jquery-1.11.3.min.js"></script>
+<script src="/webpage/chphone/cms/public/js/resetpage.js"></script>
+<script>
+    var t1 = null;//这个设置为全局
+    function myclick(fn) {
+        if (t1 == null) {
+            t1 = new Date().getTime();
+        } else {
+            var t2 = new Date().getTime();
+            if (t2 - t1 < 500) {
+                t1 = t2;
+                return;
+            } else {
+                t1 = t2;
+            }
+        }
+        if (fn) {
+            fn();
+        }
+    }
+    function ajax() {
+        var source = $("#source").val();
+        $.ajax({
+            type: "post",
+            url: "/index.php/Ch/Mcenter/Source/source",
+            data: {
+                source: source
+            },
+            success: function (data) {
+//                alert(data);
+            },
+            error: function (d) {
+//                alert(d)
+            }
+        })
+    }
+    $(".foot").click(function () {
+        myclick(ajax)
+    });
+</script>
+<!--百度流量监测-->
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?76736bd81cd378580702245befb98bda";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script type="text/javascript">
+    $(function () {
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        if (isAndroid == true) {
+            $(".yjbo").attr("href", "tel:4006988610");
+        } else if (isiOS == true) {
+            $(".yjbo").attr("href", "tel:4006988610,242#")
+        }
+    })
+</script>
+</html>

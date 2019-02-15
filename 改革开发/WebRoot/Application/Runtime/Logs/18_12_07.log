@@ -1,0 +1,855 @@
+[ 2018-12-07T10:08:04+08:00 ] 219.142.105.197 /index.php/Admin/Base/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003907s ]
+
+[ 2018-12-07T10:08:04+08:00 ] 219.142.105.197 /index.php/Admin/Base/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined variable: str C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Base\PublicController.class.php 第 231 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2018-12-07T10:08:04+08:00 ] 219.142.105.197 /index.php/Admin/Base/Public/verify/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-12-07T10:08:10+08:00 ] 219.142.105.197 /index.php/Admin/Base/Public/namecheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.011719s ]
+SQL: SELECT * FROM `cms_users` WHERE ( username = 'developer' ) LIMIT 1   [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: info C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Controller.class.php 第 216 行.
+NOTIC: [8] Undefined index: navTabId C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Controller.class.php 第 217 行.
+NOTIC: [8] Undefined index: callbackType C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: forwardUrl C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-12-07T10:08:13+08:00 ] 219.142.105.197 /index.php/Admin/Base/Public/mimacheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.006836s ]
+SQL: SELECT * FROM `cms_users` WHERE ( username='developer' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: info C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Controller.class.php 第 216 行.
+NOTIC: [8] Undefined index: navTabId C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Controller.class.php 第 217 行.
+NOTIC: [8] Undefined index: callbackType C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: forwardUrl C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-12-07T10:08:21+08:00 ] 219.142.105.197 /index.php/Admin/Base/Public/codecheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+NOTIC: [8] Undefined index: info C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Controller.class.php 第 216 行.
+NOTIC: [8] Undefined index: navTabId C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Controller.class.php 第 217 行.
+NOTIC: [8] Undefined index: callbackType C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: forwardUrl C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-12-07T10:08:21+08:00 ] 219.142.105.197 /index.php/Admin/Base/Public/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.006836s ]
+SQL: SELECT * FROM `cms_users` WHERE ( username = 'developer' ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2018-12-07T10:08:21+08:00 ] 219.142.105.197 /index.php/Admin/Base/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SELECT VERSION() [ RunTime:0.024415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-12-07T10:08:29+08:00 ] 219.142.105.197 /index.php/Admin/Base/Website/index?_=1544148509446
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_base/_website` [ RunTime:0.024415s ]
+ERR: 1146:La table 'g_geige.cms_base/_website' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_base/_website`
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 182 行.
+SQL: SHOW COLUMNS FROM `cms_website` [ RunTime:0.010742s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_website` LIMIT 1   [ RunTime:0.029298s ]
+SQL: SELECT * FROM `cms_website` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 278 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 279 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\fea571300d584871ceb069b5fd97328b.php 第 4 行.
+NOTIC: [8] Undefined index: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\fea571300d584871ceb069b5fd97328b.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-12-07T10:08:31+08:00 ] 219.142.105.197 /index.php/Admin/Base/Content/index/language/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_gdeal` [ RunTime:0.010743s ]
+SQL: SHOW COLUMNS FROM `cms_goods` [ RunTime:0.009766s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_gdeal` WHERE ( pid = 0 and sendstatus = 0 ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_gdeal` WHERE ( pid = 0 and checkstatus = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_gdeal` WHERE ( pid = 0 and paystatus = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_gdeal` WHERE ( pid = 0 and sendstatus = 1 and paystatus = 1 and checkstatus = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_goods` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_goods` WHERE ( status = 1 and num <= warnum ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_goods` WHERE ( status = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_goods` WHERE ( status = 1 and is_jing = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_goods` WHERE ( status = 1 and is_new = 1 ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_goods` WHERE ( status = 1 and is_hot = 1 ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT VERSION() [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_class` [ RunTime:0.009766s ]
+SQL: SELECT `id`,`pid`,`path`,`name`,`url`,concat(path,'-',id) as bspath,`writetime`,`language` FROM `cms_class` WHERE ( language=1 ) ORDER BY orders desc, bspath,id asc  [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: time C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\8fce9defd0e01947e7a0097453b23841.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-12-07T10:08:34+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm/index/classID/69/language/1?_=1544148514360
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: w C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 38 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.018556s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: w C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.010742s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 0,15   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-12-07T10:09:00+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.006836s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.005860s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 15,15   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2018-12-07T10:09:21+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.005860s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.005860s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 30,15   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-12-07T10:09:38+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.005860s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.006836s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 45,15   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-12-07T10:09:47+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.005860s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.005860s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 15,15   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-12-07T10:09:48+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.006836s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.006836s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 30,15   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-12-07T10:10:39+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.006836s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.005860s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 45,15   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-12-07T10:10:49+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.004883s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.004883s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 30,15   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2018-12-07T10:11:36+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.005860s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.005859s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 15,15   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-12-07T10:12:01+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.006836s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.004883s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 0,15   [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2018-12-07T10:12:42+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.004883s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.006836s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 0,30   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-12-07T10:13:18+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.006837s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.004883s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 15,15   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-12-07T10:13:22+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.006836s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.005859s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 30,15   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-12-07T10:13:41+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.008790s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.005860s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 45,15   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-12-07T10:13:49+08:00 ] 219.142.105.197 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\K_kqcWeiLouShu\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.005860s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: language C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.004883s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 0,15   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: map C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: status C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-12-07T18:07:47+08:00 ] 101.199.121.77 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' C:\wamp\www\K_kqcWeiLouShu\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+

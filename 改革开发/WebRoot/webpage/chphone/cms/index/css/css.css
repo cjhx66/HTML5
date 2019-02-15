@@ -1,0 +1,250 @@
+.page5 {
+    background: url("../images/p3/bg.jpg") no-repeat;
+    width: 750px;
+    height: 3097px;
+    position: relative;
+}
+
+.dn {
+    margin-top: 124px;
+    margin-left: 52px;
+}
+
+.dnpm {
+    position: absolute;
+    left: 371px;
+    top: 257px;
+}
+
+.dnpm p {
+    color: black;
+    font: bold 100% Consolas, Monaco, monospace;
+    /*border-right: .1em solid;*/
+    width: 16.5em;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20, end) infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+.zi1 {
+    margin-left: 65px;
+    margin-top: 80px;
+}
+
+.huoche {
+    margin-top: 115px;
+}
+
+.zi2 {
+    margin-left: 120px;
+    margin-top: 53px;
+}
+
+.zi3 {
+    margin-left: 286px;
+    margin-top: 308px;
+}
+
+.gaotie {
+    margin-top: 10px;
+    position: relative;
+    height: 625px;
+}
+.gaotie img{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.feichuan {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    bottom: 0;
+}
+
+.yun {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.zi4 {
+    margin-top: 60px;
+    margin-left: 64px;
+}
+.page6{
+    background: url("../images/p4/bg.jpg") no-repeat;
+    width: 750px;
+    height: 6000px;
+    position: relative;
+}
+
+.dn {  margin-top: 124px;  margin-left: 52px;  }
+
+.dnpm {
+    position: absolute;
+    left: 371px;
+    top: 257px;
+}
+
+.dnpm p {
+    color: black;
+    font: bold 100% Consolas, Monaco, monospace;
+    /*border-right: .1em solid;*/
+    width: 16.5em;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20, end) infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+.page5 .zi1 {
+    margin-left: 65px;
+    margin-top: 80px;
+}
+
+.huoche {
+    margin-top: 115px;
+}
+
+.page5 .zi2 {
+    margin-left: 120px;
+    margin-top: 53px;
+}
+
+.page5 .zi3 {
+    margin-left: 286px;
+    margin-top: 308px;
+}
+
+.gaotie {
+    margin-top: 10px;
+    position: relative;
+    height: 625px;
+}
+
+.gaotie img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.feichuan {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+}
+
+.fcup {
+    animation: fcup 1s ease forwards;
+}
+
+@keyframes fcup {
+    from {
+        transform: translate(-50%, 0px);
+    }
+    to {
+        transform: translate(-50%, -1763px)
+    }
+}
+
+.yun {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.page5 .zi4 {
+    margin-top: 60px;
+    margin-left: 64px;
+}
+
+.page6 {
+    background: url("images/p4/bg-long.jpg") no-repeat;
+    width: 750px;
+    height: 6000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*display: block;*/
+    display: none;
+    /*position: relative;*/
+}
+
+.diqiu {
+    transform: translate(-156px, -156px);
+}
+
+.title-2008 {
+    position: absolute;
+    left: 45px;
+    top: 108px;
+}
+
+.yuhangyuan {
+    /*position: absolute;*/
+    margin-left: 82px;
+    margin-top: 10px;
+    animation: yhup 1s linear infinite alternate;
+}
+
+.title-left {
+    animation: title 0.5s linear forwards;
+}
+
+.page6 .zi0 {
+    position: absolute;
+    left: 72px;
+    top: 888px;
+}
+
+/**/
+.page6 .zi1 {
+    position: absolute;
+    left: 350px;
+    top: 508px;
+}
+
+.beijing {
+    position: absolute;
+    left: 211px;
+    top: 821px;
+}
+
+.page6 .lu {
+    margin-top: 480px;
+}
+
+@keyframes yhup {
+    from {
+        transform: translate(0, -10px);
+    }
+    to {
+        transform: translate(0, 10px)
+    }
+}
+
+@keyframes title {
+    from {
+        opacity: 0;
+        transform: translate(-30px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}

@@ -1,0 +1,51 @@
+<script type="text/javascript" charset="utf-8">
+	//第一步 定义一个全局路径 
+	window.UEDITOR_HOME_URL = "/Public/ueditor/";  
+	//第二步 加载所需要的JS文件（2个）
+</script>
+<script src="/Public/ueditor/editor_all.js" type="text/javascript"></script>
+<script src="/Public/ueditor/editor_config.js" type="text/javascript"></script>
+<script type="text/javascript">
+	//第五步 设置调用编辑器元素
+	var editorOption = {
+		autoClearinitialContent:false,
+        //关闭字数统计
+        wordCount:false,
+        //更多其他参数，请参考editor_config.js中的配置项
+        initialContent:'请输入内容',
+        initialFrameWidth:800 ,
+        initialFrameHeight:220,
+        toolbars:[
+        ['source','bold', 'italic', 'underline', 'strikethrough',  'paragraph', 'fontfamily', 'fontsize', '|',
+        'link', 'unlink', 'anchor', '|',  'insertimage', 'emotion','scrawl', 'music','highlightcode','indent','justifyleft','justifycenter','justifyright','justifyjustify','snapscreen','preview','deleterow','formatmatch','searchreplace','removeformat','pastePlain','undo','cleardoc','snapscreen','selectall','autotypese','forecolor','lineheigth','touppercase','tolowercase']
+        ]
+    };
+	//第六步实例化一个编辑器对象，并将编辑器元素配置，做为参数传入实例化方法中
+	var editor_a = new baidu.editor.ui.Editor(editorOption);
+
+    //第七步 直接渲染编辑器
+    editor_a.render('myEditor');
+    
+</script>
+<div class="pageContent">
+	<form method="post" action="/index.php/Admin/Cms/Customer/update/navTabId/classID{$vo.classID}/callbackType/closeCurrent"    class="pageForm required-validate" 
+	onsubmit="return iframeCallback(this, navTabAjaxDone);">
+	<?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?>
+	<input type="hidden" name="id" value="{$vo.id}"/> 
+	<input type="hidden" name="formstatus" value="{$formstatus}" />
+	<div class="pageFormContent nowrap"   layoutH="97"> 
+		<dl>
+			<dt>标题：</dt>
+			<dd><input type="text" class="required" value="{$vo.title}" style="width:350px" name="title"/></dd> 
+		</dl> 
+		
+		<dl>
+			<dt>内容：</dt>
+			<dd>  
+				<textarea id="myEditor" name="content" width="600" height="350px" >{$vo.content}</textarea>
+			</dd> 
+		</dl>		 	
+	</div>
+</form>
+</div>
+

@@ -1,0 +1,36 @@
+ <script type="text/javascript">
+$(function(){ 
+	// ”∆µ≤•∑≈
+	$('.video1').click(function(){ 
+	   var videoSrc = $(this).attr("data-video");
+       var videoimgSrc=$(this).attr('data-img'); 
+	   $("#videoembed").attr('src','/video.php?videoSrc='+videoSrc+'&imgSrc='+videoimgSrc);
+	
+	});
+});
+</script>
+<div class="video_box">
+				<div class="video videoembed"><!--<img src="../Public/Img/News/video.jpg" />--> 
+					<iframe id="videoembed" src='/video.php?videoSrc={$list.0.download}&imgSrc={$list.0.bigpic}' width='622' height='345' align='center' marginwidth='0' marginheight='0' hspace='0' vspace='0' frameborder='0' scrolling='no'></iframe> 
+				</div> 
+				<div class="video_list" id="colee">
+				<div id="colee1">
+					<ul>
+						<volist name="list" id="vo">
+						<li style="cursor:pointer;">
+							<div class="video1" data-video="{$vo.download}" data-img="{$vo.bigpic}" >
+								<div class="img">
+									<img src="/Upload/File/{$vo.attachpath}/{$vo.attachment}" />
+									<i></i>
+								</div>
+								{$vo.title}
+							</div>
+						</li>
+						</volist> 
+					</ul>
+				</div>
+				<div id="colee2"></div>
+                </div>
+				
+
+			</div>

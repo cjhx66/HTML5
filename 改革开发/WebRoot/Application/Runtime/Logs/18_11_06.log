@@ -1,0 +1,1267 @@
+[ 2018-11-06T17:20:50+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-06T18:42:54+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T18:42:54+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:23:53+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.006000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('aaaaaa',1541510633,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:24:10+08:00 ] 192.168.1.220 /index.php/Admin/Base/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SELECT VERSION() [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:24:12+08:00 ] 192.168.1.220 /index.php/Admin/Base/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SELECT VERSION() [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:24:13+08:00 ] 192.168.1.220 /index.php/Admin/Base/Website/index?_=1541510653650
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_base/_website` [ RunTime:0.006000s ]
+ERR: 1146:La table 'g_geige.cms_base/_website' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_base/_website`
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 182 行.
+SQL: SHOW COLUMNS FROM `cms_website` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_website` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_website` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 278 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 279 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: language D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\fea571300d584871ceb069b5fd97328b.php 第 4 行.
+NOTIC: [8] Undefined index: account D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\fea571300d584871ceb069b5fd97328b.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T21:24:15+08:00 ] 192.168.1.220 /index.php/Admin/Base/Class/index/language/1/navTabId/listmodule?_=1541510655384
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_class` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`pid`,`name`,`url`,concat(path,'-',id) as bspath,`writetime`,`language` FROM `cms_class` WHERE ( language=1 ) ORDER BY orders desc, bspath,id asc  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`name`,`url`,concat(path,'-',id) as bspath,`writetime`,`language` FROM `cms_class` WHERE ( language=1 ) ORDER BY orders desc, bspath,id asc LIMIT 0,1000   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sort D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: order D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 96 行.
+NOTIC: [8] Undefined variable: sortImg D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 97 行.
+NOTIC: [8] Undefined variable: sortAlt D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 98 行.
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 101 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 102 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: account D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\d110e5e3ca35d7cf9e5976852150876f.php 第 5 行.
+NOTIC: [8] Undefined variable: formstatus D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\d110e5e3ca35d7cf9e5976852150876f.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:24:19+08:00 ] 192.168.1.220 /index.php/Admin/Base/Class/add/language/1/pid/0?_=1541510659300
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: classID D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 115 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 119 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_class` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_class` WHERE ( id='0' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 126 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\be0d47a513ffd16df8f55c86d9317966.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T21:24:40+08:00 ] 192.168.1.220 /index.php/Admin/Base/Class/insert/navTabId/listzimodule/callbackType/closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_class` [ RunTime:0.006000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+SQL: INSERT INTO `cms_class` (`name`,`pid`,`path`,`Intro`,`url`,`view`,`orders`,`status`,`writetime`,`language`) VALUES ('改革留言板',0,'0','改革留言板','','改革留言板','',1,1541510659,1) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-11-06T21:24:40+08:00 ] 192.168.1.220 /index.php/Admin/Base/Class/index/language/1/navTabId/listmodule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_class` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`pid`,`name`,`url`,concat(path,'-',id) as bspath,`writetime`,`language` FROM `cms_class` WHERE ( language=1 ) ORDER BY orders desc, bspath,id asc  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid`,`name`,`url`,concat(path,'-',id) as bspath,`writetime`,`language` FROM `cms_class` WHERE ( language=1 ) ORDER BY orders desc, bspath,id asc LIMIT 0,1000   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sort D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: order D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 96 行.
+NOTIC: [8] Undefined variable: sortImg D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 97 行.
+NOTIC: [8] Undefined variable: sortAlt D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 98 行.
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 101 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 102 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: formstatus D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\d110e5e3ca35d7cf9e5976852150876f.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:24:44+08:00 ] 192.168.1.220 /index.php/Admin/Base/Class/add/language/1/pid/68/name/%E6%94%B9%E9%9D%A9%E7%95%99%E8%A8%80%E6%9D%BF?_=1541510684728
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: classID D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 115 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_class` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_class` WHERE ( id='68' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 126 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\be0d47a513ffd16df8f55c86d9317966.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:25:08+08:00 ] 192.168.1.220 /index.php/Admin/Base/Class/insert/navTabId/listzimodule/callbackType/closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_class` [ RunTime:0.007000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+SQL: INSERT INTO `cms_class` (`name`,`pid`,`path`,`Intro`,`url`,`view`,`orders`,`status`,`writetime`,`language`) VALUES ('留言信息',68,'0-68','留言信息','Mcenter/GuangGubm/index/','留言信息','',1,1541510684,1) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-11-06T21:25:08+08:00 ] 192.168.1.220 /index.php/Admin/Base/Class/index/language/1/navTabId/listmodule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_class` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`pid`,`name`,`url`,concat(path,'-',id) as bspath,`writetime`,`language` FROM `cms_class` WHERE ( language=1 ) ORDER BY orders desc, bspath,id asc  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`pid`,`name`,`url`,concat(path,'-',id) as bspath,`writetime`,`language` FROM `cms_class` WHERE ( language=1 ) ORDER BY orders desc, bspath,id asc LIMIT 0,1000   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: sort D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: order D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 96 行.
+NOTIC: [8] Undefined variable: sortImg D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 97 行.
+NOTIC: [8] Undefined variable: sortAlt D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 98 行.
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 101 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\ClassController.class.php 第 102 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: formstatus D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\d110e5e3ca35d7cf9e5976852150876f.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:25:11+08:00 ] 192.168.1.220 /index.php/Admin/Base/Website/index?_=1541510711236
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_base/_website` [ RunTime:0.006000s ]
+ERR: 1146:La table 'g_geige.cms_base/_website' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_base/_website`
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 182 行.
+SQL: SHOW COLUMNS FROM `cms_website` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_website` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_website` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 278 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 279 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: language D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\fea571300d584871ceb069b5fd97328b.php 第 4 行.
+NOTIC: [8] Undefined index: account D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\fea571300d584871ceb069b5fd97328b.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:25:12+08:00 ] 192.168.1.220 /index.php/Admin/Base/Content/index/language/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_gdeal` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_goods` [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_gdeal` WHERE ( pid = 0 and sendstatus = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_gdeal` WHERE ( pid = 0 and checkstatus = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_gdeal` WHERE ( pid = 0 and paystatus = 0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_gdeal` WHERE ( pid = 0 and sendstatus = 1 and paystatus = 1 and checkstatus = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_goods` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_goods` WHERE ( status = 1 and num <= warnum ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_goods` WHERE ( status = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_goods` WHERE ( status = 1 and is_jing = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_goods` WHERE ( status = 1 and is_new = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_goods` WHERE ( status = 1 and is_hot = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT VERSION() [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_class` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`pid`,`path`,`name`,`url`,concat(path,'-',id) as bspath,`writetime`,`language` FROM `cms_class` WHERE ( language=1 ) ORDER BY orders desc, bspath,id asc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: time D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\8fce9defd0e01947e7a0097453b23841.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:25:14+08:00 ] 192.168.1.220 /index.php/Admin/Mcenter/GuangGubm/index/classID/69/language/1?_=1541510714805
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: w D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 38 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: w D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+NOTIC: [8] Undefined index: keyword D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 0,15   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:25:19+08:00 ] 192.168.1.220 /index.php/Admin/Mcenter/GuangGubm/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: classID D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 37 行.
+NOTIC: [8] Undefined index: w D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 38 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 0 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.007000s ]
+SQL: DELETE FROM `cms_guanggu` WHERE ( `id` IN ('1') ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: navTabId D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 217 行.
+NOTIC: [8] Undefined index: callbackType D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-11-06T21:25:19+08:00 ] 192.168.1.220 /index.php/Admin/Mcenter/GuangGubm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=0 and rID=0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: language D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 0,15   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: veri D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T21:25:23+08:00 ] 192.168.1.220 /index.php/Admin/Base/Role/index?_=1541510723500
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_base/_role` [ RunTime:0.006000s ]
+ERR: 1146:La table 'g_geige.cms_base/_role' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_base/_role`
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 182 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_role` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_role` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 278 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 279 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: language D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\6a07e9260a83eacabd66811ba596b044.php 第 4 行.
+NOTIC: [8] Undefined index: account D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\6a07e9260a83eacabd66811ba596b044.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:25:25+08:00 ] 192.168.1.220 /index.php/Admin/Base/Role/add?_=1541510725026
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:25:32+08:00 ] 192.168.1.220 /index.php/Admin/Base/Role/insert/navTabId/listrole/callbackType/closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.007000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+SQL: INSERT INTO `cms_role` (`rname`,`rdesc`) VALUES ('gaige','gaige') [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-11-06T21:25:32+08:00 ] 192.168.1.220 /index.php/Admin/Base/Role/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_base/_role` [ RunTime:0.006000s ]
+ERR: 1146:La table 'g_geige.cms_base/_role' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_base/_role`
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 182 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_role` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_role` ORDER BY id desc LIMIT 0,10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 278 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 279 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:25:34+08:00 ] 192.168.1.220 /index.php/Admin/Base/Role/website/rID/12?_=1541510734314
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_website` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_website`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role_site` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_role_site` WHERE ( rID=12 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/pagerForm.html): failed to open stream: No such file or directory D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:25:39+08:00 ] 192.168.1.220 /index.php/Admin/Base/Role/ch/navTabId/listrole/callbackType/closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_role_site` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_role_site` WHERE ( rID=12 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_class` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.007000s ]
+SQL: INSERT INTO `cms_role_site` (`rID`,`wID`) VALUES (12,'1') [ RunTime:0.001000s ]
+SQL: SELECT `id`,`language` FROM `cms_class` WHERE ( language in (1) )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,1,1541510736) [ RunTime:0.044000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,2,1541510736) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,3,1541510736) [ RunTime:0.050000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,4,1541510737) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,5,1541510737) [ RunTime:0.083000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,6,1541510737) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,7,1541510737) [ RunTime:0.050000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,8,1541510737) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,9,1541510737) [ RunTime:0.050000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,10,1541510737) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,11,1541510737) [ RunTime:0.084000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,12,1541510737) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,13,1541510737) [ RunTime:0.050000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,14,1541510737) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,15,1541510737) [ RunTime:0.050000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,16,1541510737) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,17,1541510737) [ RunTime:0.083000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,18,1541510737) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,19,1541510737) [ RunTime:0.050000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,20,1541510737) [ RunTime:0.062000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,21,1541510737) [ RunTime:0.051000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,22,1541510737) [ RunTime:0.073000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,27,1541510738) [ RunTime:0.058000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,28,1541510738) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,29,1541510738) [ RunTime:0.049000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,30,1541510738) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,31,1541510738) [ RunTime:0.050000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,32,1541510738) [ RunTime:0.071000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,33,1541510738) [ RunTime:0.042000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,34,1541510738) [ RunTime:0.040000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,35,1541510738) [ RunTime:0.050000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,36,1541510738) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,37,1541510738) [ RunTime:0.067000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,38,1541510738) [ RunTime:0.040000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,39,1541510738) [ RunTime:0.049000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,40,1541510738) [ RunTime:0.091000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,41,1541510738) [ RunTime:0.047000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,42,1541510738) [ RunTime:0.037000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,43,1541510738) [ RunTime:0.083000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,62,1541510738) [ RunTime:0.038000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,63,1541510738) [ RunTime:0.042000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,68,1541510739) [ RunTime:0.039000s ]
+SQL: INSERT INTO `cms_auth` (`rID`,`wID`,`cID`,`writetime`) VALUES (12,1,69,1541510739) [ RunTime:0.043000s ]
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-11-06T21:25:39+08:00 ] 192.168.1.220 /index.php/Admin/Base/Role/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_base/_role` [ RunTime:0.007000s ]
+ERR: 1146:La table 'g_geige.cms_base/_role' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_base/_role`
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 182 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_role` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_role` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 278 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 279 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:25:41+08:00 ] 192.168.1.220 /index.php/Admin/Base/Role/channel/rID/12?_=1541510741258
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_role_site` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_role_site` WHERE ( rID=12 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_class` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `cms_class` WHERE ( language=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.006000s ]
+SQL: SELECT `cID` FROM `cms_auth` WHERE ( rID =12 and wID=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( rID =12 and wID=1 and cID in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,62,63,68,69) )  [ RunTime:0.000000s ]
+SQL: DELETE FROM `cms_auth` WHERE ( rID =12 and wID=1  and cID in () ) [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `cms_auth` WHERE ( rID =12 and wID=1  and cID in () )
+SQL: select a.*,b.id as bid,b.pid,b.path,concat(b.path,'-',b.id) as bspath from cms_auth a, cms_class b where a.rID=12 and a.wID in (1)  and a.cID=b.id order by bspath [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/pagerForm.html): failed to open stream: No such file or directory D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_website` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name` FROM `cms_website`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_class` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `cms_class`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:25:55+08:00 ] 192.168.1.220 /index.php/Admin/Base/Role/chzend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.007000s ]
+SQL: SET autocommit = 0 [ RunTime:0.000000s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 106 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 77 行.
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 408 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 409 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 410 ) [ RunTime:0.001000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 411 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 412 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 413 ) [ RunTime:0.001000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 414 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 415 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 416 ) [ RunTime:0.001000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 417 ) [ RunTime:0.001000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 418 ) [ RunTime:0.001000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 419 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 420 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 421 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 422 ) [ RunTime:0.001000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 423 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 424 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 425 ) [ RunTime:0.001000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 426 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 427 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 428 ) [ RunTime:0.001000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 429 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 430 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 431 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 432 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 433 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 434 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 435 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 436 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 437 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 438 ) [ RunTime:0.001000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 439 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 440 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 441 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 442 ) [ RunTime:0.001000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 443 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 444 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 445 ) [ RunTime:0.001000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 446 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 447 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=0,`canadd`=0,`candel`=0,`canupdate`=0 WHERE ( id = 448 ) [ RunTime:0.001000s ]
+SQL: UPDATE `cms_auth` SET `canview`=1,`canadd`=1,`candel`=1,`canupdate`=1 WHERE ( id = 449 ) [ RunTime:0.000000s ]
+SQL: UPDATE `cms_auth` SET `canview`=1,`canadd`=1,`candel`=1,`canupdate`=1 WHERE ( id = 450 ) [ RunTime:0.000000s ]
+SQL: commit [ RunTime:0.050000s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 106 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 77 行.
+SQL: SET autocommit = 1 [ RunTime:0.000000s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 106 行.
+NOTIC: [8] Undefined index: info D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 216 行.
+NOTIC: [8] Undefined index: navTabId D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 217 行.
+NOTIC: [8] Undefined index: callbackType D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-11-06T21:25:59+08:00 ] 192.168.1.220 /index.php/Admin/Base/Users/index?_=1541510759313
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_base/_users` [ RunTime:0.005000s ]
+ERR: 1146:La table 'g_geige.cms_base/_users' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_base/_users`
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 182 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_users` WHERE ( `id` NOT IN (1,2) ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( `id` NOT IN (1,2) ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 278 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 279 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: language D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\a1a56eeec0ca775c39bfb2887c033018.php 第 4 行.
+NOTIC: [8] Undefined index: account D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\a1a56eeec0ca775c39bfb2887c033018.php 第 5 行.
+SQL: SELECT * FROM `cms_users` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`rname` FROM `cms_role`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`rname` FROM `cms_role`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`rname` FROM `cms_role`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`rname` FROM `cms_role`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`rname` FROM `cms_role`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T21:26:00+08:00 ] 192.168.1.220 /index.php/Admin/Base/Users/add?_=1541510760180
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cms_role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-06T21:26:05+08:00 ] 192.168.1.220 /index.php/Admin/Base/Users/path
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( rID=12 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_role_site` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_role_site` WHERE ( rID=12 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'id' D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\UsersController.class.php 第 161 行.
+SQL: SHOW COLUMNS FROM `cms_website` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name` FROM `cms_website`  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:26:07+08:00 ] 192.168.1.220 /index.php/Admin/Base/Users/insert/navTabId/listusers/callbackType/closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.006000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, function ' htmlentities' not found or invalid function name D:\wamp\www\G_geige\WebRoot\Engine\Common\functions.php 第 329 行.
+SQL: INSERT INTO `cms_users` (`username`,`password`,`realname`,`company`,`depart`,`rID`,`defaultw`) VALUES ('gaige','4494efe1b1096bb49b6735fe9946bae2','gaige','gaige','gaige',12,1) [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-11-06T21:26:07+08:00 ] 192.168.1.220 /index.php/Admin/Base/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_base/_users` [ RunTime:0.006000s ]
+ERR: 1146:La table 'g_geige.cms_base/_users' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_base/_users`
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 182 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_users` WHERE ( `id` NOT IN (1,2) ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( `id` NOT IN (1,2) ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 278 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\CommonController.class.php 第 279 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`rname` FROM `cms_role`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`rname` FROM `cms_role`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`rname` FROM `cms_role`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`rname` FROM `cms_role`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`rname` FROM `cms_role`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`rname` FROM `cms_role`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T21:26:12+08:00 ] 192.168.1.220 /index.php/Admin/Base/Public/logout/formstatus/vm72ie5z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:26:12+08:00 ] 192.168.1.220 /index.php/Admin/Base/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\PublicController.class.php 第 231 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:26:12+08:00 ] 192.168.1.220 /index.php/Admin/Base/Public/verify/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-06T21:26:15+08:00 ] 192.168.1.220 /index.php/Admin/Base/Public/namecheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( username = 'gaige' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: info D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 216 行.
+NOTIC: [8] Undefined index: navTabId D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 217 行.
+NOTIC: [8] Undefined index: callbackType D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-11-06T21:26:15+08:00 ] 192.168.1.220 /index.php/Admin/Base/Public/mimacheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( username='gaige' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: info D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 216 行.
+NOTIC: [8] Undefined index: navTabId D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 217 行.
+NOTIC: [8] Undefined index: callbackType D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-11-06T21:26:19+08:00 ] 192.168.1.220 /index.php/Admin/Base/Public/codecheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: info D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 216 行.
+NOTIC: [8] Undefined index: navTabId D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 217 行.
+NOTIC: [8] Undefined index: callbackType D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 218 行.
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Controller.class.php 第 219 行.
+
+[ 2018-11-06T21:26:19+08:00 ] 192.168.1.220 /index.php/Admin/Base/Public/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_users` WHERE ( username = 'gaige' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.007000s ]
+SQL: select a.*,b.id as bid,b.pid,b.url,b.name,b.path,concat(b.path,'-',b.id) as bspath from cms_auth a, cms_class b where a.rID=12 and a.wID=1  and a.cID=b.id order by bspath [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role_site` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_role_site` WHERE ( rID=12 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select a.*,b.id as bid,b.pid,b.url,b.name,b.path,concat(b.path,'-',b.id) as bspath from cms_auth a, cms_class b where a.rID=12 and a.wID=1  and a.cID=b.id order by bspath [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( rID = 12 and wID in (1) )  [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:26:19+08:00 ] 192.168.1.220 /index.php/Admin/Base/W/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: veri D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Base\WController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: language D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\21e9e63c669c55770bee8602052d4d1f.php 第 52 行.
+NOTIC: [8] Undefined index: account D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\21e9e63c669c55770bee8602052d4d1f.php 第 53 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_website` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name` FROM `cms_website`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: time D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\21e9e63c669c55770bee8602052d4d1f.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:26:20+08:00 ] 192.168.1.220 /index.php/Admin/Mcenter/GuangGubm/index/classID/69/w/1/authid/38?_=1541510780633
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_auth` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_auth` WHERE ( cID = 69 and wID=1 and rID=12 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: language D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: keyword D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 51 行.
+SQL: SELECT * FROM `cms_guanggu`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 59 行.
+SQL: SELECT * FROM `cms_guanggu` ORDER BY writetime desc LIMIT 0,15   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: sort D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: order D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: sortImg D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sortAlt D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: search D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 78 行.
+NOTIC: [8] Undefined index: values D:\wamp\www\G_geige\WebRoot\Application\Admin\Controller\Mcenter\GuangGubmController.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: keyword D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: account D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined variable: authid D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+NOTIC: [8] Undefined index: lieid D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Admin\c7f4b89a03b71b4c28f229d4ddb448fe.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:29:38+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.007000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.001000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('dfdfdfd',1541510978,1,66) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:34:50+08:00 ] 192.168.13.154 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.008000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.001000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('旅游了鲁提辖无图具体',1541511290,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T21:37:39+08:00 ] 192.168.13.64 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.007000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.001000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('张玉静请回答张玉静，自己嗯琥珀恩佐斯',1541511459,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

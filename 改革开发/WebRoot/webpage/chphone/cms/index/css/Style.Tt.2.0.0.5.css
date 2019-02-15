@@ -1,0 +1,215 @@
+﻿@charset "utf-8";
+/*======================去浏览器常规默认样式=======================*/
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, img, div, a, dd, dl {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+section, article, aside, header, footer, nav, dialog, figure {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 12px;
+}
+
+/*select { font-size:12px; font-family:simsun; }*/
+ul, ol, li {
+    list-style-type: none
+}
+
+/*===================a标签==========================*/
+a {
+    text-decoration: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+a {
+    star: expression(this.onFocus=this.blur());
+}
+
+a {
+    color: #333;
+}
+
+/*======================浮动的外层==================*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    zoom: 1
+}
+
+.clearfix {
+    display: block;
+}
+
+.borderfix {
+    zoom: 1
+}
+
+.block {
+    display: block
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+    line-height: 0px;
+}
+
+img {
+    display: block
+}
+
+.radio, .checkbox {
+    position: relative;
+    top: 2px;
+}
+
+/*=======================块级元素===========================*/
+.none {
+    display: none
+}
+
+.open {
+    display: block
+}
+
+.transparent {
+    background: transparent;
+}
+
+textarea {
+    font-size: 12px;
+    color: #666666;
+    vertical-align: middle
+}
+
+input {
+    vertical-align: middle
+}
+
+* {
+    tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+@media screen and (orientation: portrait ) {
+    .orientation-tips {
+        display: none !important;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .orientation-tips {
+        display: block !important;
+    }
+
+    .master, .sub-page, .sub-details {
+        display: none !important;
+    }
+}
+
+/*====================自定义================================*/
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.bg-spinning {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.full {
+    margin: auto;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.bg-size-top {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+.bg-size-left {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 100%;
+}
+
+.bg-size-center {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+.bg-size-center-w {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+}
+
+.bg-size-bottom {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+}
+
+.no-animation {
+    transition: none !important;
+}
+
+.scrollbar {
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrollbar-x {
+    overflow-x: scroll;
+}
+
+.scrollbar-y {
+    overflow-y: scroll;
+}
+
+.scrollbar * {
+    max-height: 999999px;
+}

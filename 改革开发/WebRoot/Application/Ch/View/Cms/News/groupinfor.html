@@ -1,0 +1,11 @@
+ 		 
+{$arr.title}</br>
+{$arr.content}
+ <if condition="$parr eq 0">上一篇:没有了<br/>
+<else/>
+<a href="__URL__/groupinfor/id/{$parr.id}">上一篇:{$parr.title}</a>
+</if>
+<br/>
+<if condition="$narr eq 0">下一篇:没有了<br/>
+<else/>
+<a href="__URL__/groupinfor/id/{$narr.id}">下一篇:{$narr.title}</a><br/></if> 

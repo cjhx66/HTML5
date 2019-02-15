@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>富力和园</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="main hide">
+    <div class="page" id="page">
+        <div class="page1">
+            <div class="t1-1"></div>
+            <div class="t1-2"><img src="images/t1-2.png" alt=""></div>
+            <div class="t1-3"><img src="images/t1-3.png" alt=""></div>
+            <div class="t1-4"><img src="images/t1-4.png" alt=""></div>
+            <div class="t1-5"><img src="images/t1-5.png" alt=""></div>
+            <div class="t1-6"><img src="images/t1-6.png" alt=""></div>
+            <div class="t1-7"><img src="images/t1-7.png" alt=""></div>
+            <div class="t1-logo"><img src="images/t1-logo.png" alt=""></div>
+        </div>
+        <div class="page2">
+            <div class="t2-1"></div>
+            <div class="t2-2"><img src="images/t1-2.png" alt=""></div>
+            <div class="t2-3"><img src="images/t1-3.png" alt=""></div>
+            <div class="t2-4"><img src="images/t2-2.png" alt=""></div>
+            <div class="t2-5"><img src="images/t2-3.png" alt=""></div>
+            <div class="t2-6"><img src="images/t2-4.png" alt=""></div>
+            <div class="t2-7"><img src="images/t1-7.png" alt=""></div>
+            <div class="t2-logo"><img src="images/t1-logo.png" alt=""></div>
+        </div>
+        <div class="page3">
+            <div class="t3-1"></div>
+            <div class="t3-2"><img src="images/t3-2.png" alt=""></div>
+            <div class="t3-4"><img src="images/t3-4.png" alt=""></div>
+            <div class="t3-5"><img src="images/t3-5.png" alt=""></div>
+            <div class="t3-6"><img src="images/t3-6.png" alt=""></div>
+            <div class="t3-7"><img src="images/t3-7.png" alt=""></div>
+            <div class="t3-logo"><img src="images/t3-logo.png" alt=""></div>
+        </div>
+        <div class="page4">
+            <div class="t4-1"></div>
+            <div class="t4-2"><img src="images/hand_1.png" alt=""></div>
+            <div class="t4-3">点击上岸</div>
+            <div class="t4-4"><img src="images/ewm.png" alt=""></div>
+            <div class="t4-5">
+                <a href="tel:4006988610,205#" class="yjbo"><img src="images/tel.png" alt=""></a></div>
+        </div>
+    </div>
+    <div class="horse">
+        <div class="yu"></div>
+        <p>点击到下一页</p>
+    </div>
+    <div class="musicicon musicrotate"></div>
+    <audio id="music" src="images/after.mp3" loop autoplay></audio>
+</div>
+<script type="text/javascript" src="js/setviewport.js"></script>
+<script type="text/javascript" src="js/soundjs-0.6.0.min.js"></script>
+<script type="text/javascript" src="js/preloadjs-0.6.0.min.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/TweenMax.min.js"></script>
+<script type="text/javascript" src="js/hammer.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+<script>
+    $(window).one('touchstart', function () {
+        $("#music")[0].play();
+    });
+    document.addEventListener("WeixinJSBridgeReady", function () {
+        $("#music")[0].play();
+    }, false);
+    document.addEventListener("WeixinJSBridgeReady", function () {
+        audioAutoPlay('music');//给个全局函数
+    }, false);
+
+    function audioAutoPlay(id){//全局控制播放函数
+        var audio = document.getElementById(id),
+            play = function(){
+                audio.play();
+                document.removeEventListener("touchstart",play, false);
+            };
+        audio.play();
+        document.addEventListener("touchstart",play, false);
+    }
+    $(function () {
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        if (isAndroid == true) {
+            $(".yjbo").attr("href", "tel:4006988610");
+        } else if (isiOS == true) {
+            $(".yjbo").attr("href", "tel:4006988610,205#")
+        }
+
+    })
+</script>
+</html>

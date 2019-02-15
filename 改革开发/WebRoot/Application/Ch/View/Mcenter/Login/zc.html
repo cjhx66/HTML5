@@ -1,0 +1,204 @@
+<!DOCTYPE>
+<html>
+<head> 
+<script src="/Public/dwz/js/jquery-1.7.1.js" type="text/javascript"></script> 
+<script src="/Public/js/validator.js" type="text/javascript"></script>
+<script src="/Public/js/JFun.js" type="text/javascript"></script>
+<script>
+function fleshVerify(type){ 
+	//重载验证码
+	var timenow = new Date().getTime();
+	if (type){
+		$('#verifyImg').attr("src", '__APP__/Admin/Base/Public/verify/adv/1/'+timenow);
+	}else{
+		$('#verifyImg').attr("src", '__APP__/Admin/Base/Public/verify/'+timenow);
+	}
+} 
+</script>
+</head>
+<body> 
+<!-- start head -->
+<include file="./Application/Ch/View/Mcenter/Public/inc/head.html"/>
+<!-- end head --> 
+<div class="con">
+    <form action="__URL__/do_zc" method="POST" name="form1" id="form1" >
+       <div class="zhxx">
+           <h2>快速注册</h2>
+           <table align="center" class="tab1">
+		      <tr>
+                   <td>注册邮箱：</td>
+                   <td><input type="text" name="email" id="email" >*</td>  
+				   <td>
+					<span id="emailcheck" style="font-size:15px;color:red"></span> 
+				</td>
+               </tr>
+               <tr>
+                   <td>用&nbsp;户&nbsp;&nbsp;名：</td>
+                   <td><input type="text" name="name" id="name" >* </td><td>
+                   <span id="namecheck" style="font-size:15px;color:red"></span> </td>
+               </tr>
+               <tr>
+                   <td>密　　码：</td>
+                   <td><input type="password" name="password1" id="password1">*</td> 
+				   <td><span id="mimacheck" style="font-size:15px;color:red"></span> </td>
+               </tr>
+               <tr>
+                   <td>确认密码：</td>
+                   <td><input type="password" name="password2" id="password2">*</td> 
+				   <td><span id="mima2check" style="font-size:15px;color:red"></span> </td>
+               </tr>
+			   <tr>
+                   <td>验证码：</td>
+                   <td><input name="code" id="code" type="text"  class="yan" style="float:left; margin-right:7px;" />*
+					<img id="verifyImg" SRC="__APP__/Admin/Base/Public/verify/" onClick="fleshVerify()" border="0" alt="点击刷新验证码" style="vertical-align:middle; cursor:pointer;" width="58" height="28"/></td><td>
+					<td><span id="codecheck" style="font-size:15px;color:red"></span> </td>
+				</td> 
+               </tr>
+            
+           </table>
+       </div> 
+       <p style="color:#888887;">温馨提示：<span class="bx">*</span> 号内容为必填内容</p>
+       <p class="but">
+            <input type="reset" value="重置" class="cz">
+            <input type="submit"   id="submit_l" value="提交" class="tj">
+       </p>
+    </form>   
+</div> 
+<!-- end foot -->
+</body>
+</html>
+ 
+<script type="text/javascript"> 
+	 $(function(){ 
+	 	var flag1 = false;
+	 	var flag2 = false;
+	 	var flag3 = false;
+	 	var flag4 = false;
+	 	var flag5 = false;
+		
+		//验证邮箱
+		$("#email").blur(function(){
+		var email=$(this).val();   
+		 if(email != ''){
+				$.post('__URL__/cemailcheck',{'email':email},function(data){
+					if(data == '不正确'){
+						flag1 = false; 
+						$("#emailcheck").html('注册邮箱格式不符合要求');
+					}else{
+						$.ajax({
+						type:"POST",
+						url:'__URL__/emailcheck',
+						data:"email="+email, 
+						dataType:'json',
+						success:function(data){
+					    if(data.status == 1){
+				 	      flag1 = true;
+						}
+				 		$("#emailcheck").html(data.msg);
+						}
+			
+					})
+					}
+				});
+			}else{ 
+				flag1 = false; 
+				$("#emailcheck").html('请输入邮箱');
+			}  	
+			 
+	}) 
+		//验证用户名
+	 	$("#name").blur(function(){
+		var name=$(this).val();  
+		 if(name != ''){
+				$.post('__URL__/cnamecheck',{'name':name},function(data){
+					if(data == '不正确'){
+						flag2 = false; 
+						$("#namecheck").html('输入的用户名应该是4-16个字符');
+					}else{
+						$.ajax({
+						type:"POST",
+						url:'__URL__/namecheck',
+						data:"name="+name, 
+						dataType:'json',
+						success:function(data){
+					    if(data.status == 1){
+				 	      flag2 = true;
+						}
+				 		$("#namecheck").html(data.msg);
+						}
+						})
+					}
+				});
+			}else{ 
+				flag2 = false; 
+				$("#namecheck").html('请输入用户名');
+			}  	 
+	}) 
+	//验证输入密码
+	$("#password1").blur(function(){ 
+		var password1=$(this).val(); 
+ 		if( password1!= ''){
+				$.post('__URL__/cpassword1check',{'password1':password1},function(data){
+					if(data == '不正确'){
+						flag3 = false; 
+						$("#mimacheck").html('输入的密码应该是6-16个字符');
+					}else{ 
+				 	    flag3 = true; 
+						$("#mimacheck").html('输入的密码格式正确');
+					}
+				});
+			}else{ 
+				flag3 = false; 
+				$("#mimacheck").html('请输入密码');
+			}  	 
+	}) 
+	
+	//验证再次输入密码
+	$("#password2").blur(function(){ 
+	    var password1=$("#password1").val(); 
+		var password2=$(this).val();
+		if(password2!=''){
+				if(password1==password2){
+				 	flag4 =true;
+					$("#mima2check").html('输入正确'); 
+				 }else{
+				 	flag4 = false;
+					$("#mima2check").html('两次输入密码不一致'); 
+				 }
+				
+		}else{
+				 flag4 = false;
+			     $("#mima2check").html('请再次输入密码'); 
+		}	  
+	}) 
+ 	
+	//验证验证码
+	$("#code").blur(function(){
+		var code=$(this).val();   
+		 $.ajax({
+			type:"POST",
+			url:'__URL__/codecheck',
+			data:"code="+code, 
+			dataType:'json',
+			success:function(data){
+				 if(data.status == 1){
+				 	flag5 = true;
+				 }
+				 $("#codecheck").html(data.msg); 
+			}
+		})	 
+	})
+	$('#submit_l').click(function(event){ 
+ 
+		if(flag1 && flag2 && flag3 && flag4 &&flag5){
+			
+			document.form1.submit();
+		}else{
+			event.preventDefault();
+		}
+	})	
+	 
+})
+	 
+</script>
+ 

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>富力和园</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <script src="js/setviewport.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/preloadjs-0.6.0.min.js"></script>
+    <script src="js/soundjs-0.6.0.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <!--<script src="js/hammer.min.js"></script>-->
+    <script src="js/horse.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="loading">
+    <div class="loadimg">
+        <!--<div class="load"></div>-->
+        <div class="yu">
+            <img src="" alt="">
+        </div>
+    </div>
+    <!--<div class="loadimg"></div>-->
+    <div class="loadingtxt">0%</div>
+    <div class="T hide">
+        <div class="sm">点击让鱼儿为你带路</div>
+        <svg class="touch" width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+             stroke="#fff">
+            <g fill="none" fill-rule="evenodd" stroke-width="1.5">
+                <circle cx="44" cy="44" r="40">
+                    <animate attributeName="r"
+                             begin="0s" dur="1.8s"
+                             values="1; 15"
+                             calcMode="spline"
+                             keyTimes="0; 1"
+                             keySplines="0.165, 0.84, 0.44, 1"
+                             repeatCount="indefinite"/>
+                    <animate attributeName="stroke-opacity"
+                             begin="0s"
+                             dur="1.8s"
+                             values="1; 0"
+                             calcMode="spline"
+                             keyTimes="0; 1"
+                             keySplines="0.3, 0.61, 0.355, 1"
+                             repeatCount="indefinite"/>
+                </circle>
+                <circle cx="44" cy="44" r="40">
+                    <animate attributeName="r"
+                             begin="-0.9s" dur="1.8s"
+                             values="1; 10"
+                             calcMode="spline"
+                             keyTimes="0; 1"
+                             keySplines="0.165, 0.84, 0.44, 1"
+                             repeatCount="indefinite"/>
+                    <animate attributeName="stroke-opacity"
+                             begin="-0.9s" dur="1.8s"
+                             values="1; 0"
+                             calcMode="spline"
+                             keyTimes="0; 1"
+                             keySplines="0.3, 0.61, 0.355, 1"
+                             repeatCount="indefinite"/>
+                </circle>
+            </g>
+        </svg>
+        <div class="hand"><img src="images/hand.png" alt=""></div>
+    </div>
+</div>
+<div class="main hide">
+    <div class="page" id="page">
+        <div class="page1">
+            <div class="box1">
+                <div class="p1-2"><img src="images/p1-2.png" alt=""></div>
+                <div class="p1-3"><img src="images/p1-3.png" alt=""></div>
+                <div class="p1-4"><img src="images/p1-4.png" alt=""></div>
+                <div class="p1-5"><img src="images/p1-5.png" alt=""></div>
+                <div class="p1-logo"><img src="images/p1-logo.png" alt=""></div>
+            </div>
+            <div class="box2 hide">
+                <div class="p2-2">
+                    <img src="images/p2-2.png" alt="">
+                </div>
+                <div class="p2-3">
+                    <img src="images/p2-3.png" alt="">
+                </div>
+                <div class="p2-logo">
+                    <img src="images/p1-logo.png" alt="">
+                </div>
+            </div>
+            <div class="box3 hide">
+                <div class="p3-2">
+                    <img src="images/p3-2.png" alt="">
+                </div>
+                <div class="p3-3">
+                    <img src="images/p3-3.png" alt="">
+                </div>
+                <div class="p3-logo">
+                    <img src="images/p1-logo.png" alt="">
+                </div>
+            </div>
+            <div class="box4 hide">
+                <div class="p4-2">
+                    <img src="images/p4-2.png" alt="">
+                </div>
+                <div class="p4-3">
+                    <img src="images/p2-3.png" alt="">
+                </div>
+                <div class="p4-logo">
+                    <img src="images/p1-logo.png" alt="">
+                </div>
+            </div>
+            <div class="box5 hide">
+                <div class="p5-2">
+                    <img src="images/p5-2.png" alt="">
+                </div>
+                <div class="p5-3">
+                    <img src="images/p2-3.png" alt="">
+                </div>
+                <div class="p5-logo">
+                    <img src="images/p1-logo.png" alt="">
+                </div>
+            </div>
+            <div class="box6 hide">
+                <div class="p6-2">
+                    <img src="images/p6-2.png" alt="">
+                </div>
+                <div class="p6-3">
+                    <img src="images/p6-3.png" alt="">
+                </div>
+                <div class="p6-4">
+                    <img src="images/p6-4.png" alt="">
+                </div>
+                <div class="p6-5">
+                    <img src="images/p6-5.png" alt="">
+                </div>
+                <div class="p6-6">
+                    <img src="images/p6-8.png" alt="">
+                </div>
+                <div class="p6-7">
+                    <img src="images/p6-6.png" alt="">
+                </div>
+                <div class="p6-8">
+                    <img src="images/p6-7.png" alt="">
+                </div>
+                <div class="p6-9"></div>
+                <div class="p6-10">
+                    <img src="images/p6-9.png" alt="">
+                </div>
+                <div class="p6-logo">
+                    <img src="images/p1-logo.png" alt="">
+                </div>
+            </div>
+            <div class="box7 hide">
+                <div class="p7-logo">
+                    <img src="images/p1-logo.png" alt="">
+                </div>
+                <div class="p7-1">鱼儿游得有点慢？</div>
+                <div class="p7-2"></div>
+                <p class="hide">
+                    <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                         stroke="#fff">
+                        <g fill="none" fill-rule="evenodd" stroke-width="1.5">
+                            <circle cx="44" cy="44" r="40">
+                                <animate attributeName="r"
+                                         begin="0s" dur="1.8s"
+                                         values="1; 15"
+                                         calcMode="spline"
+                                         keyTimes="0; 1"
+                                         keySplines="0.165, 0.84, 0.44, 1"
+                                         repeatCount="indefinite"/>
+                                <animate attributeName="stroke-opacity"
+                                         begin="0s"
+                                         dur="1.8s"
+                                         values="1; 0"
+                                         calcMode="spline"
+                                         keyTimes="0; 1"
+                                         keySplines="0.3, 0.61, 0.355, 1"
+                                         repeatCount="indefinite"/>
+                            </circle>
+                            <circle cx="44" cy="44" r="40">
+                                <animate attributeName="r"
+                                         begin="-0.9s" dur="1.8s"
+                                         values="1; 10"
+                                         calcMode="spline"
+                                         keyTimes="0; 1"
+                                         keySplines="0.165, 0.84, 0.44, 1"
+                                         repeatCount="indefinite"/>
+                                <animate attributeName="stroke-opacity"
+                                         begin="-0.9s" dur="1.8s"
+                                         values="1; 0"
+                                         calcMode="spline"
+                                         keyTimes="0; 1"
+                                         keySplines="0.3, 0.61, 0.355, 1"
+                                         repeatCount="indefinite"/>
+                            </circle>
+                        </g>
+                    </svg>
+                </p>
+                <div class="handSvg hide"><img src="images/hand.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="musicicon musicrotate"></div>
+    <audio src="images/before.mp3" id="music" loop></audio>
+</div>
+</body>
+</html>

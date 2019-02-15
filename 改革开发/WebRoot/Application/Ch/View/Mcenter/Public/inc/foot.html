@@ -1,0 +1,171 @@
+<!--微博第三方登录-->
+<html xmlns:wb="http://open.weibo.com/wb">
+<!--qq第三方登录-->
+<script type="text/javascript"src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" data-appid="101136527" data-redirecturi="http://www.lavin.com.cn/qqlogin.html" charset="utf-8" ></script>  
+ 
+<!--弹出登录页面--> 
+    <div class="tcdl clearfix"> 
+       <div class="tcdlcon">   
+              <div class="onright">
+                
+                <span>使用第三方帐号登录</span>
+                <a id="wbimg" href="javascript:onclick=WB2_Login()"><img src="/Application/Home/View/Mcenter/Public/images/zc/xlwb.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+               <a href="#" onclick="return window.open('https://graph.qq.com/oauth2.0/authorize?client_id=101136527&response_type=token&scope=all&redirect_uri=http%3A%2F%2Fwww.lavin.com.cn%2Fqqlogin.html', 'oauth2Login_10076' ,'height=525,width=585, toolbar=no, menubar=no, scrollbars=no, status=no, location=yes, resizable=yes');" ><img src="/Application/Home/View/Mcenter/Public/images/zc/qq.png"></a>
+              </div>  
+       </div>
+    </div>
+<!-- qq登陆按钮效果 -->
+<script type="text/javascript">
+$(function(){
+	$("#wbimg").hover(function(){
+		 $(this).find('img').attr("src","/Application/Home/View/Mcenter/Public/images/zc/xlwb_hover.png");
+	},function(){
+		 $(this).find('img').attr("src","/Application/Home/View/Mcenter/Public/images/zc/xlwb.png");
+	});
+	$("#qqLoginBtn1").hover(function(){
+		 $(this).find('img').attr("src","/Application/Home/View/Mcenter/Public/images/zc/qq_hover.png");
+	},function(){
+		 $(this).find('img').attr("src","/Application/Home/View/Mcenter/Public/images/zc/qq.png");
+	});
+});
+</script>
+<!-- qq登陆按钮 -->
+<script type="text/javascript">
+var qquid='{$Think.session.uid}';
+ if(qquid==0||qquid==null||qquid==''){
+QC.Login({
+  btnId:"qqLoginBtn"    //插入按钮的节点id
+}); 
+  var openid;
+  var accessToken1;
+    QC.Login.getMe(function(openId, accessToken){
+        openid=openId;
+        accessToken1=accessToken;
+    })
+    //从页面收集OpenAPI必要的参数。get_user_info不需要输入参数，因此paras中没有参数
+    var paras = {};
+    //用JS SDK调用OpenAPI
+    QC.api("get_user_info", paras)
+      //指定接口访问成功的接收函数，s为成功返回Response对象
+      .success(function(s){
+        //成功回调，通过s.data获取OpenAPI的返回数据
+        // alert("获取用户信息成功！当前用户昵称为："+s.data.nickname);
+        $.ajax({
+           type: "POST",
+           url: "__URL__/qqLogin",
+           data: "nickname="+s.data.nickname+"&qqid="+openid+"&logintype=3",
+           success:function(data){
+              // alert(data);
+              window.location.reload();
+           }
+        });
+      })
+      //指定接口访问失败的接收函数，f为失败返回Response对象
+      .error(function(f){
+        //失败回调
+        // alert("获取用户信息失败！");
+      })
+      //指定接口完成请求后的接收函数，c为完成请求返回Response对象
+      .complete(function(c){
+        //完成请求回调
+        // alert("获取用户信息完成！");
+      });
+}
+//qq登出
+  function qqLogout(){
+    $.ajax({
+      type:"post",
+      url:"__URL__/logout",
+      dataType:"text",
+      success:function(data){
+        QC.Login.signOut();
+        window.location.href="__SELF__";
+      }
+    })
+    
+  }
+</script>
+<!-- qq登陆按钮 --> 
+<!--end-->
+<script type="text/javascript">
+ 
+/*分享*/  
+  var thisTitle=document.title;
+  var thisUrl=document.location.href;
+    //分享转发地址
+  var rrUrl="http://singer.xiaonei.com/share/share.php?title="+encodeURIComponent(thisTitle)+"&url="+encodeURIComponent(thisUrl);
+  var sinaUrl="http://v.t.sina.com.cn/share/share.php?title="+encodeURIComponent(thisTitle)+"&url="+encodeURIComponent(thisUrl);
+  var qqBlogUrl='http://v.t.qq.com/share/share.php?title='+encodeURIComponent(thisTitle)+'&url='+encodeURIComponent(thisUrl);
+  var qqZoneUrl='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?title='+encodeURIComponent(thisTitle)+'&url='+encodeURIComponent(thisUrl);
+  var weixinUrl="http://weixin.qq.com/share/share.php?title="+encodeURIComponent(thisTitle)+"&url="+encodeURIComponent(thisUrl);
+
+</script> 
+ 
+
+<script> 
+/***微博登陆***/  
+function WB2_Login(){
+  WB2.login(function(){
+    /***授权成功后回调***/
+    getWbUserData(function(o){
+      /***o是/users/show.json接口返回的json对象***/
+      window.location.href="__SELF__";
+      $.post(
+          "__URL__/sinaLogin",
+        {
+          sinaid:o.id,
+          nickname:o.screen_name,
+          logintype:2
+        })
+    });
+  });
+} 
+function getWbUserData(callback) {
+    WB2.anyWhere(function (W) {
+        /***获取授权用户id***/
+        W.parseCMD("/account/get_uid.json", function (sResult, bStatus) {
+          // alert(bStatus);
+            if (!!bStatus) {
+    /**请求uid成功后调用以获取用户数据**/
+                getData(W, sResult);
+            }else{
+      /*** 这里只是简单处理出错***/
+        alert("授权失败或错误");
+      }
+        }, {}, {
+            method: 'GET'
+        });
+    });
+  /***请求用户数据，并执行回调***/
+    function getData(W, User) {
+        W.parseCMD("/users/show.json", function (sResult, bStatus) {
+            if (!!bStatus && !!callback) {
+              // alert(sResult);
+                callback.call(this,sResult);
+            }
+        },
+        {
+            'uid': User.uid
+        },
+        {
+            method: 'GET'
+        });
+    }
+};
+//微博登出
+function WB2_Loginout(){
+  WB2.logout(function(){
+    /***授权成功后回调***/
+    $.ajax({
+      type:"post",
+      url:"__URL__/logout",
+      dataType:"text",
+      success:function(data){
+        window.location.href="__SELF__";
+      }
+    })
+        
+  });
+} 
+
+</script>

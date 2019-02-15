@@ -1,0 +1,395 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+form, fieldset, input, textarea, p, blockquote, th, td, section, canvas {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+html, body {
+    font-size: 22px;
+    color: #000;
+    font-family: 'Microsoft YaHei', Arial;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    -webkit-touch-callout: none; /* 禁用长触弹出的下载图片菜单 */
+    -webkit-user-select: none; /* 禁用长触选择文字等功能 */
+}
+
+.hide {
+    display: none;
+}
+
+.loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/main.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.loading > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.loadimg {
+    margin: -104px 0 0 -115px;
+}
+
+@keyframes run {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -8000px 0;
+    }
+}
+
+@-webkit-keyframes run {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -8000px 0;
+    }
+}
+
+.loadingtxt {
+    margin: 20px 0 0 -55px;
+    font-size: 24px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.T > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.touch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -36px 0 0 -100px;
+}
+
+.sm {
+    margin: -120px 0 0 -90px;
+    width: 200px;
+    color:white;
+}
+
+.hand {
+    margin: 88px 0 0 20px;
+    -webkit-animation: guideTopLeft 1s infinite ease-out;
+    animation: guideTopLeft 1s infinite ease-out;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    line-height: 100%;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.page > div {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.page1 > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box1 > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.box1 {
+    background: url("../images/p1-1.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.p1-2 {
+    margin: -200px 0 0 -191px;
+}
+
+.p1-3 {
+    margin: -55px 0 0 -50px;
+}
+
+.p1-4 {
+    margin: 90px 0 0 -50px;
+}
+
+.p1-5 {
+    margin: -57px 0 0 97px;
+}
+
+.box1 .p1-logo,.box2 .p2-logo,.box3 .p3-logo,.box4 .p4-logo,.box5 .p5-logo,.box6 .p6-logo,.box7 .p7-logo{
+    /*margin: -480px 0 0 -45px;*/
+    top:20px;
+    margin-left: -45px;
+}
+
+.box2 > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.box2 {
+    background: url("../images/p2-1.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.p2-2 {
+    margin: -350px 0 0 -51px;
+}
+
+.p2-3 {
+    margin: -350px 0 0 100px;
+}
+
+.box3 > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.box3 {
+    background: url("../images/p3-1.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.p3-2 {
+    margin: 50px 0 0 20px;
+}
+
+.p3-3 {
+    margin: 0 0 0 90px;
+}
+
+.box4 > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.box4 {
+    background: url("../images/p4-1.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.p4-2 {
+    margin: -350px 0 0 51px;
+}
+
+.p4-3 {
+    margin: -200px 0 0 51px;
+}
+
+.box5 > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.box5 {
+    background: url("../images/p5-1.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.p5-2 {
+    margin: -230px 0 0 -122px;
+}
+
+.p5-3 {
+    margin: -98px 0 0 -24px;
+}
+.box6 > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.box6 {
+    background: url("../images/p6-1.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.p6-2 {
+    margin: -400px 0 0 -170px;
+}
+
+.p6-3 {
+    margin: -322px 0 0 -170px;
+}
+
+.p6-4 {
+    margin: -322px 0 0 -5px;
+}
+
+.p6-5 {
+    margin: -275px 0 0 -5px;
+}
+.p6-6 {
+    margin: -275px 0 0 -235px;
+}
+.p6-7 {
+    margin: -110px 0 0 -5px;
+}
+.p6-8 {
+    margin: 8px 0 0 -5px;
+}
+.p6-9{
+    margin: -455px 0 0 -320px;
+    width:200px;
+    height:150px;
+    background: url("../images/horse/img_d.png") no-repeat 0 0;
+    -webkit-animation: run 8s steps(40) infinite;
+    animation: run 8s steps(40) infinite;
+}
+
+.p6-10{
+    margin: -375px 0 0 -35px;
+}
+
+.box7 > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.box7 {
+    background: url("../images/main.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.p7-1 {
+    margin: -185px 0 0 -82px;
+    color:white;
+}
+.p7-2{
+    margin: -160px 0 0 -107px;
+    width:200px;
+    height:150px;
+    background: url("../images/horse/img_d.png") no-repeat 0 0;
+    -webkit-animation: run 3s steps(40) infinite;
+    animation: run 3s steps(40) infinite;
+}
+
+.box7 > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -80px 0 0 -90px;
+}
+
+/*音乐按钮*/
+.musicicon {
+    background: url("../images/musicicon.png") no-repeat;
+    width: 42px;
+    height: 43px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*音乐按钮旋转*/
+.musicrotate {
+    -webkit-animation: xuanzhuan 5s infinite linear;
+    animation: xuanzhuan 5s infinite linear;
+}
+
+@keyframes xuanzhuan {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes xuanzhuan {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+/*音乐按钮旋转*/
+
+.handSvg {
+    margin: 50px 0 0 40px;
+    -webkit-animation: guideTopLeft 1s infinite ease-out;
+    animation: guideTopLeft 1s infinite ease-out;
+}
+
+@keyframes guideTopLeft {
+    0% {
+        transform: translate(0px, 0px);
+        opacity: 0
+    }
+
+    /*60% {*/
+    /*transform: translate(-20px,-20px);*/
+    /*opacity: 1*/
+    /*}*/
+
+    100% {
+        transform: translate(-40px, -40px);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes guideTopLeft {
+    0% {
+        -webkit-transform: translate(0px, 0px);
+        opacity: 0
+    }
+    /*60% {*/
+    /*-webkit-transform:  translate(-20px,-20px);*/
+    /*opacity: 1*/
+    /*}*/
+
+    100% {
+        -webkit-transform: translate(-40px, -40px);
+        opacity: 1
+    }
+}
+
+

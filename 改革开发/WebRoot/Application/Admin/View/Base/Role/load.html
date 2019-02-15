@@ -1,0 +1,13 @@
+<volist id="vo"  name="authlist"> 
+				<tr class="aaa">  
+					<td>{$vo['id']}</td>
+					<td><php>
+                        for($i=0;$i<$vo['count'];$i++){
+                        echo '|—';
+                        }</php> {$vo['cID']|getNameByClassId=$vo['cID']}</td> 
+					<td><input type="checkbox" class="canview" name="canview[]" value="{$vo['id']}"  <eq name="vo.canview" value="1" >checked</eq> /></td>
+					<td><input type="checkbox" class="canadd" name="canadd[]"value="{$vo['id']}" <eq name="vo.canadd" value="1" >checked</eq> /></td> 
+					<td><input type="checkbox" class="candel" name="candel[]" value="{$vo['id']}" <eq name="vo.candel" value="1" >checked</eq> /></td> 
+					<td><input type="checkbox" class="canup" name="canupdate[]" value="{$vo['id']}" <eq name="vo.canupdate" value="1" >checked</eq> /></td>
+				</tr>
+			</volist> 

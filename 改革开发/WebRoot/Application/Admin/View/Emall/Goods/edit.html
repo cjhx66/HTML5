@@ -1,0 +1,380 @@
+<style>
+	#tab{width:800px;}
+</style>
+<script type="text/javascript" charset="utf-8">
+	//第一步 定义一个全局路径 
+	window.UEDITOR_HOME_URL = "/Public/ueditor/";  
+	//第二步 加载所需要的JS文件（2个）
+</script>
+<script src="/Public/ueditor/editor_all.js" type="text/javascript"></script>
+<script src="/Public/ueditor/editor_config.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//第五步 设置调用编辑器元素
+	var editorOption = {
+		autoClearinitialContent:false,
+        //关闭字数统计
+        wordCount:false,
+        //更多其他参数，请参考editor_config.js中的配置项
+        initialContent:'请输入商品详细描述',
+        initialFrameWidth:800 ,
+        initialFrameHeight:220,
+        toolbars:[
+        ['source','bold', 'italic', 'underline', 'strikethrough',  'paragraph', 'fontfamily', 'fontsize', '|',
+        'link', 'unlink', 'anchor', '|',  'insertimage', 'emotion','scrawl', 'music','highlightcode','indent','justifyleft','justifycenter','justifyright','justifyjustify','snapscreen','preview','deleterow','formatmatch','searchreplace','removeformat','pastePlain','undo','cleardoc','snapscreen','selectall','autotypese','forecolor','lineheigth','touppercase','tolowercase']
+        ]
+    };
+	//第六步实例化一个编辑器对象，并将编辑器元素配置，做为参数传入实例化方法中
+	var editor_a = new baidu.editor.ui.Editor(editorOption);
+
+    //第七步 直接渲染编辑器
+    editor_a.render('myEditor');
+
+    var use=UE.getEditor('myEditorimages',{
+    	autoClearinitialContent:false,
+        //关闭字数统计
+        wordCount:false,
+        //更多其他参数，请参考editor_config.js中的配置项
+        initialContent:'',
+        initialFrameWidth:30,
+        initialFrameHeight:0,
+        elementPathEnabled:false,
+        autoHeightEnabled:false,
+        minFrameHeight:0,
+        toolbars:[['insertimage']]
+    });
+
+  	// 注册事件监听器
+  	use.addListener('selectionchange',function(){
+  		getval();
+  	});
+
+  	function getval(){		
+  		var zhi=use.getContent();
+  		$(zhi).find("img").each(function(){			   
+  			var imgSrc222=$(this).attr("src");
+  			var imgTitle222=$(this).attr("title");
+
+			//这里调用原框架中的添加多图事件
+			AddNewItem(imgTitle222,imgSrc222);
+
+			use.ready(function(){
+				//需要ready后执行，否则可能报错
+				use.setContent("");
+			});
+		})
+  	}
+
+  	function AddNewItem(title,url){
+  		var shop=$('#div').html();
+  		// var url=url.replace('/Public/ueditor/php','');
+  		var atitle=/\.[^\.]+/.exec(title);
+  		var title=title.replace(atitle,'');
+  		var randomValue = (Math.ceil(Math.random(new Date())*10000))+11111;
+  		var t=document.getElementById('tab');
+  		var tab_len = t.rows.length;
+  		// alert(tab_len);
+  		var NewRow = t.insertRow(-1);
+  		// alert(NewRow);
+  		var NewCell = document.createElement("td");
+  		var NewCell1 = document.createElement("td");
+  		var hiddenStr   = "<input  type='hidden' name='' id='isdelete"+(tab_len+1)+"' value='0'/>";
+  		var hiddenStr1  = "<input id='img_url_order_"+(tab_len+1)+"' type='hidden' size='50' name='picList[]'  value='"+url+"+"+(tab_len+1)+"' readonly='readonly' />&nbsp;"+"路径：<input type='text'  name='imgurl[]' id='mul_imgurl_"+(tab_len+1)+"' class='textInput' style='width:400px;float:none;' value='"+url+"'>&nbsp;&nbsp;"+
+  		"<a href='"+url+"' target='_blank'><img src='"+url+"' border='0' width='25' height='25' id='mul_img_"+(tab_len+1)+"' /></a>&nbsp;&nbsp<input style='float:none;' name='imgorder[]' type='text' value='"+(tab_len+1)+"' size='5' class='mul_imgorder textInput' />&nbsp;&nbsp;&nbsp;<a href='javascript:;' name='"+(tab_len+1)+"' class='delMulImage'><img src='/Application/Admin/View/Emall/Public/images/delete.gif' title='删除' /></a>&nbsp;&nbsp;&nbsp;<a href='javascript:;' class='UpMulImage'><img src='/Application/Admin/View/Emall/Public/images/up.gif' title='上移' /></a>&nbsp;&nbsp;&nbsp;<a href='javascript:;' class='downMulImage'><img src='/Application/Admin/View/Emall/Public/images/down.gif' title='下移' /></a>";
+
+  		NewCell.innerHTML = hiddenStr;
+  		NewCell1.innerHTML = hiddenStr1;
+  		NewRow.appendChild(NewCell);
+  		NewRow.appendChild(NewCell1);  		
+  	}
+  </script>
+  <div class="pageContent">
+  	<form method="post" action="/index.php/Admin/Emall/Goods/update/navTabId/classID{$classID}/callbackType/closeCurrent"    class="pageForm required-validate"   enctype="multipart/form-data"
+  	onsubmit="return iframeCallback(this, navTabAjaxDone);"><?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?>
+  	<input type="hidden" id="infoid" name="id" value="{$vo.id}">
+  	<input type="hidden" name="formstatus" value="{$formstatus}" />
+  	<div class="pageFormContent nowrap" layoutH="97">
+  		<dl>
+  			<dt>商品名称：</dt>
+  			<dd><input type="text" class="required" style="width:350px" name="title" value="{$vo.title}" placeholder="请输入商品名称" /></dd> 
+  		</dl>
+
+  		<dl>
+  			<dt>商品货号：</dt>
+  			<dd><input type="text" style="width:350px" name="huohao" value="{$vo.huohao}" placeholder="留空则自动生成一个唯一的货号" /></dd> 
+  		</dl>
+
+  		<dl>
+  			<dt>商品分类：</dt>
+  			<dd> 
+  				<select id="cID" name="cID">
+  					<option value="">请选择商品分类</option>
+  					{$gclassOption}
+  				</select>
+  			</dd>
+  			<input type="hidden" name="bspath" id="bspath" value="{$vo.bspath}">
+  			<script type="text/javascript">
+  				$("#cID").change(function(){
+  					var bspath=$('#cID option:selected').attr('bspath');
+  					$('#bspath').attr('value',bspath);
+  				})
+  			</script>
+  		</dl>
+
+  		<dl>
+  			<dt>商品品牌：</dt>
+  			<dd>
+  				<select name="bID">
+  					<option value="">请选择商品品牌</option>
+  					{$gbrandOption}
+  				</select>
+  			</dd> 
+  		</dl>
+
+  		<dl>
+  			<dt>商品价格：</dt>
+  			<dd><input type="text" class="number" style="width:200px" name="price" value="{$vo.price}" placeholder="请填写商品价格" /></dd> 
+  		</dl>
+
+  		<dl>
+  			<dt>会员价格：</dt>
+  			<dd><input type="text" class="number" style="width:200px" name="mprice" value="{$vo.mprice}" placeholder="请填写商品会员价格" /></dd> 
+  		</dl>
+
+  		<dl>
+  			<dt>促销价格：</dt>
+  			<dd><input type="text" class="number" style="width:200px" name="cuprice" value="{$vo.cuprice}" placeholder="请填写商品促销价格" /></dd> 
+  		</dl>
+
+  		<dl>
+  			<dt>促销日期：</dt>
+  			<dd>
+  				<input type="text" name="custart" class="date" readonly="true" value="{$vo.custart|date='Y-m-d',###}"/>
+  				<span style="float:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;----&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  				<input type="text" name="cuend" class="date" readonly="true" value="{$vo.cuend|date='Y-m-d',###}"/>
+  			</dd> 
+  		</dl>
+
+  		<dl>
+  			<dt>商品描述：</dt>
+  			<dd><textarea name="Intro" cols="70" rows="5" class="required" style="height:80px" placeholder="请填写商品描述">{$vo.Intro}</textarea></dd> 
+  		</dl>
+
+  		<dl>
+  			<dt>商品库存数量：</dt>
+  			<dd><input type="text" class="digits" style="width:150px" name="num" value="{$vo.num}" placeholder="请填写整数" /></dd> 
+  		</dl>
+
+  		<dl>
+  			<dt>库存警告数量：</dt>
+  			<dd><input type="text" class="digits" style="width:150px" name="warnum" value="{$vo.warnum}" placeholder="请填写整数" /></dd> 
+  		</dl>
+
+  		<dl>
+  			<dt>加入推荐：</dt>
+  			<dd>
+  				<input type="checkbox" onclick="if(this.checked){this.value=1;}else{this.value=0}" name="is_jing" <if condition="$vo.is_jing eq 1">checked value="1" <else />value="0"</if> />精品
+  				<input type="checkbox" onclick="if(this.checked){this.value=1;}else{this.value=0}" name="is_hot" <if condition="$vo.is_hot eq 1">checked value="1" <else />value="0"</if> />热销
+  				<input type="checkbox" onclick="if(this.checked){this.value=1;}else{this.value=0}" name="is_new" <if condition="$vo.is_new eq 1">checked value="1" <else />value="0"</if> />新品
+  			</dd>
+  		</dl>
+
+  		<dl>
+  			<dt>置顶：</dt>
+  			<dd>
+  				<input type="checkbox" onclick="if(this.checked){this.value=1;}else{this.value=0}" name="Indexfirst" <if condition="$vo.Indexfirst eq 1">checked value="1"<else />value="0"</if> />&nbsp;&nbsp;&nbsp;&nbsp;（商品将按照“置顶-精品-热销-新品-发布时间”的顺序依次排列
+  			</dd> 
+  		</dl>
+
+  		<dl>
+  			<dt>商品详细描述：</dt>
+  			<dd>  
+  				<textarea id="myEditor" name="content" width="600" height="350px" >{$vo.content}</textarea>
+  			</dd> 
+  		</dl>
+
+  		<dl>
+  			<dt>缩略图：</dt> 
+  			<dd>
+  				<input  name="upload" type="file" value="{$vo.attachment}"/>
+  				<if condition="$vo.attachment neq ''">
+  					<a href="/Upload{$vo.attachpath}{$vo.attachment}" target="_blank" id="img_a"><img src="/Upload{$vo.attachpath}thumb_{$vo.attachment}" height="20"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  					<span id="img_del" onclick="if(confirm('确定要删除此缩略图？')){delimage();}else{return false;};"><img src="/Application/Admin/View/Emall/Public/images/uploadify-cancel.png" title="删除" style="cursor:pointer"></span>
+  				</if>
+  			</dd>
+  		</dl>
+
+  		<dl>
+  			<dt>多图上传：<script id="myEditorimages" type="text/plain"></script></dt>
+  			<dd>
+  				<input type="hidden" value="{$vo.imageurls}" name="imageurls">
+  				<table width="100%" border="0" cellspacing="1" cellpadding="0">
+  					<tr >
+  						<td style="padding-left:5px;text-align:left;">
+  							<table id="tab">
+  								<if condition="$vo.imageurls neq ''">
+  									<volist name="images" id="vo2">
+  										<tr id="tr_{$vo2.imgorder}">
+  											<td>
+  												<input type="hidden" value="0" id="isdelete{$vo2.imgorder}" name="">
+  											</td>
+  											<td>
+  												<input type="hidden" readonly="readonly" value="{$vo2.imgurl}+{$vo2.imgorder}" name="picList[]" size="50" id="img_url_order_{$vo2.imgorder}">&nbsp;
+  												路径：<input type="text" name="imgurl[]" id="mul_imgurl_{$vo2.imgorder}" value="{$vo2.imgurl}" style="width:400px;float:none;">&nbsp;&nbsp;
+  												<a target="_blank" href="{$vo2.imgurl}">
+  													<img width="25" height="25" border="0" src="{$vo2.imgurl}" id="mul_img_{$vo2.imgorder}">
+  												</a>&nbsp;&nbsp;
+  												<input style="float:none;" name="imgorder[]" type="text" size="5" value="{$vo2.imgorder}" class="mul_imgorder" readonly>&nbsp;&nbsp;&nbsp;
+  												<a href="javascript:;" name="{$vo2.imgorder}" class="delMulImage">
+  													<img title="删除" src="/Application/Admin/View/Emall/Public/images/delete.gif">
+  												</a>&nbsp;&nbsp;&nbsp;
+  												<a href="javascript:;" class="UpMulImage">
+  													<img title="上移" src="/Application/Admin/View/Emall/Public/images/up.gif">
+  												</a>&nbsp;&nbsp;&nbsp;
+  												<a href="javascript:;" class="downMulImage">
+  													<img title="下移" src="/Application/Admin/View/Emall/Public/images/down.gif">
+  												</a>
+  											</td>
+  										</tr>
+  									</volist>
+  								</if>
+  							</table>
+  						</td>
+  					</tr>
+  				</table>
+  			</dd>
+  		</dl>
+
+  		<!-- <dl>
+  			<dt>发布日期：</dt>
+  			<dd>
+  				<input type="text" name="writetime" class="date" readonly="true" value="{$vo.writetime|date='Y-m-d', ###}" />
+  			</dd>
+  		</dl>  -->
+
+  		<dl>
+  			<dt>状态：</dt>  
+  			<dd>
+  				<input type="radio" name="status" value="2" <if condition="$vo.status eq 2">checked</if> />暂存 
+  				<input type="radio" name="status" value="1" <if condition="$vo.status eq 1">checked</if> />提交
+  			</dd> 
+  		</dl>
+
+  		<dl style="display:none">
+  			<dd>
+  				<input type="text" class="required" style="width:100%" value="{$classID}" name="classID"/>
+  			</dd>
+  		</dl>
+
+  		<dl>
+  			提示：标注*的项目为必填项目。
+  		</dl>
+
+  	</div>
+
+  	<div class="formBar" >
+  		<ul style="float:left">
+  			<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li><li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+  			<li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+  		</ul>
+  	</div>
+  </form>
+</div>
+
+<script>
+	// 删除缩略图
+	function delimage(){
+		// var id = $("input:hidden[name='id']").attr('value');
+    var id = $("#infoid").val();
+ 		// alert(id);
+ 		$.post('/index.php/Admin/Emall/Goods/delimage', {'id':id}, function(data){
+			// alert(data);
+			if(data == '删除'){
+				$('#img_a').hide();
+				$('#img_del').hide();
+			}
+		});
+ 	}
+
+
+ 	// 删除多图中的图片
+ 	$('.delMulImage').click(function(){
+ 		// var id = $("input:hidden[name='id']").attr('value');
+    var id = $("#infoid").val();
+ 		// alert(id);
+ 		var imgorder = $(this).attr('name');
+ 		// alert(imgorder);
+ 		var index_num = $(this).parent("td").parent("tr").index();
+ 		$.post('/index.php/Admin/Emall/Goods/delMulImage', {'id':id,'imgorder':imgorder}, function(data){
+ 			// alert(data);
+ 			if(data){
+ 				$('#tr_'+data).remove();
+ 				$('.mul_imgorder:gt('+(index_num-1)+')').each(function(){
+ 					var value = $(this).val();
+ 					$(this).val(value-1);
+ 					var imgurl = $(this).prev().attr('href'); 					
+ 					$(this).prev().prev().prev().attr('value', imgurl+'+'+(value-1));
+ 				});
+ 			}
+ 		});
+ 	});
+
+
+ 	// 多图图片上移
+ 	$('.UpMulImage').click(function(){
+ 		var index_num = $(this).parent("td").parent("tr").index();
+ 		// alert(index_num);
+ 		if(index_num == 0){
+ 			alert('已经是第一张图片，无法执行上移操作');
+ 		}else{
+ 			// alert(index_num);
+ 			// 获取该图片的url信息
+ 			var thisImg = $(this).prev().prev().prev().attr('href');
+ 			// alert(thisImg);
+ 			// 获取上一张图片的url信息
+ 			var prevImg = $('#mul_imgurl_'+index_num).attr('value');
+ 			// alert(prevImg);
+
+ 			// 更换图片 -- 更换本张图片
+ 			$('#mul_imgurl_'+(index_num+1)).attr('value', prevImg);		// 更换路径
+ 			$('#mul_img_'+(index_num+1)).attr('src', prevImg);		// 更换图片
+ 			$('#mul_img_'+(index_num+1)).parent().attr('href', prevImg);	// 更换图片链接
+ 			$('#img_url_order_'+(index_num+1)).attr('value', (prevImg+'+'+(index_num+1))); // 更换picList
+ 			// 更换上一张图片
+ 			$('#mul_imgurl_'+index_num).attr('value', thisImg);
+ 			$('#mul_img_'+index_num).attr('src', thisImg);
+ 			$('#mul_img_'+index_num).parent().attr('href', thisImg);
+ 			$('#img_url_order_'+index_num).attr('value', (thisImg+'+'+index_num));
+ 		}
+ 	});
+
+
+ 	// 多图图片下移
+ 	$('.downMulImage').click(function(){
+ 		var index_num = $(this).parent("td").parent("tr").index();
+ 		// alert(index_num);
+ 		var length = $('#tab tr').length;
+ 		if((index_num+1) == length){
+ 			alert('已经是最后一张图片，无法执行下移操作');
+ 		}else{
+ 			// alert(index_num);
+ 			// 获取该图片的url信息
+ 			var thisImg = $(this).prev().prev().prev().prev().attr('href');
+ 			// alert(thisImg);
+ 			// 获取下一张图片的url信息
+ 			var nextImg = $('#mul_imgurl_'+(index_num+2)).attr('value');
+ 			// alert(nextImg);
+
+ 			// 更换图片 -- 更换本张图片
+ 			$('#mul_imgurl_'+(index_num+1)).attr('value', nextImg);		// 更换路径
+ 			$('#mul_img_'+(index_num+1)).attr('src', nextImg);		// 更换图片
+ 			$('#mul_img_'+(index_num+1)).parent().attr('href', nextImg);	// 更换图片链接
+ 			$('#img_url_order_'+(index_num+1)).attr('value', (nextImg+'+'+(index_num+1))); // 更换picList
+ 			// 更换下一张图片
+ 			$('#mul_imgurl_'+(index_num+2)).attr('value', thisImg);
+ 			$('#mul_img_'+(index_num+2)).attr('src', thisImg);
+ 			$('#mul_img_'+(index_num+2)).parent().attr('href', thisImg);
+ 			$('#img_url_order_'+(index_num+2)).attr('value', (thisImg+'+'+(index_num+2)));
+ 		}
+ 	});
+</script>

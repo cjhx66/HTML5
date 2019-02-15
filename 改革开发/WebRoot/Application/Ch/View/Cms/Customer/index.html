@@ -1,0 +1,33 @@
+<script src="/Public/js/validator.js" type="text/javascript"></script>
+<script src="/Public/js/JFun.js" type="text/javascript"></script>
+<form action="__URL__/feedback_adds"  name="form1" method="post" onsubmit="return JValidator.Validate(form1,2);" >
+					<dl class="small">
+						<dt><label>您的姓名：</label></dt>
+						<dd><input name="author" id="namea" type="text"  dataType="Username" msg="请正确输入用户名"></dd>
+					</dl>
+					<dl class="small">
+						<dt><label>电子邮箱：</label></dt>
+						<dd><input id="tset" name="email" type="text" dataType="Email" msg="请正确输入邮箱" ></dd>
+					</dl>
+					<dl class="small">
+						<dt><label>联系手机：</label></dt>
+						<dd><input name="tel" id="tela" type="text" dataType="Phone" msg="请正确输入邮箱"></dd>
+					</dl>
+					<span class="clear"></span>
+					<dl class="big">
+						<dt><label>留言内容：</label></dt>
+						<dd><textarea name="content"></textarea></dd>
+						
+					</dl> 
+					<dl style="margin-top:10px;">
+                        	<dt><label for="content">验证码：</label></dt>
+                            <dd><input type="text" id="vero"  alt="填写验证码" name="captcha" class="a_txt" /><img width="50" height="20" name="verifyImg" src="/index.php/Admin/Base/Public/verify/" title="如果您无法识别验证码，请点图片更换" style="display:inline-block; vertical-align:top; margin:0 3px;"/> &nbsp;<a  style="cursor:pointer; width:60px;" onClick="verifyImg.src='/index.php/Admin/Base/Public/verify/='+(new Date().getTime().toString(36));return false;" >换一张</a></dd>
+                    </dl>
+					<dl class="big" style="margin-top:14px;">
+						<dt>&nbsp;</dt>
+						<dd>
+							<input name="" type="submit" value="发送">
+							<input name="" type="reset" value="清空">
+						</dd>
+					</dl>
+				</form>

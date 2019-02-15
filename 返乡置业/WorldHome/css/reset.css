@@ -1,0 +1,581 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html,
+body {
+    position: relative;
+    width: 100vw;
+    background: #000;
+    height: 100vh
+}
+
+body>div {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+@font-face {
+    font-family: Xiao;
+    src: url('../font/方正正纤黑简体.TTF');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Da;
+    src: url('../font/方正正准黑简体_1.TTF');
+    font-weight: normal;
+    font-style: normal
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex
+}
+
+.swiper-slide {
+    background-size: 100% 100%
+}
+
+.resize {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: 44px;
+    height: 30px;
+    margin-left: -22px;
+    animation: dong 1s linear infinite;
+    -webkit-animation: dong 1s linear infinite;
+    z-index: 1100;
+    display: none
+}
+
+.swiper-slide img {
+    position: absolute
+}
+
+.swiper-slide .bg {
+    width: 750px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: none;
+    opacity: 1
+}
+
+.p1-1 {
+    left: 203px;
+    top: 14.84%;
+    z-index: 2;
+    opacity: 0
+}
+
+.swiper-slide .video-img {
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+    opacity: 1;
+    width: 100%;
+    height: 100%
+}
+
+.start {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 750px;
+    height: 33.1%
+}
+
+.start .play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1
+}
+
+.click_v {
+    position: absolute;
+    bottom: 33.3%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #451c01;
+    font-weight: bold
+}
+
+.p2-1 {
+    left: 151px;
+    top: 69.8%;
+    background: url("../images/h5.2.1.png") no-repeat;
+    width: 550px;
+    height: 298px
+}
+
+.p3-1 {
+    left: 151px;
+    top: 74.6%
+}
+
+.p4-1 {
+    left: 64px;
+    top: 34.5%
+}
+
+.p5-1 {
+    right: 84px;
+    top: 9.1%
+}
+
+.p6-1 {
+    left: 0;
+    top: 0
+}
+
+.btn {
+    left: 50%;
+    bottom: 5.56%;
+    transform: translateX(-50%)
+}
+
+.landscape {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background: transparent
+}
+
+.swiper-slide i {
+    display: block;
+    position: absolute;
+    opacity: 0
+}
+
+.swiper-slide .xian1,
+.swiper-slide .xian2,
+.swiper-slide .xian1-z,
+.swiper-slide .xian2-z {
+    opacity: 1
+}
+
+.xian1 {
+    top: 13.1%;
+    left: 293px;
+}
+
+
+.xian2 {
+    left: 303px;
+    top: 29.6%;
+}
+
+.xian1-z {
+    position: absolute;
+    width: 223px;
+    height: 82px;
+    background: url("../images/x01.png") no-repeat;
+    top: 12.2%;
+    left: 277px;
+}
+
+.xian2-z {
+    position: absolute;
+    width: 129px;
+    height: 24px;
+    background: url("../images/x02.png") no-repeat;
+    top: 29.7%;
+    left: 303px;
+}
+
+.talk-zi::-webkit-input-placeholder,
+.talk-zi {
+    font-size: 26px;
+    color: #b2b2b2;
+    text-align: center;
+    font-family: Xiao;
+    line-height: 3.5;
+    letter-spacing: 3px
+}
+
+.photo {
+    left: 327px;
+    top: 33%
+}
+
+.input-upload,
+.false {
+    position: absolute;
+    left: 250px;
+    top: 25.5%;
+    display: block;
+    width: 255px;
+    height: 25.8%;
+    opacity: 0;
+    border-radius: 35px
+}
+
+.talk-zi {
+    position: absolute;
+    left: 167px;
+    top: 54.6%;
+    width: 423px;
+    min-height: 95px;
+    height: 7.9%;
+    background: transparent;
+    border: 1px solid #a4c1df;
+    border-radius: 26px;
+    padding: 9px;
+    box-sizing: border-box;
+    outline: 0;
+    color: black;
+    line-height: 44px
+}
+
+.false {
+    opacity: 1;
+    width: 248px;
+    left: 254px;
+    display: none
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none
+}
+
+footer #canvas {
+    display: block
+}
+
+footer .save {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 6
+}
+
+footer .saveX {
+    width: 534px;
+    height: calc(100% * .712);
+    left: 50%;
+    transform: translateX(-50%);
+    top: 8%;
+    border-radius: 35px;
+    opacity: 1
+}
+
+.music {
+    width: 38px;
+    height: 38px;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    z-index: 102
+}
+
+.on {
+    background: url("../images/musicOn.png") no-repeat
+}
+
+.off {
+    background: url("../images/musicOff.png") no-repeat
+}
+
+.dialog {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 5
+}
+
+.tisi {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(10% + 100% * 0.712);
+    display: block
+}
+
+.anniu {
+    width: 550px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 9%;
+    z-index: 7
+}
+
+.anniu img {
+    position: absolute;
+    top: 0
+}
+
+.pic {
+    left: 0
+}
+
+.liuyan {
+    right: 0
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0)
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2)
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0)
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2)
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+@keyframes xian1 {
+    0% {
+        width: 223px
+    }
+
+    100% {
+        width: 0
+    }
+}
+
+@-webkit-keyframes xian1 {
+    0% {
+        width: 223px
+    }
+
+    100% {
+        width: 0
+    }
+}
+
+@keyframes xian2 {
+    0% {
+        left: 303px
+    }
+
+    100% {
+        left: 445px;
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes xian2 {
+    0% {
+        left: 303px
+    }
+
+    100% {
+        left: 445px;
+        opacity: 0
+    }
+}
+
+@keyframes p2-1 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%)
+    }
+}
+
+@-webkit-keyframes p2-1 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%)
+    }
+}
+
+@keyframes p3-1 {
+    0% {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%)
+    }
+}
+
+@-webkit-keyframes p3-1 {
+    0% {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%)
+    }
+}
+
+@keyframes p4-1 {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%)
+    }
+}
+
+@-webkit-keyframes p4-1 {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%)
+    }
+}
+
+@keyframes p5-1 {
+    0% {
+        opacity: 0;
+        transform: translateY(50%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%)
+    }
+}
+
+@-webkit-keyframes p5-1 {
+    0% {
+        opacity: 0;
+        transform: translateY(50%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%)
+    }
+}
+
+@keyframes p6-1 {
+    0% {
+        opacity: 0;
+        transform: translateX(100%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%)
+    }
+}
+
+@-webkit-keyframes p6-1 {
+    0% {
+        opacity: 0;
+        transform: translateX(100%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%)
+    }
+}
+
+@keyframes dong {
+
+    0%,
+    30% {
+        opacity: 0;
+        transform: translate(0, 10px)
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate(0, 0)
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(0, -8px)
+    }
+}
+
+@-webkit-keyframes dong {
+
+    0%,
+    30% {
+        opacity: 0;
+        transform: translate(0, 10px)
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate(0, 0)
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(0, -8px)
+    }
+}

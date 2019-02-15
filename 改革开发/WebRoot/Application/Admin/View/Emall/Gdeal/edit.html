@@ -1,0 +1,117 @@
+ <style>
+ 	.pageFormContent dd{width:400px;}
+ 	.pageFormContent dt{text-align:center;}
+    .pageFormContent select{margin-right:10px;}
+    .pageFormContent table{margin-left:35px;text-align:center;}
+    .pageFormContent table th{font-weight:bolder;height:40px;line-height:40px;border:#ccc 1px solid;}
+    .pageFormContent table td{height:30px;line-height:30px;border:#ccc 1px dashed;border-top:none;}
+    .pageFormContent table td input{text-align:center;width:60px;clear:left;border:none;}
+    .pageFormContent .textInput {float:none;}
+ </style>
+ <div class="pageContent">
+ 	<form method="post" action="__URL__/update/navTabId/classID{$_REQUEST.classID}/callbackType/closeCurrent"    class="pageForm required-validate" 
+ 	onsubmit="return iframeCallback(this, navTabAjaxDone);"><?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?><input type="hidden" name="id" value="{$vo.id}"/> 
+ 	<div class="pageFormContent nowrap"   layoutH="97">
+ 		<dl>
+ 			<dt>订单号：</dt>
+ 			<dd>&nbsp;{$data.num}</dd> 		
+ 			<dt>订单状态：</dt>
+ 			<dd>&nbsp; 				
+ 				<select name="sendstatus">
+ 					<option value="0" <if condition="$data.sendstatus eq 0">selected</if> >未发货</option>
+ 					<option value="1" <if condition="$data.sendstatus eq 1">selected</if> >已发货</option>
+ 				</select>
+                <select name="paystatus">
+                    <option value="0" <if condition="$data.paystatus eq 0">selected</if> >未付款</option>
+                    <option value="1" <if condition="$data.paystatus eq 1">selected</if> >已付款</option>
+                </select>
+                <select name="checkstatus">
+                    <option value="0" <if condition="$data.checkstatus eq 0">selected</if> >未签收</option>
+                    <option value="1" <if condition="$data.checkstatus eq 1">selected</if> >已签收</option>
+                </select>
+ 				<!-- <if condition="$vo.checkstatus eq 1">已签收<else />未签收</if>&nbsp;&nbsp; -->
+                <if condition="$vo.status eq 2">用户已删除此订单</if>&nbsp;&nbsp;
+ 			</dd>
+ 		</dl>
+ 		<dl>
+            <dt>下单时间：</dt>
+            <dd><input type="text" name="dealtime" readonly="true" value="{$data.dealtime|date='Y-m-d H:i:s',###}"/></dd>
+            <dt>付款时间：</dt>
+            <dd><input type="text" name="paytime" class="required" value="{$data.paytime|date='Y-m-d H:i:s',###}"/></dd> 
+        </dl>
+        <dl>
+            <dt>发货时间：</dt>
+            <dd>
+                <input type="text" name="sendtime" class="required" value="{$data.sendtime|date='Y-m-d H:i:s',###}"/>
+            </dd>
+            <font color="red">
+                <dt>注意：</dt>
+                <dd>
+                    填写时间时务必填写正确，如“2015-01-01 08:30:30”
+                </dd>
+            </font>
+        </dl>
+ 		<dl>
+ 			<dt>&nbsp;</dt>
+ 			<dd>&nbsp;</dd>
+ 		</dl>
+ 		<dl>
+ 			<dt>收货人：</dt>
+ 			<dd><input type="text" name="shr" value="{$data.shr}" class="required"></dd> 
+ 			<dt>联系电话：</dt>
+ 			<dd><input type="text" name="phone" value="{$data.phone}" class="required"></dd>
+ 		</dl>
+ 		<dl>
+ 			<dt>收货地址：</dt>
+ 			<dd><input type="text" name="address" value="{$data.address}" class="required" style="width:300px;"></dd>
+ 			<dt>邮政编码：</dt>
+ 			<dd><input type="text" name="post" value="{$data.post}"></dd>
+ 		</dl>
+ 		<dl>
+ 			<dt>&nbsp;</dt>
+ 			<dd>&nbsp;</dd>
+ 		</dl>
+        <dl>
+            <dt>商品列表：</dt>
+            <dd>&nbsp;</dd>
+        </dl>
+        <table width="90%">
+            <tr>
+                <th>商品编号</th>
+                <th>商品名称</th>
+                <th>商品货号</th>
+                <th>商品数量</th>
+                <th>商品价格</th>
+                <!-- <th>商品颜色</th> -->
+                <!-- <th>商品尺寸</th> -->
+                <th>买家留言</th>
+                <th>商品库存</th>
+            </tr>
+            <volist name="detail" id="vo">
+                <tr>
+                    <td>{$vo.goodsid}</td>
+                    <td>{$vo.title}</td>
+                    <td>{$vo.huohao}</td>
+                    <td>
+                        <input type="text" name="buynum[]" value="{$vo.buynum}" class="required">
+                        <input type="hidden" name="dealid[]" value="{$vo.id}" class="required">
+                    </td>
+                    <td><input type="text" name="totalprice[]" value="{$vo.totalprice}" class="required"></td>
+                    <!-- <td>{$vo.color}</td> -->
+                    <!-- <td>{$vo.size}</td> -->
+                    <td>{$vo.content}</td>
+                    <td>{$vo.num}</td>
+                </tr>
+            </volist>
+        </table>
+ 	</div>
+     <input type="hidden" value="{$data.language}" name="language">
+ 	<div class="formBar" >
+ 		<ul style="float:left">
+ 			<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li><li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+ 			<li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+ 		</ul>
+ 	</div>
+ </form>
+</div>
+

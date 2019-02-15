@@ -1,0 +1,69 @@
+<div class="pageContent">
+	<form method="post" action="/index.php/Admin/Ltan/Lthread/update/navTabId/classID{$classID}/callbackType/closeCurrent"    class="pageForm required-validate"   enctype="multipart/form-data"
+	onsubmit="return iframeCallback(this, navTabAjaxDone);">
+	<?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?>
+	<input type="hidden" name="id" value="{$vo.id}">
+	<input type="hidden" name="formstatus" value="{$formstatus}" /> 
+	<div class="pageFormContent nowrap"   layoutH="97">
+		<dl>
+			<dt>帖子标题：</dt>
+			<dd> {$vo.title}</dd> 
+		</dl> 
+		<dl>
+			<dt>作者：</dt>
+			<dd> {$vo.mname}</dd> 
+		</dl> 
+		<dl>
+			<dt>内容：</dt> {$vo.content} 
+		</dl>
+
+		<dl>
+			<dt>状态：</dt>  
+			<dd>
+				<input type="radio" name="status" value="2" <if condition="$vo.status eq 2">checked</if> />暂存 
+				<input type="radio" name="status" value="1" <if condition="$vo.status eq 1">checked</if> />提交 
+			</dd> 
+		</dl>
+		<!-- //2，	置顶is_top，加精is_good，热帖is_hot，高亮is_light -->
+		<dl>
+			<dt>置顶：</dt>  
+			<dd>
+				<input type="radio" name="is_top" value="2" <if condition="$vo.is_top eq 2">checked</if> />取消 
+				<input type="radio" name="is_top" value="1" <if condition="$vo.is_top eq 1">checked</if> />置顶 
+			</dd> 
+		</dl>
+		<dl>
+			<dt>加精：</dt>  
+			<dd>
+				<input type="radio" name="is_good" value="2" <if condition="$vo.is_good eq 2">checked</if> /> 取消
+				<input type="radio" name="is_good" value="1" <if condition="$vo.is_good eq 1">checked</if> />加精 
+			</dd> 
+		</dl>
+		<dl>
+			<dt>热帖：</dt>  
+			<dd>
+				<input type="radio" name="is_hot" value="2" <if condition="$vo.is_hot eq 2">checked</if> />取消 
+				<input type="radio" name="is_hot" value="1" <if condition="$vo.is_hot eq 1">checked</if> />热帖
+			</dd> 
+		</dl>
+		<dl>
+			<dt>高亮：</dt>  
+			<dd>
+				<input type="radio" name="is_light" value="2" <if condition="$vo.is_light eq 2">checked</if> />取消 
+				<input type="radio" name="is_light" value="1" <if condition="$vo.is_light eq 1">checked</if> />高亮 
+			</dd> 
+		</dl>
+		<dl>
+			提示：标注*的项目为必填项目。
+		</dl>
+
+	</div>
+
+	<div class="formBar" >
+		<ul style="float:left">
+			<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li><li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+			<li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+		</ul>
+	</div>
+</form>
+</div>

@@ -1,0 +1,101 @@
+<include file="Emall:Public:pagerForm" />
+<div class="page">
+	<div class="pageHeader">
+		<form onsubmit="return navTabSearch(this);" action="/index.php/Admin/Emall/Gbrand/index" method="post">
+			<input type="hidden" name="pageNum" value="1" />
+			<input type="hidden" name="formstatus" value="{$formstatus}" /> 
+			<div class="searchBar">
+				<table class="searchContent">
+					<tr>
+						<td>
+							<b>搜索</b> &nbsp; [标题] ： <input type="text" name="keyword" size="10" value="{$keyword}" /> 
+						</td>
+						<td>
+							<select name="status">
+								<option value="">选择状态</option>
+								<option value="1" <if condition="$status eq 1">selected</if> >提交</option>
+								<option value="2" <if condition="$status eq 2">selected</if> >暂存</option> 
+							</select>
+						</td> 
+						<!--查询必带参数-->
+						<input type="hidden" name="classID" value="{$classID}" />
+						<input type="hidden" name="w" value="{$web}" />
+						<!--查询必带参数-->
+						<td>
+							<div class="buttonActive"><div class="buttonContent"><button type="submit">检索</button></div></div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</form>
+	</div>
+	
+	<div class="pageContent">
+		<div class="panelBar">
+			<ul class="toolBar">
+				<if condition="($lie.canadd eq 1) OR ($Think.session.adminuser.username eq 'developer') OR ($Think.session.adminuser.username eq 'admin')">
+					<li><a class="add" href="/index.php/Admin/Emall/Gbrand/add/classID/{$classID}/language/{$language}/navTabId/classID{$classID}" target="navTab" title="{$classID|getNameByClassId=$classID}新增" > <span>新增品牌</span></a></li> 
+				</if> 
+				<if condition="($lie.candel eq 1) OR ($Think.session.adminuser.username eq 'developer') OR ($Think.session.adminuser.username eq 'admin')">
+					<li><a title="确实要删除这些记录吗?" target="selectedTodo" rel="id" postType="string" href="/index.php/Admin/Emall/Gbrand/delete/classID/{$classID}/navTabId/classID{$classID}" class="delete"><span>批量删除</span></a></li>
+				</if>
+			</ul>
+		</div>
+
+		<table class="list" width="100%" layoutH="116">
+			<thead>
+				<tr>
+					<th width="5%"><input type="checkbox"   group="id" class="checkboxCtrl"></th>
+					<th width="5%">编号</th>
+					<th width="20%">名称</th>
+					<th width="20%">官网</th> 
+					<th width="10%">时间</th>  
+					<th width="15%">状态</th> 
+					<th width="30%">操作</th>
+
+				</tr>
+			</thead>
+			<tbody>
+				<volist id="vo" name="list">
+					<tr target="sid_user" rel="{$vo['id']}">
+						<td><input name="id" value="{$vo.id}" type="checkbox"></td>
+						<td>{$vo['id']}</td>
+						<td>{$vo['title']}</td>
+						<td>{$vo['wwwurl']}</td>
+						<td>{$vo['writetime']|date="Y-m-d",###}</td>  
+						<td>
+							<if condition="$vo.status eq 2">
+								<font color="red">暂存</font>
+								<elseif condition="$vo.status eq 1" />
+								提交 
+							</if>
+						</td>
+						<td>
+							<if condition="($lie.canupdate eq 1) OR ($Think.session.adminuser.username eq 'developer') OR ($Think.session.adminuser.username eq 'admin')">
+								<a class="edit" href="/index.php/Admin/Emall/Gbrand/edit/id/{$vo['id']}/classID/{$classID}/navTabId/classID{$classID}" target="navTab"><span>编辑</span></a>
+							</if> &nbsp;&nbsp;
+							<if condition="($lie.candel eq 1) OR ($Think.session.adminuser.username eq 'developer') OR ($Think.session.adminuser.username eq 'admin')">
+								<a class="delete" href="/index.php/Admin/Emall/Gbrand/delete/id/{$vo['id']}/navTabId/classID{$classID}" target="ajaxTodo" title="你确定要删除吗？" ><span>删除</span></a>
+							</if>  
+						</td>
+					</tr>
+				</volist>
+			</tbody>
+		</table>
+
+		<div class="panelBar">
+			<div class="pages">
+				<span>显示</span>
+				<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+					<option value="10" <if condition="$numPerPage eq 10">selected</if> >10</option>
+					<option value="15" <if condition="$numPerPage eq 15">selected</if> >15</option>
+					<option value="20" <if condition="$numPerPage eq 20">selected</if> >20</option>
+					<option value="25" <if condition="$numPerPage eq 25">selected</if> >25</option>
+					<option value="30" <if condition="$numPerPage eq 30">selected</if> >30</option>
+				</select>
+				<span>共{$totalCount}条</span>
+			</div>
+			<div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="10" currentPage="{$currentPage}"></div>
+		</div> 
+	</div> 
+</div>

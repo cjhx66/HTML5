@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bd27a14-5199-4f7f-8cdd-70f8060822b3" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="441" column="9" lean-forward="true" selection-start-line="441" selection-start-column="9" selection-end-line="441" selection-end-column="9" />
+              <folding>
+                <element signature="e#4968#5519#0" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#3;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="407" column="7" lean-forward="false" selection-start-line="407" selection-start-column="7" selection-end-line="407" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="play.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/play.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <folding>
+                <element signature="e#973#1378#0" expanded="false" />
+                <element signature="e#1394#2900#0" expanded="false" />
+                <element signature="e#2916#3615#0" expanded="false" />
+                <element signature="n#!!block;n#setTime#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#paintTime#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#ballBig#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#ballWait#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#waitBall#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#ballRotate#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="e#7763#7798#0" expanded="false" />
+                <element signature="e#7837#8887#0" expanded="false" />
+                <element signature="n#!!block;n#Over#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#Play#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#clycleF#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#timeF#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#init#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#update#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="e#11968#12379#0" expanded="false" />
+                <element signature="n#!!block;n#ImageMonitor#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#randNum#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#arrSmall#0;n#!!block;n#Game#0" expanded="false" />
+                <element signature="n#!!block;n#arrBig#0;n#!!block;n#Game#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>timeNum</find>
+      <find>levelCycles</find>
+      <find>levelTime</find>
+      <find>gamepanel</find>
+      <find>time</find>
+      <find>firstTime</find>
+      <find>isOver</find>
+      <find>大理</find>
+      <find>小</find>
+      <find>ballRotate</find>
+      <find>quanshu</find>
+      <find>levelAngle</find>
+      <find>isPause</find>
+      <find>isClick</find>
+      <find>interval</find>
+      <find>angle</find>
+      <find>waitNum</find>
+      <find>rotateAngle</find>
+      <find>ballNum</find>
+      <find>angleNum</find>
+      <find>flag</find>
+      <find>balls</find>
+      <find>waitBalls</find>
+      <find>../images/</find>
+      <find>setTime</find>
+      <find>images/fei1/</find>
+      <find>那就看看你有没有够格啦</find>
+      <find>wanshen</find>
+      <find>score-wrap</find>
+      <find>想要圣诞礼物？那就看你够不够格~</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>fill_style</replace>
+      <replace>bullet_text_style</replace>
+      <replace>ctx</replace>
+      <replace>../images/</replace>
+      <replace>level</replace>
+      <replace>images</replace>
+      <replace>levelCycles</replace>
+      <replace>images/</replace>
+      <replace>那就看你够不够格</replace>
+      <replace>game</replace>
+      <replace>images/fei/</replace>
+      <replace>圣诞快乐哟~</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/iphoneX.html" />
+        <option value="$PROJECT_DIR$/circle.html" />
+        <option value="$PROJECT_DIR$/circle-1.html" />
+        <option value="$PROJECT_DIR$/circle-2.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test1.html" />
+        <option value="$PROJECT_DIR$/js/shendan.js" />
+        <option value="$PROJECT_DIR$/js/shengdan.js" />
+        <option value="$PROJECT_DIR$/js/HardestGame.js" />
+        <option value="$PROJECT_DIR$/play-2.html" />
+        <option value="$PROJECT_DIR$/play-1.html" />
+        <option value="$PROJECT_DIR$/Rotate-the-needle-Game/translate.html" />
+        <option value="$PROJECT_DIR$/Rotate-the-needle-Game/wait.html" />
+        <option value="$PROJECT_DIR$/index-moni.html" />
+        <option value="$PROJECT_DIR$/Rotate-the-needle-Game/js/index.js" />
+        <option value="$PROJECT_DIR$/Rotate-the-needle-Game/js/play-num.js" />
+        <option value="$PROJECT_DIR$/Rotate-the-needle-Game/js/play-first.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/Rotate-the-needle-Game/index.html" />
+        <option value="$PROJECT_DIR$/js/HardestGame-ok.js" />
+        <option value="$PROJECT_DIR$/js/index-ok.js" />
+        <option value="$PROJECT_DIR$/index-ok.html" />
+        <option value="$PROJECT_DIR$/Rotate-the-needle-Game/aaa.html" />
+        <option value="$PROJECT_DIR$/Rotate-the-needle-Game/js/play-19号晚线上版本.js" />
+        <option value="$PROJECT_DIR$/aaa.html" />
+        <option value="$PROJECT_DIR$/Rotate-the-needle-Game/play.html" />
+        <option value="$PROJECT_DIR$/Rotate-the-needle-Game/js/play.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/play.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>Unit testingJavaScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HardestGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HardestGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HardestGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HardestGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HardestGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HardestGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\HardestGame" />
+      <recent name="D:\wamp\www\HardestGame\Rotate-the-needle-Game\js" />
+      <recent name="D:\wamp\www\HardestGame\js" />
+      <recent name="D:\wamp\www\HardestGame\Rotate-the-needle-Game" />
+      <recent name="D:\wamp\www\HardestGame\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\HardestGame\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bd27a14-5199-4f7f-8cdd-70f8060822b3" name="Default" comment="" />
+      <created>1543828930821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543828930821</updated>
+      <workItem from="1543828941009" duration="1308000" />
+      <workItem from="1543893971048" duration="3100000" />
+      <workItem from="1544145244512" duration="1339000" />
+      <workItem from="1544405475426" duration="11498000" />
+      <workItem from="1544431994304" duration="3096000" />
+      <workItem from="1544491925215" duration="14634000" />
+      <workItem from="1544577276819" duration="23844000" />
+      <workItem from="1544664343993" duration="35818000" />
+      <workItem from="1544751734778" duration="32468000" />
+      <workItem from="1544791857253" duration="439000" />
+      <workItem from="1545097530722" duration="1993000" />
+      <workItem from="1545105107145" duration="599000" />
+      <workItem from="1545112341880" duration="21839000" />
+      <workItem from="1545182870265" duration="40064000" />
+      <workItem from="1545267885149" duration="19040000" />
+      <workItem from="1545356994434" duration="11554000" />
+      <workItem from="1545371245270" duration="436000" />
+      <workItem from="1545371692122" duration="11668000" />
+      <workItem from="1545614348038" duration="6915000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="272450000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2186512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wanshen.html" />
+    <entry file="file://$PROJECT_DIR$/js/shendan.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="1298" column="0" lean-forward="false" selection-start-line="1298" selection-start-column="0" selection-end-line="1298" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/translate-ok.html" />
+    <entry file="file://$PROJECT_DIR$/js/shengdan.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/wait.html" />
+    <entry file="file://$PROJECT_DIR$/play-1.html" />
+    <entry file="file://$PROJECT_DIR$/play-2.html" />
+    <entry file="file://$PROJECT_DIR$/index-moni.html" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/translate.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="435" column="0" lean-forward="false" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/JicemoonMobileTouch.js" />
+    <entry file="file://$PROJECT_DIR$/test2.html" />
+    <entry file="file://$PROJECT_DIR$/test1.html" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/js/wanshen.js" />
+    <entry file="file://$PROJECT_DIR$/images/fei/fei_z6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/js/HardestGame.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-first.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-num.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-bf.js" />
+    <entry file="file://$PROJECT_DIR$/index-bf.html" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/index.html" />
+    <entry file="file://$PROJECT_DIR$/js/HardestGame-ok.js" />
+    <entry file="file://$PROJECT_DIR$/js/index-ok.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-luan.js" />
+    <entry file="file://D:/下载/kunai-master/kunai-master/kunai_wxgame/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-angle.js" />
+    <entry file="file://$PROJECT_DIR$/index-ok.html" />
+    <entry file="file://$PROJECT_DIR$/index-test.html" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-arr.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-ballAngle.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-速度不一.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/aaa.html" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-半成品.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-角度替换度数.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-功能有了.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-线上版本.js" />
+    <entry file="file://$PROJECT_DIR$/js/play-first.js" />
+    <entry file="file://$PROJECT_DIR$/aaa.html" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/play.html" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play-完成.js" />
+    <entry file="file://$PROJECT_DIR$/Rotate-the-needle-Game/js/play.js" />
+    <entry file="file://$PROJECT_DIR$/js/play-无障碍版.js" />
+    <entry file="file://$PROJECT_DIR$/index-small.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="407" column="7" lean-forward="false" selection-start-line="407" selection-start-column="7" selection-end-line="407" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="441" column="9" lean-forward="true" selection-start-line="441" selection-start-column="9" selection-end-line="441" selection-end-column="9" />
+          <folding>
+            <element signature="e#4968#5519#0" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#3;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/play.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="e#973#1378#0" expanded="false" />
+            <element signature="e#1394#2900#0" expanded="false" />
+            <element signature="e#2916#3615#0" expanded="false" />
+            <element signature="n#!!block;n#setTime#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#paintTime#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#ballBig#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#ballWait#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#waitBall#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#ballRotate#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="e#7763#7798#0" expanded="false" />
+            <element signature="e#7837#8887#0" expanded="false" />
+            <element signature="n#!!block;n#Over#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#Play#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#clycleF#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#timeF#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#init#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#update#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="e#11968#12379#0" expanded="false" />
+            <element signature="n#!!block;n#ImageMonitor#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#randNum#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#arrSmall#0;n#!!block;n#Game#0" expanded="false" />
+            <element signature="n#!!block;n#arrBig#0;n#!!block;n#Game#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

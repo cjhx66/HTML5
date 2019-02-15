@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>管理中心</title>
+<link href="/Application/Admin/View/Public/Css/login.css" rel="stylesheet" type="text/css" />
+<script src="__PUBLIC__/dwz/js/jquery-1.7.1.js" type="text/javascript"></script>
+<script language="JavaScript">
+<!--
+function fleshVerify(type){ 
+	//重载验证码
+	var timenow = new Date().getTime();
+	if (type){
+		$('#verifyImg').attr("src", '__URL__/verify/adv/1/'+timenow);
+	}else{
+		$('#verifyImg').attr("src", '__URL__/verify/'+timenow);
+	}
+}
+//-->
+</script>
+</head>
+
+<body>
+<div class="login">
+	<div class="login_l"></div>
+	<div class="login_r">
+    <div class="login_r_top"></div>
+    <div  class="login_r_in">
+		<form name="form1" method="post" action="__URL__/checkLogin/"  >
+		  <dl>
+				<dt>用户名:</dt>
+				<dd><input  id="name"  name="name" type="text" class="login_i" /></dd> 
+				<span id="namecheck" style="font-size:15px;color:white"></span> 
+			</dl>
+			<dl>
+				<dt>密　码:</dt>
+				<dd><input name="password"  id="password" type="password" class="login_i"  /></dd>
+				<span id="mimacheck" style="font-size:15px;color:white"> </span> 
+			</dl>
+			<dl>
+				<dt>验证码:</dt>
+				<dd><input name="code" id="code" type="text" class="login_v"  /></dd>
+				<dd><img id="verifyImg" SRC="__APP__/Admin/Public/verify/" onClick="fleshVerify()" border="0" alt="点击刷新验证码" style="cursor:pointer" align="absmiddle"/></dd> 
+				<span id="codecheck" style="font-size:15px;color:white"></span> 
+			 
+			</dl> 
+            <dl>
+				<dt>&nbsp;</dt>  
+				<dd><input type="button"  class="login_b" id="submit_l" /></dd>
+			</dl>
+		</form>
+        </div>
+	</div>
+</div>
+</body>
+</html>
+<script language="javascript" type="text/javascript">
+	 $(function(){ 
+	 	var flag1 = false;
+	 	var flag2 = false;
+	 	var flag3 = false;
+	 	$("#name").blur(function(){
+		var name=$(this).val();  
+		//alert(name)		
+		 $.ajax({
+			type:"POST",
+			url:'__URL__/namecheck',
+			data:"name="+name, 
+			dataType:'json',
+			success:function(data){
+				 if(data.status == 1){
+				 	flag1 = true;
+				 }
+				 $("#namecheck").html(data.msg); 
+			}
+			
+		})	 
+	}) 
+	$("#password").blur(function(){
+		var name=$("#name").val();  
+		var password=$(this).val();  
+		 $.ajax({
+			type:"POST",
+			url:'__URL__/mimacheck',
+			data:{"name":name,"password":password}, 
+			dataType:'json',
+			success:function(data){
+				 if(data.status == 1){
+				 	flag2 = true;
+				 }
+				 $("#mimacheck").html(data.msg); 
+			}
+		})	 
+	}) 
+	$("#code").blur(function(){
+		var code=$(this).val();   
+		 $.ajax({
+			type:"POST",
+			url:'__URL__/codecheck',
+			data:"code="+code, 
+			dataType:'json',
+			success:function(data){
+				 if(data.status == 1){
+				 	flag3 = true;
+				 }
+				 $("#codecheck").html(data.msg); 
+			}
+		})	 
+	})
+	$('#submit_l').click(function(){
+		if(flag1 && flag2 && flag3){
+			document.form1.submit();
+		}
+	})	
+	
+	$("tbody tr").mouseover(function(){
+		$(this).attr('class','over');
+	});
+	$("tbody tr").mouseout(function(){
+		$(this).attr('class','');
+	});
+})
+	 
+</script>

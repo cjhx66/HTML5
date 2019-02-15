@@ -1,6 +1,6 @@
 <?php
     require_once "jssdk.php";
-    $jssdk = new JSSDK("wx7bef8f6f623a60b1", "d3870131aa9ffdf3d8004a88b1c9822a");
+    $jssdk = new JSSDK("xxx", "xxx");
     $signPackage = $jssdk->GetSignPackage();
     $url=$signPackage["url"];
     $name = $jssdk->_userInfoAuth($url);

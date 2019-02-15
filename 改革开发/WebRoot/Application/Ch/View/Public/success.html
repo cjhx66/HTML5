@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv='Refresh' content='{$waitSecond};URL={$jumpUrl}'>
+<title>信息提示</title>
+<link href="../Public/Css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+*{ font-size:12px}
+.success{width:500px; height:175px; color:#666; margin:65px auto 0 auto; padding:2px; text-align:left; border:1px solid #89B3C2; overflow:hidden;}
+.success div{background:url(../Img/success_bg.gif) repeat-x top; padding:25px 30px 0 30px; line-height:40px; overflow:hidden;}
+.success div p{margin:0;}
+.success div p span{color:blue;font-weight:bold;}
+</style>
+<body>
+<div class="success">
+	<div>
+		<p><b>{$msgTitle}</b></p>
+		<present name="message"><p>{$message}</p></present>
+		<present name="error"><p><font class="red">{$error}</font></p></present>
+		<p><span id="url_id">{$waitSecond}</span> 秒后自动跳转,如果不想等待,直接点击 <A HREF="{$jumpUrl}">这里跳转</A></p>
+		<script>
+		function Load(){
+			var time={$waitSecond};
+			for(var i=time; i>=0; i--){
+				window.setTimeout("doUpdate("+ i +")", (time-i) * 1000);
+			}
+		}
+		function doUpdate(num){    
+			document.getElementById("url_id").innerHTML=num;
+		}
+		Load();
+		</script>
+	</div>
+</div>
+</body>
+</html>

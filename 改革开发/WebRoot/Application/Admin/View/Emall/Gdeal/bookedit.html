@@ -1,0 +1,47 @@
+ <div class="pageContent">
+	<form method="post" action="__URL__/bookupdate/navTabId/classID{$_REQUEST.classID}/callbackType/closeCurrent"    class="pageForm required-validate" 
+		onsubmit="return iframeCallback(this, navTabAjaxDone);"><?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?><input type="hidden" name="id" value="{$vo.id}"/> 
+		<div class="pageFormContent nowrap"   layoutH="97"> 
+			<dl>
+				<dt>联系人：</dt>
+				<dd>{$vo.uid}</dd> 
+			</dl> 
+		 
+			 <dl>
+				<dt>缺货商品名：</dt>
+				<dd>{$vo.title}</dd> 
+			</dl> 
+		   <dl>
+				<dt>数量：</dt>
+				<dd>{$vo.num}</dd> 
+			</dl>
+			 <dl>
+				<dt>登记时间：</dt>
+				<dd><input type="text" name="writetime" class="date" readonly="true" value="{$vo.writetime|date='Y-m-d',###}"/></dd> 
+			</dl>
+			<dl>
+				<dt>状态：</dt> 
+				<dd><input type="radio" name="status" value="2"  <if condition="$vo.status eq 2">checked</if> />未处理
+				<input type="radio" name="status" value="1" <if condition="$vo.status eq 1">checked</if> />已处理</dd> 
+			</dl>
+			 <input type="hidden" value="{$vo.language}" name="language">
+			<!--dl style="display:none"> 
+				<dd><input type="text" class="required"  style="width:100%" value="{$time}" name="writetime"/></dd> 
+				<dd><input type="text" class="required"  style="width:100%" value="{$_REQUEST.classID}" name="classID"/></dd> 
+			</dl-->
+			
+			<dl>
+			<!-- 提示：标注*的项目为必填项目。 -->
+			</dl>
+		 	
+		</div>
+		
+		<div class="formBar" >
+			<ul style="float:left">
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li><li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+			</ul>
+		</div>
+	</form>
+</div>
+

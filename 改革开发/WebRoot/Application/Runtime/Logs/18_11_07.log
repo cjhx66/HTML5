@@ -1,0 +1,888 @@
+[ 2018-11-07T10:20:22+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-07T10:20:39+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.062000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.001000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('aaaaaaaaa',1541557239,1,66) [ RunTime:0.014000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-07T10:21:18+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.010000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('ddddddd',1541557278,1,66) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:21:39+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.011000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('aaaa',1541557299,1,66) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:23:23+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.014000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('aaaaa',1541557403,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-07T10:27:22+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.010000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('dssssssss',1541557642,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:30:02+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.012000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('aaaaaaaa',1541557802,1,66) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:30:50+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.010000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('sssss',1541557850,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:31:18+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.012000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('sss',1541557878,1,66) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:31:47+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.011000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('aaaaaa',1541557907,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:33:00+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.007000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('aaaaa',1541557980,1,66) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T10:33:50+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.008000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('aaaaaa',1541558030,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:35:16+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.012000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('sdssddd',1541558116,1,66) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:37:25+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.010000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.001000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('aaaaa',1541558245,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:37:43+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.011000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('aaaa',1541558263,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:39:04+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.009000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('aaa',1541558344,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:59:39+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:59:39+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T10:59:44+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.012000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.001000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('adfdsfdsfds',1541559584,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T12:06:43+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T12:06:43+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T12:09:50+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.009000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.001000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('啊是是是所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所',1541563790,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T12:15:37+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.007000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('发的所发生的第三方撒地方答复萨芬但是范德萨发答复第三方手续费字符沙发支付萨芬答复范德萨答复的冯绍峰啊撒地方萨芬第三方答复范德萨是安抚',1541564137,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T12:17:44+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.007000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('范甘迪发鬼地方个',1541564264,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-07T12:20:08+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.008000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('地方斯蒂芬萨芬萨芬安抚是',1541564408,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T12:20:18+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.009000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('地方是广东省分公司电饭锅撒地方阿斯蒂芬撒地方给第三方萨芬撒',1541564418,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T12:21:34+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.008000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('打发第三方撒地方阿斯蒂芬撒地方撒地方阿斯蒂芬撒地方撒地方撒地方撒旦范德萨发大师傅答复撒地方撒地方答复大撒放散阀答复答复答复答复答复第',1541564494,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T12:22:39+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.007000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.001000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('第三方第三方萨芬答复阿斯蒂芬萨芬萨芬安抚答复萨芬萨芬答复上档次都是违法的',1541564559,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T12:22:53+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.009000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('地方斯蒂芬是大家发空间撒咖啡壶多少了看房后端是看见回复萨科技大黄蜂三大框架发货撒打开就发后端是看见发后端是看见发哈萨克交电话费加大对',1541564573,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T12:24:01+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.007000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('电风扇打解放路看撒谎借款方哈萨克积分啥借款方黄寺大街开发啥借款方砂浆快递费和世纪东方砂浆款发货撒借款方哈市发哈萨克京东方回家交电话费',1541564641,1,66) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T12:24:31+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.008000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.001000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('打发第三方萨达撒地方撒地方撒地方萨芬萨芬答复撒地方撒地方第三方安抚答复大师傅大师傅答复大师傅大师傅大范德萨发安抚第三方撒地方都是阿萨',1541564671,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T12:28:06+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.008000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('第三方撒地方是萨芬萨芬萨芬是',1541564886,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T12:35:59+08:00 ] 192.168.13.155 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.009000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.001000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('淋浴头就用哦下午哦',1541565359,1,66) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-07T13:23:22+08:00 ] 192.168.1.220 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.009000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('第三方第三方萨芬撒地方是是',1541568202,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T13:25:54+08:00 ] 192.168.13.155 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T13:30:18+08:00 ] 192.168.13.140 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.008000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.000000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('秃头',1541568618,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T14:54:17+08:00 ] 192.168.13.155 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T15:07:46+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T15:44:56+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T17:58:16+08:00 ] 192.168.13.72 /index.php/Ch/Mcenter/GuangGubm/baomingadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\G_geige\WebRoot\Engine\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_guanggu` [ RunTime:0.008000s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 18 行.
+NOTIC: [8] Undefined index: phone D:\wamp\www\G_geige\WebRoot\Application\Ch\Controller\Mcenter\GuangGubmController.class.php 第 19 行.
+SQL: SELECT * FROM `cms_guanggu` WHERE ( phone = )  [ RunTime:0.001000s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_guanggu` WHERE ( phone = ) 
+SQL: INSERT INTO `cms_guanggu` (`name`,`writetime`,`language`,`classID`) VALUES ('恐龙妹路口',1541584696,1,66) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T18:38:18+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T18:38:19+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:14:11+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:14:12+08:00 ] 192.168.1.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SEOKEYWORDS - assumed 'SEOKEYWORDS' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Use of undefined constant SEODESCRIPTION - assumed 'SEODESCRIPTION' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Use of undefined constant SITENAME - assumed 'SITENAME' D:\wamp\www\G_geige\WebRoot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

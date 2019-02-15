@@ -1,0 +1,140 @@
+/*reset*/
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td, span{ margin: 0; padding: 0; }
+ul,li{ list-style: none; }
+a,img{ display: inline-block; *display: inline; }
+a{ text-decoration: none; }
+img{ vertical-align: top; border: none; }
+body{ -webkit-tap-highlight-color: transparent; }
+html,body{ width: 100%; height:100%; font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif; }
+body{ -wibkit-touch-callout: default; -webkit-user-select: none; }
+/*loading*/
+.loading-wrap{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 10001;
+    /*display: none;*/
+}
+.loading-img{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.1rem;
+    bottom: 0;
+    margin: auto;
+    background: url("../img/loading.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-transform: scale(0.8);
+}
+.loading-hand{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../img/loading-hand.png) no-repeat;
+    -webkit-animation: loading 3s linear infinite;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+@-webkit-keyframes loading {
+    0%{
+        -webkit-transform: rotate(0);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.loading-num{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 3rem;
+    color: #000;
+    font-size: 0.26rem;
+    z-index: 100;
+    font-weight: bolder;
+}
+/*内容页*/
+.main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.box{
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+.eq{
+    width: 2.04rem;
+    height: 2.59rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1.65rem;
+    margin: auto;
+    display: block;
+    opacity: 0;
+    pointer-events: all;
+}
+.news{
+    width: 2.34rem;
+    height: 0.31rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5.68rem;
+    margin: auto;
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+}
+.news>img{
+    width: 100%;
+    height: 100%;
+}
+.music{
+    width: 0.70rem;
+    height: 0.91rem;
+    position: absolute;
+    right: 0.05rem;
+    top: 0;
+    background: url(../img/music-on.png?v=1) no-repeat;
+    pointer-events: all;
+    transition: all 0.5s;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-transform: scale(0.7);
+}
+.music.off{
+    background: url(../img/music-off.png?v=1) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+/* for responsive ######################################################################################## responsive */
+@media (max-height: 980px) {
+    .scale {
+    	-webkit-transform: scale(0.9);
+    	-ms-transform: scale(0.9);
+        transform: scale(0.9);
+    } 
+}
+@media (max-height: 880px) {
+    .scale {
+    	-webkit-transform: scale(0.8);
+    	-ms-transform: scale(0.8);
+        transform: scale(0.8); 
+    } 
+}
